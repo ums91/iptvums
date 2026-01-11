@@ -14,44 +14,50 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Update playlist (preserve manual section)
+      - name: Update playlist (replace everything after AUTO-GENERATED marker)
         run: |
           set -e
 
           PLAYLIST="playlists/all-channels.m3u"
+          MARKER="# === AUTO-GENERATED CHANNELS (DO NOT EDIT BELOW) ==="
           TMP_AUTO="auto.m3u"
+          TMP_KEEP="keep.m3u"
 
           # Ensure playlist exists
           if [ ! -f "$PLAYLIST" ]; then
             echo "#EXTM3U" > "$PLAYLIST"
+            echo "" >> "$PLAYLIST"
             echo "# === MANUAL CHANNELS (PRESERVED) START ===" >> "$PLAYLIST"
             echo "# === MANUAL CHANNELS (PRESERVED) END ===" >> "$PLAYLIST"
-            echo "# === AUTO-GENERATED CHANNELS (DO NOT EDIT BELOW) ===" >> "$PLAYLIST"
+            echo "" >> "$PLAYLIST"
+            echo "$MARKER" >> "$PLAYLIST"
           fi
 
-          # Extract preserved (manual) section
-          awk '
-            BEGIN { keep=1 }
-            /^# === AUTO-GENERATED CHANNELS/ { keep=0 }
-            keep { print }
-          ' "$PLAYLIST" > preserved.m3u
+          # Keep everything up to and including the marker
+          awk -v marker="$MARKER" '
+            { print }
+            $0 == marker { exit }
+          ' "$PLAYLIST" > "$TMP_KEEP"
 
-          # Download fresh auto playlist (single EXTM3U)
+          # Download fresh playlist, remove duplicate EXTM3U
           curl -L https://iptv-org.github.io/iptv/index.m3u \
           | awk 'NR==1 || $0 !~ /^#EXTM3U/' \
           > "$TMP_AUTO"
 
-          # Rebuild final playlist
-          cat preserved.m3u > "$PLAYLIST"
+          # Rebuild playlist
+          cat "$TMP_KEEP" > "$PLAYLIST"
           echo "" >> "$PLAYLIST"
           cat "$TMP_AUTO" >> "$PLAYLIST"
 
-          rm -f preserved.m3u "$TMP_AUTO"
+          rm -f "$TMP_KEEP" "$TMP_AUTO"
 
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
+
           git add playlists/all-channels.m3u
-          git commit -m "Auto-update IPTV playlist (preserving manual channels)" || exit 0
-          git push
+          git commit -m "Auto-update IPTV playlist (replace after marker)" || exit 0
+
+          git pull --rebase origin main
+          git push origin main
