@@ -19,38 +19,41 @@ jobs:
           set -e
 
           PLAYLIST="playlists/all-channels.m3u"
+
+          MANUAL_START="# === MANUAL CHANNELS (PRESERVED) START ==="
+          MANUAL_END="# === MANUAL CHANNELS (PRESERVED) END ==="
           AUTO_MARKER="# === AUTO-GENERATED CHANNELS (DO NOT EDIT BELOW) ==="
 
           TMP_MANUAL="manual.m3u"
           TMP_AUTO="auto.m3u"
 
-          # Ensure base playlist exists
+          mkdir -p playlists
+
+          # Create base playlist if missing
           if [ ! -f "$PLAYLIST" ]; then
-            mkdir -p playlists
             cat <<EOF > "$PLAYLIST"
 #EXTM3U
 
-# === MANUAL CHANNELS (PRESERVED) START ===
-# === MANUAL CHANNELS (PRESERVED) END ===
+$MANUAL_START
+$MANUAL_END
 
 $AUTO_MARKER
 EOF
           fi
 
-          # Extract ONLY the manual section (once)
-          awk '
-            BEGIN { keep=0 }
-            /^# === MANUAL CHANNELS \(PRESERVED\) START ===/ { keep=1 }
+          # Extract manual section EXACTLY ONCE
+          awk -v start="$MANUAL_START" -v end="$MANUAL_END" '
+            $0 == start { keep=1 }
             keep { print }
-            /^# === MANUAL CHANNELS \(PRESERVED\) END ===/ { keep=0 }
+            $0 == end { keep=0 }
           ' "$PLAYLIST" > "$TMP_MANUAL"
 
-          # Download fresh auto playlist (strip duplicate EXTM3U)
+          # Download fresh auto playlist (remove duplicate EXTM3U)
           curl -L https://iptv-org.github.io/iptv/index.m3u \
           | awk 'NR==1 || $0 !~ /^#EXTM3U/' \
           > "$TMP_AUTO"
 
-          # Rebuild playlist from scratch (NO duplication possible)
+          # Rebuild playlist cleanly (no duplication possible)
           {
             echo "#EXTM3U"
             echo ""
