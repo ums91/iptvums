@@ -2,6 +2,7 @@ name: Auto Update IPTV Playlist
 
 on:
   schedule:
+    # Runs every 3 days at 03:00 UTC
     - cron: "0 3 */3 * *"
   workflow_dispatch:
 
@@ -28,18 +29,16 @@ jobs:
           TMP_FINAL="final.tmp.m3u"
 
           mkdir -p playlists
-
-          # Ensure playlist exists
           touch "$PLAYLIST"
 
-          # Extract existing manual content (WITHOUT markers)
+          # Extract existing manual content (content only, no markers)
           awk -v s="$MANUAL_START" -v e="$MANUAL_END" '
-            $0 == s { in=1; next }
-            $0 == e { in=0 }
-            in { print }
+            $0 == s { inside=1; next }
+            $0 == e { inside=0 }
+            inside { print }
           ' "$PLAYLIST" > "$TMP_MANUAL"
 
-          # Download fresh auto playlist (strip duplicate EXTM3U)
+          # Download fresh auto playlist (strip duplicate EXTM3U headers)
           curl -fsSL https://iptv-org.github.io/iptv/index.m3u \
             | awk 'NR==1 || $0 !~ /^#EXTM3U/' \
             > "$TMP_AUTO"
@@ -62,11 +61,14 @@ jobs:
 
       - name: Commit and push if changed
         run: |
+          set -e
+
           git config user.name "github-actions"
           git config user.email "actions@github.com"
 
           git add playlists/all-channels.m3u
-          git commit -m "Auto-update IPTV playlist (manual markers enforced)" || exit 0
+          git diff --cached --quiet && exit 0
 
+          git commit -m "Auto-update IPTV playlist (manual section preserved)"
           git pull --rebase origin main
           git push origin main
