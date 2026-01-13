@@ -2,7 +2,6 @@ name: Auto Update IPTV Playlist
 
 on:
   schedule:
-    # Runs every 3 days at 03:00 UTC
     - cron: "0 3 */3 * *"
   workflow_dispatch:
 
@@ -14,7 +13,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Update playlist (manual section preserved, no duplication)
+      - name: Enforce manual markers and update auto playlist
         run: |
           set -e
 
@@ -24,40 +23,41 @@ jobs:
           MANUAL_END="# === MANUAL CHANNELS (PRESERVED) END ==="
           AUTO_MARKER="# === AUTO-GENERATED CHANNELS (DO NOT EDIT BELOW) ==="
 
-          TMP_MANUAL="manual.m3u"
-          TMP_AUTO="auto.m3u"
+          TMP_MANUAL="manual.tmp.m3u"
+          TMP_AUTO="auto.tmp.m3u"
+          TMP_FINAL="final.tmp.m3u"
 
           mkdir -p playlists
 
-          # Create base playlist if missing (YAML-safe)
-          if [ ! -f "$PLAYLIST" ]; then
-            printf "#EXTM3U\n\n%s\n%s\n\n%s\n" \
-              "$MANUAL_START" \
-              "$MANUAL_END" \
-              "$AUTO_MARKER" \
-              > "$PLAYLIST"
-          fi
+          # Ensure playlist exists
+          touch "$PLAYLIST"
 
-          # Extract manual section EXACTLY ONCE
-          awk -v start="$MANUAL_START" -v end="$MANUAL_END" '
-            $0 == start { keep=1 }
-            keep { print }
-            $0 == end { keep=0 }
+          # Extract existing manual content (WITHOUT markers)
+          awk -v s="$MANUAL_START" -v e="$MANUAL_END" '
+            $0 == s { in=1; next }
+            $0 == e { in=0 }
+            in { print }
           ' "$PLAYLIST" > "$TMP_MANUAL"
 
           # Download fresh auto playlist (strip duplicate EXTM3U)
-          curl -L https://iptv-org.github.io/iptv/index.m3u \
-          | awk 'NR==1 || $0 !~ /^#EXTM3U/' \
-          > "$TMP_AUTO"
+          curl -fsSL https://iptv-org.github.io/iptv/index.m3u \
+            | awk 'NR==1 || $0 !~ /^#EXTM3U/' \
+            > "$TMP_AUTO"
 
-          # Rebuild playlist cleanly (no duplication possible)
+          # Rebuild playlist with enforced structure
           {
-            printf "#EXTM3U\n\n"
+            echo "#EXTM3U"
+            echo
+            echo "$MANUAL_START"
             cat "$TMP_MANUAL"
-            printf "\n\n%s\n\n" "$AUTO_MARKER"
+            echo "$MANUAL_END"
+            echo
+            echo "$AUTO_MARKER"
+            echo
             cat "$TMP_AUTO"
-          } > "$PLAYLIST"
+          } > "$TMP_FINAL"
 
+          mv "$TMP_FINAL" "$PLAYLIST"
           rm -f "$TMP_MANUAL" "$TMP_AUTO"
 
       - name: Commit and push if changed
@@ -66,7 +66,7 @@ jobs:
           git config user.email "actions@github.com"
 
           git add playlists/all-channels.m3u
-          git commit -m "Auto-update IPTV playlist (manual section preserved)" || exit 0
+          git commit -m "Auto-update IPTV playlist (manual markers enforced)" || exit 0
 
           git pull --rebase origin main
           git push origin main
