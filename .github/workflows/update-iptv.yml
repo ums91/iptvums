@@ -53,7 +53,7 @@ jobs:
           # Download upstream auto playlist (strip EXTM3U)
           # -------------------------------------------------
           curl -fsSL https://iptv-org.github.io/iptv/index.m3u \
-            | awk 'NR==1 || $0 !~ /^#EXTM3U/' \
+            | awk 'NR==1 || $0 !~ /^[[:space:]]*#[Ee][Xx][Tt][Mm]3[Uu][[:space:]]*$/' \
             > "$TMP_REMOTE"
 
           # -------------------------------------------------
@@ -76,13 +76,6 @@ jobs:
           ' "$PLAYLIST" > "$TMP_EXISTING_AUTO"
 
           # -------------------------------------------------
-          # Skip rebuild if auto section unchanged
-          # -------------------------------------------------
-          if diff -q "$TMP_EXISTING_AUTO" "$TMP_REMOTE" >/dev/null; then
-            echo "No upstream changes detected."
-          fi
-
-          # -------------------------------------------------
           # Rebuild full playlist
           # -------------------------------------------------
           {
@@ -101,19 +94,16 @@ jobs:
           rm -f "$TMP_MANUAL" "$TMP_REMOTE" "$TMP_EXISTING_AUTO"
 
           # -------------------------------------------------
-          # Final normalization: keep only one #EXTM3U at top
+          # FINAL NORMALIZATION: FORCE SINGLE #EXTM3U AT TOP
           # -------------------------------------------------
-          awk '
-            BEGIN { printed=0 }
-            /^#EXTM3U$/ {
-              if (!printed) {
-                print
-                printed=1
-              }
-              next
-            }
-            { print }
-          ' "$PLAYLIST" > "${PLAYLIST}.tmp"
+          {
+            echo "#EXTM3U"
+            awk '
+              NR==1 { next }
+              /^[[:space:]]*#[Ee][Xx][Tt][Mm]3[Uu][[:space:]]*$/ { next }
+              { print }
+            ' "$PLAYLIST"
+          } > "${PLAYLIST}.tmp"
 
           mv "${PLAYLIST}.tmp" "$PLAYLIST"
 
