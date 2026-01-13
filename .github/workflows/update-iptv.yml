@@ -13,7 +13,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Preserve manual section and update auto playlist
+      - name: Update auto section only if upstream changed
         run: |
           set -e
 
@@ -23,47 +23,65 @@ jobs:
           MANUAL_END="# === MANUAL CHANNELS (PRESERVED) END ==="
           AUTO_MARKER="# === AUTO-GENERATED CHANNELS (DO NOT EDIT BELOW) ==="
 
-          TMP_MANUAL="manual.tmp"
-          TMP_AUTO="auto.tmp"
-          TMP_FINAL="final.tmp"
+          TMP_REMOTE="remote.m3u"
+          TMP_EXISTING_AUTO="existing_auto.m3u"
+          TMP_NEW_AUTO="new_auto.m3u"
+          TMP_FINAL="final.m3u"
 
           mkdir -p playlists
-          touch "$PLAYLIST"
 
-          # -----------------------------------
-          # 1. Extract manual content FIRST
-          #    (from the raw file, no assumptions)
-          # -----------------------------------
-          awk -v s="$MANUAL_START" -v e="$MANUAL_END" '
-            $0 == s { found=1; next }
-            $0 == e { exit }
-            found { print }
-          ' "$PLAYLIST" > "$TMP_MANUAL"
+          # -------------------------------------------------
+          # 1. Create file if missing (manual section at top)
+          # -------------------------------------------------
+          if [ ! -f "$PLAYLIST" ]; then
+            cat > "$PLAYLIST" <<EOF
+#EXTM3U
 
-          # -----------------------------------
-          # 2. Download auto playlist
-          # -----------------------------------
+$MANUAL_START
+$MANUAL_END
+
+$AUTO_MARKER
+EOF
+          fi
+
+          # -------------------------------------------------
+          # 2. Download upstream playlist
+          # -------------------------------------------------
           curl -fsSL https://iptv-org.github.io/iptv/index.m3u \
             | awk 'NR==1 || $0 !~ /^#EXTM3U/' \
-            > "$TMP_AUTO"
+            > "$TMP_REMOTE"
 
-          # -----------------------------------
-          # 3. Rebuild playlist canonically
-          # -----------------------------------
-          {
-            echo "#EXTM3U"
-            echo
-            echo "$MANUAL_START"
-            cat "$TMP_MANUAL"
-            echo "$MANUAL_END"
-            echo
-            echo "$AUTO_MARKER"
-            echo
-            cat "$TMP_AUTO"
-          } > "$TMP_FINAL"
+          # -------------------------------------------------
+          # 3. Extract existing auto section
+          # -------------------------------------------------
+          awk -v m="$AUTO_MARKER" '
+            $0 == m { found=1; next }
+            found { print }
+          ' "$PLAYLIST" > "$TMP_EXISTING_AUTO"
+
+          # -------------------------------------------------
+          # 4. Compare upstream vs existing auto section
+          # -------------------------------------------------
+          if diff -q "$TMP_EXISTING_AUTO" "$TMP_REMOTE" >/dev/null; then
+            echo "No upstream changes detected. Skipping update."
+            exit 0
+          fi
+
+          echo "Upstream updated. Rebuilding auto section."
+
+          # -------------------------------------------------
+          # 5. Preserve everything ABOVE auto marker
+          # -------------------------------------------------
+          awk -v m="$AUTO_MARKER" '
+            { print }
+            $0 == m { exit }
+          ' "$PLAYLIST" > "$TMP_FINAL"
+
+          printf "\n" >> "$TMP_FINAL"
+          cat "$TMP_REMOTE" >> "$TMP_FINAL"
 
           mv "$TMP_FINAL" "$PLAYLIST"
-          rm -f "$TMP_MANUAL" "$TMP_AUTO"
+          rm -f "$TMP_REMOTE" "$TMP_EXISTING_AUTO"
 
       - name: Commit and push if changed
         run: |
@@ -75,6 +93,6 @@ jobs:
           git add playlists/all-channels.m3u
           git diff --cached --quiet && exit 0
 
-          git commit -m "Auto-update IPTV playlist (manual content preserved)"
+          git commit -m "Auto-update IPTV playlist (auto section updated)"
           git pull --rebase origin main
           git push origin main
