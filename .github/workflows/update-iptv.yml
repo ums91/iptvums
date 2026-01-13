@@ -25,53 +25,47 @@ jobs:
 
           TMP_REMOTE="remote.m3u"
           TMP_EXISTING_AUTO="existing_auto.m3u"
-          TMP_NEW_AUTO="new_auto.m3u"
           TMP_FINAL="final.m3u"
 
           mkdir -p playlists
 
-          # -------------------------------------------------
-          # 1. Create file if missing (manual section at top)
-          # -------------------------------------------------
+          # ---------------------------------------------
+          # Create base playlist if missing (SAFE)
+          # ---------------------------------------------
           if [ ! -f "$PLAYLIST" ]; then
-            cat > "$PLAYLIST" <<EOF
-#EXTM3U
-
-$MANUAL_START
-$MANUAL_END
-
-$AUTO_MARKER
-EOF
+            printf "#EXTM3U\n\n%s\n%s\n\n%s\n" \
+              "$MANUAL_START" \
+              "$MANUAL_END" \
+              "$AUTO_MARKER" \
+              > "$PLAYLIST"
           fi
 
-          # -------------------------------------------------
-          # 2. Download upstream playlist
-          # -------------------------------------------------
+          # ---------------------------------------------
+          # Download upstream playlist (strip EXTM3U)
+          # ---------------------------------------------
           curl -fsSL https://iptv-org.github.io/iptv/index.m3u \
             | awk 'NR==1 || $0 !~ /^#EXTM3U/' \
             > "$TMP_REMOTE"
 
-          # -------------------------------------------------
-          # 3. Extract existing auto section
-          # -------------------------------------------------
+          # ---------------------------------------------
+          # Extract existing auto section
+          # ---------------------------------------------
           awk -v m="$AUTO_MARKER" '
             $0 == m { found=1; next }
             found { print }
           ' "$PLAYLIST" > "$TMP_EXISTING_AUTO"
 
-          # -------------------------------------------------
-          # 4. Compare upstream vs existing auto section
-          # -------------------------------------------------
+          # ---------------------------------------------
+          # Exit early if no upstream change
+          # ---------------------------------------------
           if diff -q "$TMP_EXISTING_AUTO" "$TMP_REMOTE" >/dev/null; then
-            echo "No upstream changes detected. Skipping update."
+            echo "No upstream changes detected. Nothing to update."
             exit 0
           fi
 
-          echo "Upstream updated. Rebuilding auto section."
-
-          # -------------------------------------------------
-          # 5. Preserve everything ABOVE auto marker
-          # -------------------------------------------------
+          # ---------------------------------------------
+          # Preserve everything ABOVE auto marker
+          # ---------------------------------------------
           awk -v m="$AUTO_MARKER" '
             { print }
             $0 == m { exit }
