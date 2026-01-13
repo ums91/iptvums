@@ -2,7 +2,6 @@ name: Auto Update IPTV Playlist
 
 on:
   schedule:
-    # Runs every 3 days at 03:00 UTC
     - cron: "0 3 */3 * *"
   workflow_dispatch:
 
@@ -14,7 +13,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Enforce manual markers and update auto playlist
+      - name: Enforce manual markers (top) and update auto playlist
         run: |
           set -e
 
@@ -25,25 +24,32 @@ jobs:
           AUTO_MARKER="# === AUTO-GENERATED CHANNELS (DO NOT EDIT BELOW) ==="
 
           TMP_MANUAL="manual.tmp.m3u"
+          TMP_HEADER="header.tmp.m3u"
           TMP_AUTO="auto.tmp.m3u"
           TMP_FINAL="final.tmp.m3u"
 
           mkdir -p playlists
           touch "$PLAYLIST"
 
-          # Extract existing manual content (content only, no markers)
+          # -------------------------------
+          # 1. Extract manual content (if any)
+          # -------------------------------
           awk -v s="$MANUAL_START" -v e="$MANUAL_END" '
             $0 == s { inside=1; next }
             $0 == e { inside=0 }
             inside { print }
           ' "$PLAYLIST" > "$TMP_MANUAL"
 
-          # Download fresh auto playlist (strip duplicate EXTM3U headers)
+          # -------------------------------
+          # 2. Download fresh auto playlist
+          # -------------------------------
           curl -fsSL https://iptv-org.github.io/iptv/index.m3u \
             | awk 'NR==1 || $0 !~ /^#EXTM3U/' \
             > "$TMP_AUTO"
 
-          # Rebuild playlist with enforced structure
+          # -------------------------------
+          # 3. Build canonical header
+          # -------------------------------
           {
             echo "#EXTM3U"
             echo
@@ -52,12 +58,19 @@ jobs:
             echo "$MANUAL_END"
             echo
             echo "$AUTO_MARKER"
+          } > "$TMP_HEADER"
+
+          # -------------------------------
+          # 4. Assemble final playlist
+          # -------------------------------
+          {
+            cat "$TMP_HEADER"
             echo
             cat "$TMP_AUTO"
           } > "$TMP_FINAL"
 
           mv "$TMP_FINAL" "$PLAYLIST"
-          rm -f "$TMP_MANUAL" "$TMP_AUTO"
+          rm -f "$TMP_MANUAL" "$TMP_HEADER" "$TMP_AUTO"
 
       - name: Commit and push if changed
         run: |
@@ -69,6 +82,6 @@ jobs:
           git add playlists/all-channels.m3u
           git diff --cached --quiet && exit 0
 
-          git commit -m "Auto-update IPTV playlist (manual section preserved)"
+          git commit -m "Auto-update IPTV playlist (manual markers enforced at top)"
           git pull --rebase origin main
           git push origin main
