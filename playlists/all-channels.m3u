@@ -1,5 +1,3 @@
-#EXTM3U
-
 # === MANUAL CHANNELS (PRESERVED) START ===
 #EXTM3U x-tvg-url="http://localhost:5001/epg.xml.gz"
 #EXTINF:-1 tvg-id="143" tvg-name="CNBC TV18 Prime" tvg-logo="http://localhost:5001/jtvimage/CNBCTV18Prime.png" tvg-language="English" tvg-type="Business" group-title="Business", CNBC TV18 Prime
