@@ -13,25 +13,51 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Update playlist (dedupe manual URLs, update auto safely)
+      - name: Build playlist from manual URLs + auto source
         run: |
           set -e
 
           PLAYLIST="playlists/all-channels.m3u"
+          MANUAL_URLS_FILE="playlists/manual-urls.txt"
 
           MANUAL_START="# === MANUAL CHANNELS (PRESERVED) START ==="
           MANUAL_END="# === MANUAL CHANNELS (PRESERVED) END ==="
           AUTO_MARKER="# === AUTO-GENERATED CHANNELS (DO NOT EDIT BELOW) ==="
 
-          TMP_MANUAL_RAW="manual.raw"
-          TMP_MANUAL_CLEAN="manual.clean"
-          TMP_REMOTE="remote.m3u"
-          TMP_FINAL="final.m3u"
+          TMP_MANUAL="manual.tmp"
+          TMP_REMOTE="remote.tmp"
+          TMP_EXISTING_AUTO="existing_auto.tmp"
+          TMP_FINAL="final.tmp"
 
           mkdir -p playlists
 
           # -------------------------------------------------
-          # Create base file if missing
+          # Validate manual URLs file
+          # -------------------------------------------------
+          if [ ! -f "$MANUAL_URLS_FILE" ]; then
+            echo "ERROR: $MANUAL_URLS_FILE not found"
+            exit 1
+          fi
+
+          # -------------------------------------------------
+          # Build manual section (dedupe .m3u URLs)
+          # -------------------------------------------------
+          awk '
+            /^#/ || NF==0 { print; next }
+            /^https?:\/\/.*\.m3u$/ {
+              if (!seen[$0]++) print
+            }
+          ' "$MANUAL_URLS_FILE" > "$TMP_MANUAL"
+
+          # -------------------------------------------------
+          # Download upstream auto playlist (strip EXTM3U)
+          # -------------------------------------------------
+          curl -fsSL https://iptv-org.github.io/iptv/index.m3u \
+            | awk 'NR==1 || $0 !~ /^#EXTM3U/' \
+            > "$TMP_REMOTE"
+
+          # -------------------------------------------------
+          # Create base playlist if missing
           # -------------------------------------------------
           if [ ! -f "$PLAYLIST" ]; then
             printf "#EXTM3U\n\n%s\n%s\n\n%s\n" \
@@ -42,67 +68,29 @@ jobs:
           fi
 
           # -------------------------------------------------
-          # Extract manual section (raw)
-          # -------------------------------------------------
-          awk -v s="$MANUAL_START" -v e="$MANUAL_END" '
-            $0 == s { found=1; print; next }
-            found && $0 == e { print; exit }
-            found { print }
-          ' "$PLAYLIST" > "$TMP_MANUAL_RAW"
-
-          # -------------------------------------------------
-          # Deduplicate ONLY .m3u URLs inside manual section
-          # -------------------------------------------------
-          awk '
-            BEGIN { inside=0 }
-            /^# === MANUAL CHANNELS/ { inside=1; print; next }
-            inside && /^https?:\/\/.*\.m3u$/ {
-              if (!seen[$0]++) print
-              next
-            }
-            inside { print }
-          ' "$TMP_MANUAL_RAW" > "$TMP_MANUAL_CLEAN"
-
-          # -------------------------------------------------
-          # Download upstream playlist
-          # -------------------------------------------------
-          curl -fsSL https://iptv-org.github.io/iptv/index.m3u \
-            | awk 'NR==1 || $0 !~ /^#EXTM3U/' \
-            > "$TMP_REMOTE"
-
-          # -------------------------------------------------
-          # Compare auto section (skip update if unchanged)
+          # Extract existing auto section
           # -------------------------------------------------
           awk -v m="$AUTO_MARKER" '
             $0 == m { found=1; next }
             found { print }
-          ' "$PLAYLIST" | diff -q - "$TMP_REMOTE" >/dev/null && {
-            echo "No upstream change detected."
-
-            # Still update manual section if dedupe changed it
-            awk -v s="$MANUAL_START" -v e="$MANUAL_END" -v f="$TMP_MANUAL_CLEAN" '
-              BEGIN { replaced=0 }
-              $0 == s {
-                while ((getline line < f) > 0) print line
-                replaced=1
-                skip=1
-                next
-              }
-              skip && $0 == e { skip=0; next }
-              !skip { print }
-            ' "$PLAYLIST" > "$TMP_FINAL"
-
-            mv "$TMP_FINAL" "$PLAYLIST"
-            exit 0
-          }
+          ' "$PLAYLIST" > "$TMP_EXISTING_AUTO"
 
           # -------------------------------------------------
-          # Rebuild full playlist (manual clean + new auto)
+          # Skip rebuild if auto section unchanged
+          # -------------------------------------------------
+          if diff -q "$TMP_EXISTING_AUTO" "$TMP_REMOTE" >/dev/null; then
+            echo "No upstream changes detected."
+          fi
+
+          # -------------------------------------------------
+          # Rebuild full playlist (SAFE, CANONICAL)
           # -------------------------------------------------
           {
             echo "#EXTM3U"
             echo
-            cat "$TMP_MANUAL_CLEAN"
+            echo "$MANUAL_START"
+            cat "$TMP_MANUAL"
+            echo "$MANUAL_END"
             echo
             echo "$AUTO_MARKER"
             echo
@@ -110,7 +98,7 @@ jobs:
           } > "$TMP_FINAL"
 
           mv "$TMP_FINAL" "$PLAYLIST"
-          rm -f "$TMP_MANUAL_RAW" "$TMP_MANUAL_CLEAN" "$TMP_REMOTE"
+          rm -f "$TMP_MANUAL" "$TMP_REMOTE" "$TMP_EXISTING_AUTO"
 
       - name: Commit and push if changed
         run: |
@@ -122,6 +110,6 @@ jobs:
           git add playlists/all-channels.m3u
           git diff --cached --quiet && exit 0
 
-          git commit -m "Auto-update IPTV playlist (manual URLs deduplicated)"
+          git commit -m "Auto-update IPTV playlist (manual URLs embedded)"
           git pull --rebase origin main
           git push origin main
