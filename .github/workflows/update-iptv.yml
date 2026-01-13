@@ -29,24 +29,18 @@ jobs:
 
           mkdir -p playlists
 
-          # -------------------------------------------------
           # Validate manual file
-          # -------------------------------------------------
           if [ ! -f "$MANUAL_FILE" ]; then
             echo "ERROR: $MANUAL_FILE not found"
             exit 1
           fi
 
-          # -------------------------------------------------
           # Download upstream auto playlist (remove ALL EXTM3U)
-          # -------------------------------------------------
           curl -fsSL https://iptv-org.github.io/iptv/index.m3u \
-            | awk '!/^[[:space:]]*#[Ee][Xx][Tt][Mm]3[Uu][[:space:]]*$/' \
+            | grep -v -i '^[[:space:]]*#extm3u[[:space:]]*$' \
             > "$TMP_REMOTE"
 
-          # -------------------------------------------------
           # Rebuild playlist (manual copied AS-IS)
-          # -------------------------------------------------
           {
             echo "#EXTM3U"
             echo
@@ -61,16 +55,10 @@ jobs:
           mv "$TMP_FINAL" "$PLAYLIST"
           rm -f "$TMP_REMOTE"
 
-          # -------------------------------------------------
-          # FINAL NORMALIZATION: FORCE SINGLE #EXTM3U AT TOP
-          # -------------------------------------------------
+          # FINAL NORMALIZATION: FORCE SINGLE #EXTM3U AT TOP (SAFE)
           {
             echo "#EXTM3U"
-            awk '
-              NR==1 { next }
-              /^[[:space:]]*#[Ee][Xx][Tt][Mm]3[Uu][[:space:]]*$/ { next }
-              { print }
-            ' "$PLAYLIST"
+            grep -v -i '^[[:space:]]*#extm3u[[:space:]]*$' "$PLAYLIST"
           } > "${PLAYLIST}.tmp"
 
           mv "${PLAYLIST}.tmp" "$PLAYLIST"
