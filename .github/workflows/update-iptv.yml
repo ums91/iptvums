@@ -5,6 +5,9 @@ on:
     - cron: "0 3 */3 * *"
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -13,34 +16,60 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Build playlist (manual copied verbatim)
+      - name: Build playlist (manual preserved)
         run: |
           set -e
 
           PLAYLIST="playlists/all-channels.m3u"
           MANUAL_FILE="playlists/manual-urls.txt"
+          OLD_PLAYLIST="playlists/all-channels.old.m3u"
 
           MANUAL_START="# === MANUAL CHANNELS (PRESERVED) START ==="
           MANUAL_END="# === MANUAL CHANNELS (PRESERVED) END ==="
           AUTO_MARKER="# === AUTO-GENERATED CHANNELS (DO NOT EDIT BELOW) ==="
 
           TMP_REMOTE="remote.tmp"
+          TMP_AUTO="auto.tmp"
           TMP_FINAL="final.tmp"
 
           mkdir -p playlists
 
-          # Validate manual file
           if [ ! -f "$MANUAL_FILE" ]; then
             echo "ERROR: $MANUAL_FILE not found"
             exit 1
           fi
 
-          # Download upstream auto playlist (remove ALL EXTM3U)
+          # Save old playlist for diffing
+          if [ -f "$PLAYLIST" ]; then
+            cp "$PLAYLIST" "$OLD_PLAYLIST"
+          else
+            touch "$OLD_PLAYLIST"
+          fi
+
+          # Fetch upstream playlist (strip ONLY EXTM3U header)
           curl -fsSL https://iptv-org.github.io/iptv/index.m3u \
-            | grep -v -i '^[[:space:]]*#extm3u[[:space:]]*$' \
+            | grep -v -i '^#extm3u' \
             > "$TMP_REMOTE"
 
-          # Rebuild playlist (manual copied AS-IS)
+          # Deduplicate by channel name, replace URL + full EXTINF (tvg-id, etc.)
+          awk '
+          /^#EXTINF/ {
+            extinf = $0
+            match($0, /,([^,]+)$/, m)
+            name = m[1]
+            getline url
+
+            meta[name] = extinf
+            stream[name] = url
+          }
+          END {
+            for (name in meta) {
+              print meta[name]
+              print stream[name]
+            }
+          }
+          ' "$TMP_REMOTE" > "$TMP_AUTO"
+
           {
             echo "#EXTM3U"
             echo
@@ -49,19 +78,87 @@ jobs:
             echo "$MANUAL_END"
             echo
             echo "$AUTO_MARKER"
-            cat "$TMP_REMOTE"
+            cat "$TMP_AUTO"
           } > "$TMP_FINAL"
 
           mv "$TMP_FINAL" "$PLAYLIST"
-          rm -f "$TMP_REMOTE"
+          rm -f "$TMP_REMOTE" "$TMP_AUTO"
 
-          # FINAL NORMALIZATION: FORCE SINGLE #EXTM3U AT TOP (SAFE)
+      - name: Update README with exact playlist changes (keep last 2)
+        run: |
+          set -e
+
+          README="README.md"
+          PLAYLIST="playlists/all-channels.m3u"
+          OLD_PLAYLIST="playlists/all-channels.old.m3u"
+          TMP_LOG="readme.tmp"
+          TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M UTC")
+
+          if [ ! -f "$README" ]; then
+            echo "# IPTV Playlist" > "$README"
+            echo >> "$README"
+          fi
+
+          if ! grep -q "## 📡 Auto Playlist Update Log" "$README"; then
+            echo >> "$README"
+            echo "## 📡 Auto Playlist Update Log" >> "$README"
+          fi
+
+          ADDED=$(diff -u "$OLD_PLAYLIST" "$PLAYLIST" || true \
+            | grep '^+#EXTINF' \
+            | sed 's/^+#EXTINF[^,]*,//')
+
+          REMOVED=$(diff -u "$OLD_PLAYLIST" "$PLAYLIST" || true \
+            | grep '^-#EXTINF' \
+            | sed 's/^-#EXTINF[^,]*,//')
+
           {
-            echo "#EXTM3U"
-            grep -v -i '^[[:space:]]*#extm3u[[:space:]]*$' "$PLAYLIST"
-          } > "${PLAYLIST}.tmp"
+            echo
+            echo "### Update: $TIMESTAMP"
+            echo
+            echo "Added:"
+            if [ -n "$ADDED" ]; then
+              echo "$ADDED" | sed 's/^/- /'
+            else
+              echo "- None"
+            fi
+            echo
+            echo "Removed:"
+            if [ -n "$REMOVED" ]; then
+              echo "$REMOVED" | sed 's/^-/- /'
+            else
+              echo "- None"
+            fi
+          } >> "$README"
 
-          mv "${PLAYLIST}.tmp" "$PLAYLIST"
+          # Keep ONLY the latest 2 updates under the log header
+          awk '
+            BEGIN { inlog=0 }
+            /^## 📡 Auto Playlist Update Log/ {
+              print
+              inlog=1
+              next
+            }
+            /^### Update:/ {
+              updates[++n] = $0
+              blocks[n] = ""
+              next
+            }
+            inlog && n > 0 {
+              blocks[n] = blocks[n] $0 "\n"
+              next
+            }
+            !inlog { print }
+            END {
+              start = (n > 2 ? n - 1 : 1)
+              for (i = start; i <= n; i++) {
+                print updates[i]
+                printf "%s", blocks[i]
+              }
+            }
+          ' "$README" > "$TMP_LOG"
+
+          mv "$TMP_LOG" "$README"
 
       - name: Commit and push if changed
         run: |
@@ -70,9 +167,8 @@ jobs:
           git config user.name "github-actions"
           git config user.email "actions@github.com"
 
-          git add playlists/all-channels.m3u
+          git add playlists/all-channels.m3u README.md
           git diff --cached --quiet && exit 0
 
-          git commit -m "Auto-update IPTV playlist"
-          git pull --rebase origin main
-          git push origin main
+          git commit -m "Auto-update IPTV playlist and README changelog"
+          git push
