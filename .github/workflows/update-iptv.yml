@@ -51,7 +51,7 @@ jobs:
             | grep -v -i '^#extm3u' \
             > "$TMP_REMOTE"
 
-          # Deduplicate by channel name, replace URL + full EXTINF (tvg-id, etc.)
+          # Deduplicate by channel name, replace URL + full EXTINF
           awk '
           /^#EXTINF/ {
             extinf = $0
@@ -84,81 +84,71 @@ jobs:
           mv "$TMP_FINAL" "$PLAYLIST"
           rm -f "$TMP_REMOTE" "$TMP_AUTO"
 
-      - name: Update README with exact playlist changes (keep last 2)
+      - name: Update README with Added / Removed / Updated channels
         run: |
           set -e
 
           README="README.md"
-          PLAYLIST="playlists/all-channels.m3u"
-          OLD_PLAYLIST="playlists/all-channels.old.m3u"
-          TMP_LOG="readme.tmp"
+          OLD="playlists/all-channels.old.m3u"
+          NEW="playlists/all-channels.m3u"
           TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M UTC")
 
-          if [ ! -f "$README" ]; then
-            echo "# IPTV Playlist" > "$README"
-            echo >> "$README"
-          fi
+          extract_map() {
+            awk '
+            /^#EXTINF/ {
+              match($0, /,([^,]+)$/, m)
+              name = m[1]
+              getline url
+              print name "|" url
+            }' "$1" | sort
+          }
 
-          if ! grep -q "## 📡 Auto Playlist Update Log" "$README"; then
-            echo >> "$README"
-            echo "## 📡 Auto Playlist Update Log" >> "$README"
-          fi
+          extract_map "$OLD" > old.map
+          extract_map "$NEW" > new.map
 
-          ADDED=$(diff -u "$OLD_PLAYLIST" "$PLAYLIST" || true \
-            | grep '^+#EXTINF' \
-            | sed 's/^+#EXTINF[^,]*,//')
+          ADDED=$(comm -13 \
+            <(cut -d"|" -f1 old.map) \
+            <(cut -d"|" -f1 new.map))
 
-          REMOVED=$(diff -u "$OLD_PLAYLIST" "$PLAYLIST" || true \
-            | grep '^-#EXTINF' \
-            | sed 's/^-#EXTINF[^,]*,//')
+          REMOVED=$(comm -23 \
+            <(cut -d"|" -f1 old.map) \
+            <(cut -d"|" -f1 new.map))
+
+          UPDATED=$(
+            join -t"|" old.map new.map \
+            | awk -F"|" '$2 != $3 { print $1 }'
+          )
 
           {
+            echo "# IPTV Playlist"
             echo
-            echo "### Update: $TIMESTAMP"
+            echo "## 📡 Auto Playlist Update Overview"
             echo
-            echo "Added:"
+            echo "Last Updated: $TIMESTAMP"
+            echo
+            echo "### Channels Added"
             if [ -n "$ADDED" ]; then
               echo "$ADDED" | sed 's/^/- /'
             else
               echo "- None"
             fi
             echo
-            echo "Removed:"
+            echo "### Channels Removed"
             if [ -n "$REMOVED" ]; then
-              echo "$REMOVED" | sed 's/^-/- /'
+              echo "$REMOVED" | sed 's/^/- /'
             else
               echo "- None"
             fi
-          } >> "$README"
+            echo
+            echo "### Channels Updated (Link Changed)"
+            if [ -n "$UPDATED" ]; then
+              echo "$UPDATED" | sed 's/^/- /'
+            else
+              echo "- None"
+            fi
+          } > "$README"
 
-          # Keep ONLY the latest 2 updates under the log header
-          awk '
-            BEGIN { inlog=0 }
-            /^## 📡 Auto Playlist Update Log/ {
-              print
-              inlog=1
-              next
-            }
-            /^### Update:/ {
-              updates[++n] = $0
-              blocks[n] = ""
-              next
-            }
-            inlog && n > 0 {
-              blocks[n] = blocks[n] $0 "\n"
-              next
-            }
-            !inlog { print }
-            END {
-              start = (n > 2 ? n - 1 : 1)
-              for (i = start; i <= n; i++) {
-                print updates[i]
-                printf "%s", blocks[i]
-              }
-            }
-          ' "$README" > "$TMP_LOG"
-
-          mv "$TMP_LOG" "$README"
+          rm -f old.map new.map
 
       - name: Commit and push if changed
         run: |
@@ -170,5 +160,5 @@ jobs:
           git add playlists/all-channels.m3u README.md
           git diff --cached --quiet && exit 0
 
-          git commit -m "Auto-update IPTV playlist and README changelog"
+          git commit -m "Auto-update IPTV playlist and README overview"
           git push
