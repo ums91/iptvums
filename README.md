@@ -2,15 +2,13 @@
 
 ## 📡 Auto Playlist Update Overview
 
-Last Updated: 2026-02-13 15:20 UTC
+Last Updated: 2026-02-13 15:27 UTC
 
 ### Channels Added
-- None
+- viàTéléPaese (720p)
 
 ### Channels Removed
 - None
 
 ### Channels Updated (Link Changed)
-- Alsacias Televisión (ATV 
-- GlewedTV Yoga & Fitness
-- Til julefrokost hos r8Dio
+- None
