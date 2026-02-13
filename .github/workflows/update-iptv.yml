@@ -16,7 +16,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Build playlist (manual preserved)
+      - name: Build playlist (manual preserved + country grouped)
         run: |
           set -e
           export LC_ALL=C
@@ -40,52 +40,81 @@ jobs:
             exit 1
           fi
 
-          # Save old playlist
           if [ -f "$PLAYLIST" ]; then
             cp "$PLAYLIST" "$OLD_PLAYLIST"
           else
             touch "$OLD_PLAYLIST"
           fi
 
-          # Fetch upstream playlist (remove EXTM3U header only)
           curl -fsSL https://iptv-org.github.io/iptv/index.m3u \
             | grep -v -i '^#extm3u' \
             > "$TMP_REMOTE"
 
-          # Strict validated parsing + deduplication
           awk '
-          BEGIN { FS="\n" }
+          function trim(s) {
+            gsub(/^[ \t]+|[ \t]+$/, "", s)
+            return s
+          }
 
           /^#EXTINF/ {
             extinf = $0
 
-            if (match($0, /,([^,]+)$/, m)) {
-              name = m[1]
-            } else {
-              next
-            }
+            # Extract channel name
+            if (!match($0, /,([^,]+)$/, m)) next
+            name = m[1]
 
+            # Extract country
+            country="XX"
+            if (match($0, /tvg-country="([^"]+)"/, c))
+              country=c[1]
+
+            # Read URL
             if (getline url <= 0) next
+            url = trim(url)
 
-            gsub(/^[ \t]+|[ \t]+$/, "", url)
-
+            # Strict validation
             if (url == "" || url ~ /^#/ || url !~ /^https?:\/\//)
               next
 
-            meta[name] = extinf
-            stream[name] = url
+            key = country "|" name
+
+            ext[key] = extinf
+            link[key] = url
+            countries[country] = 1
           }
 
           END {
-            for (name in meta) {
-              print meta[name]
-              print stream[name]
+            # Sort countries
+            n=0
+            for (c in countries)
+              clist[++n]=c
+            asort(clist)
+
+            for (i=1; i<=n; i++) {
+              c = clist[i]
+              print ""
+              print "## " c
+
+              # Collect channels per country
+              m=0
+              for (k in ext) {
+                split(k, parts, "|")
+                if (parts[1]==c)
+                  chan[++m]=parts[2]
+              }
+
+              asort(chan)
+
+              for (j=1; j<=m; j++) {
+                key=c "|" chan[j]
+                print ext[key]
+                print link[key]
+              }
+
+              delete chan
             }
           }
-          ' "$TMP_REMOTE" \
-          | awk 'NR%2{line=$0;next}{print line "\n" $0}' \
-          | sort \
-          > "$TMP_AUTO"
+          ' "$TMP_REMOTE" > "$TMP_AUTO"
 
           {
             echo "#EXTM3U"
@@ -114,12 +143,11 @@ jobs:
           extract_map() {
             awk '
             /^#EXTINF/ {
-              if (match($0, /,([^,]+)$/, m)) {
-                name = m[1]
-              } else next
+              if (!match($0, /,([^,]+)$/, m)) next
+              name=m[1]
               if (getline url <= 0) next
               gsub(/^[ \t]+|[ \t]+$/, "", url)
-              if (url == "" || url !~ /^https?:\/\//) next
+              if (url=="" || url !~ /^https?:\/\//) next
               print name "|" url
             }' "$1" | sort -u
           }
@@ -183,5 +211,5 @@ jobs:
           git add playlists/all-channels.m3u README.md
           git diff --cached --quiet && exit 0
 
-          git commit -m "Auto-update IPTV playlist and README overview"
+          git commit -m "Auto-update IPTV playlist with country grouping"
           git push
