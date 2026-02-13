@@ -59,20 +59,16 @@ jobs:
           /^#EXTINF/ {
             extinf = $0
 
-            # Extract channel name
             if (!match($0, /,([^,]+)$/, m)) next
             name = m[1]
 
-            # Extract country
             country="XX"
-            if (match($0, /tvg-country="([^"]+)"/, c))
-              country=c[1]
+            if (match($0, /tvg-country="([^"]+)"/, cc))
+              country = cc[1]
 
-            # Read URL
             if (getline url <= 0) next
             url = trim(url)
 
-            # Strict validation
             if (url == "" || url ~ /^#/ || url !~ /^https?:\/\//)
               next
 
@@ -84,29 +80,27 @@ jobs:
           }
 
           END {
-            # Sort countries
             n=0
-            for (c in countries)
-              clist[++n]=c
+            for (country_code in countries)
+              clist[++n] = country_code
             asort(clist)
 
             for (i=1; i<=n; i++) {
-              c = clist[i]
+              ctry = clist[i]
               print ""
-              print "## " c
+              print "## " ctry
 
-              # Collect channels per country
               m=0
               for (k in ext) {
                 split(k, parts, "|")
-                if (parts[1]==c)
+                if (parts[1]==ctry)
                   chan[++m]=parts[2]
               }
 
               asort(chan)
 
               for (j=1; j<=m; j++) {
-                key=c "|" chan[j]
+                key=ctry "|" chan[j]
                 print ext[key]
                 print link[key]
               }
