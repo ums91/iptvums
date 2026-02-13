@@ -40,28 +40,42 @@ jobs:
             exit 1
           fi
 
-          # Save old playlist for diffing
+          # Save old playlist
           if [ -f "$PLAYLIST" ]; then
             cp "$PLAYLIST" "$OLD_PLAYLIST"
           else
             touch "$OLD_PLAYLIST"
           fi
 
-          # Fetch upstream playlist (strip ONLY EXTM3U header)
+          # Fetch upstream playlist (remove EXTM3U header only)
           curl -fsSL https://iptv-org.github.io/iptv/index.m3u \
             | grep -v -i '^#extm3u' \
             > "$TMP_REMOTE"
 
-          # Deduplicate by channel name (deterministic ordering)
+          # Strict validated parsing + deduplication
           awk '
+          BEGIN { FS="\n" }
+
           /^#EXTINF/ {
             extinf = $0
-            match($0, /,([^,]+)$/, m)
-            name = m[1]
-            getline url
+
+            if (match($0, /,([^,]+)$/, m)) {
+              name = m[1]
+            } else {
+              next
+            }
+
+            if (getline url <= 0) next
+
+            gsub(/^[ \t]+|[ \t]+$/, "", url)
+
+            if (url == "" || url ~ /^#/ || url !~ /^https?:\/\//)
+              next
+
             meta[name] = extinf
             stream[name] = url
           }
+
           END {
             for (name in meta) {
               print meta[name]
@@ -70,7 +84,7 @@ jobs:
           }
           ' "$TMP_REMOTE" \
           | awk 'NR%2{line=$0;next}{print line "\n" $0}' \
-          | LC_ALL=C sort \
+          | sort \
           > "$TMP_AUTO"
 
           {
@@ -100,28 +114,31 @@ jobs:
           extract_map() {
             awk '
             /^#EXTINF/ {
-              match($0, /,([^,]+)$/, m)
-              name = m[1]
-              getline url
+              if (match($0, /,([^,]+)$/, m)) {
+                name = m[1]
+              } else next
+              if (getline url <= 0) next
+              gsub(/^[ \t]+|[ \t]+$/, "", url)
+              if (url == "" || url !~ /^https?:\/\//) next
               print name "|" url
-            }' "$1" | LC_ALL=C sort -u
+            }' "$1" | sort -u
           }
 
           extract_map "$OLD" > old.map
           extract_map "$NEW" > new.map
 
           ADDED=$(comm -13 \
-            <(cut -d"|" -f1 old.map | LC_ALL=C sort -u) \
-            <(cut -d"|" -f1 new.map | LC_ALL=C sort -u))
+            <(cut -d"|" -f1 old.map | sort -u) \
+            <(cut -d"|" -f1 new.map | sort -u))
 
           REMOVED=$(comm -23 \
-            <(cut -d"|" -f1 old.map | LC_ALL=C sort -u) \
-            <(cut -d"|" -f1 new.map | LC_ALL=C sort -u))
+            <(cut -d"|" -f1 old.map | sort -u) \
+            <(cut -d"|" -f1 new.map | sort -u))
 
           UPDATED=$(
             join -t"|" \
-              <(LC_ALL=C sort old.map) \
-              <(LC_ALL=C sort new.map) \
+              <(sort old.map) \
+              <(sort new.map) \
             | awk -F"|" '$2 != $3 { print $1 }'
           )
 
