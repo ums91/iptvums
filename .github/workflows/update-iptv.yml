@@ -57,55 +57,56 @@ jobs:
           }
 
           /^#EXTINF/ {
-            extinf = $0
+            extinf_line = $0
 
-            if (!match($0, /,([^,]+)$/, m)) next
-            name = m[1]
+            if (!match($0, /,([^,]+)$/, name_arr)) next
+            channel_name = name_arr[1]
 
-            country="XX"
-            if (match($0, /tvg-country="([^"]+)"/, cc))
-              country = cc[1]
+            country_code="XX"
+            if (match($0, /tvg-country="([^"]+)"/, country_arr))
+              country_code = country_arr[1]
 
-            if (getline url <= 0) next
-            url = trim(url)
+            if (getline url_line <= 0) next
+            url_line = trim(url_line)
 
-            if (url == "" || url ~ /^#/ || url !~ /^https?:\/\//)
+            if (url_line == "" || url_line ~ /^#/ || url_line !~ /^https?:\/\//)
               next
 
-            key = country "|" name
+            composite_key = country_code "|" channel_name
 
-            ext[key] = extinf
-            link[key] = url
-            countries[country] = 1
+            ext_map[composite_key] = extinf_line
+            url_map[composite_key] = url_line
+            country_set[country_code] = 1
           }
 
           END {
-            n=0
-            for (country_code in countries)
-              clist[++n] = country_code
-            asort(clist)
+            country_count=0
+            for (cc in country_set)
+              country_list[++country_count]=cc
 
-            for (i=1; i<=n; i++) {
-              ctry = clist[i]
+            asort(country_list)
+
+            for (i=1; i<=country_count; i++) {
+              current_country = country_list[i]
               print ""
-              print "## " ctry
+              print "## " current_country
 
-              m=0
-              for (k in ext) {
-                split(k, parts, "|")
-                if (parts[1]==ctry)
-                  chan[++m]=parts[2]
+              channel_count=0
+              for (key in ext_map) {
+                split(key, parts, "|")
+                if (parts[1]==current_country)
+                  channel_list[++channel_count]=parts[2]
               }
 
-              asort(chan)
+              asort(channel_list)
 
-              for (j=1; j<=m; j++) {
-                key=ctry "|" chan[j]
-                print ext[key]
-                print link[key]
+              for (j=1; j<=channel_count; j++) {
+                full_key=current_country "|" channel_list[j]
+                print ext_map[full_key]
+                print url_map[full_key]
               }
 
-              delete chan
+              delete channel_list
             }
           }
           ' "$TMP_REMOTE" > "$TMP_AUTO"
@@ -137,12 +138,12 @@ jobs:
           extract_map() {
             awk '
             /^#EXTINF/ {
-              if (!match($0, /,([^,]+)$/, m)) next
-              name=m[1]
-              if (getline url <= 0) next
-              gsub(/^[ \t]+|[ \t]+$/, "", url)
-              if (url=="" || url !~ /^https?:\/\//) next
-              print name "|" url
+              if (!match($0, /,([^,]+)$/, nm)) next
+              ch=nm[1]
+              if (getline u <= 0) next
+              gsub(/^[ \t]+|[ \t]+$/, "", u)
+              if (u=="" || u !~ /^https?:\/\//) next
+              print ch "|" u
             }' "$1" | sort -u
           }
 
