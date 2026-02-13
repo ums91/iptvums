@@ -19,6 +19,7 @@ jobs:
       - name: Build playlist (manual preserved)
         run: |
           set -e
+          export LC_ALL=C
 
           PLAYLIST="playlists/all-channels.m3u"
           MANUAL_FILE="playlists/manual-urls.txt"
@@ -51,14 +52,13 @@ jobs:
             | grep -v -i '^#extm3u' \
             > "$TMP_REMOTE"
 
-          # Deduplicate by channel name, replace URL + full EXTINF
+          # Deduplicate by channel name (deterministic ordering)
           awk '
           /^#EXTINF/ {
             extinf = $0
             match($0, /,([^,]+)$/, m)
             name = m[1]
             getline url
-
             meta[name] = extinf
             stream[name] = url
           }
@@ -68,7 +68,10 @@ jobs:
               print stream[name]
             }
           }
-          ' "$TMP_REMOTE" > "$TMP_AUTO"
+          ' "$TMP_REMOTE" \
+          | awk 'NR%2{line=$0;next}{print line "\n" $0}' \
+          | LC_ALL=C sort \
+          > "$TMP_AUTO"
 
           {
             echo "#EXTM3U"
@@ -87,6 +90,7 @@ jobs:
       - name: Update README with Added / Removed / Updated channels
         run: |
           set -e
+          export LC_ALL=C
 
           README="README.md"
           OLD="playlists/all-channels.old.m3u"
@@ -100,22 +104,24 @@ jobs:
               name = m[1]
               getline url
               print name "|" url
-            }' "$1" | sort
+            }' "$1" | LC_ALL=C sort -u
           }
 
           extract_map "$OLD" > old.map
           extract_map "$NEW" > new.map
 
           ADDED=$(comm -13 \
-            <(cut -d"|" -f1 old.map) \
-            <(cut -d"|" -f1 new.map))
+            <(cut -d"|" -f1 old.map | LC_ALL=C sort -u) \
+            <(cut -d"|" -f1 new.map | LC_ALL=C sort -u))
 
           REMOVED=$(comm -23 \
-            <(cut -d"|" -f1 old.map) \
-            <(cut -d"|" -f1 new.map))
+            <(cut -d"|" -f1 old.map | LC_ALL=C sort -u) \
+            <(cut -d"|" -f1 new.map | LC_ALL=C sort -u))
 
           UPDATED=$(
-            join -t"|" old.map new.map \
+            join -t"|" \
+              <(LC_ALL=C sort old.map) \
+              <(LC_ALL=C sort new.map) \
             | awk -F"|" '$2 != $3 { print $1 }'
           )
 
