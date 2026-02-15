@@ -16,6 +16,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Install gawk
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y gawk
+
       - name: Build playlist (manual preserved + country grouped)
         run: |
           set -e
@@ -47,10 +52,10 @@ jobs:
           fi
 
           curl -fsSL https://iptv-org.github.io/iptv/index.m3u \
-            | grep -v -i '^#extm3u' \
+            | grep -vi '^#extm3u' \
             > "$TMP_REMOTE"
 
-          awk '
+          gawk '
           function trim(s) {
             gsub(/^[ \t]+|[ \t]+$/, "", s)
             return s
@@ -136,7 +141,7 @@ jobs:
           TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M UTC")
 
           extract_map() {
-            awk '
+            gawk '
             /^#EXTINF/ {
               if (!match($0, /,([^,]+)$/, nm)) next
               ch=nm[1]
@@ -162,7 +167,7 @@ jobs:
             join -t"|" \
               <(sort old.map) \
               <(sort new.map) \
-            | awk -F"|" '$2 != $3 { print $1 }'
+            | gawk -F"|" '$2 != $3 { print $1 }'
           )
 
           {
