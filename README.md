@@ -2,13 +2,232 @@
 
 ## 📡 Auto Playlist Update Overview
 
-Last Updated: 2026-02-15 06:55 UTC
+Last Updated: 2026-02-16 05:03 UTC
 
 ### Channels Added
-- None
+- &TV (576p)
+- &TV HD (1080p)
+- &pictures HD (1080p)
+- &prive HD (1080p)
+- AFTV (1080p)
+- ATXN1 (1080p)
+- ATXN2 (1080p)
+- ATXN3 (1080p)
+- BIG Civic Channel
+- BIG Community Channel
+- Berks Community TV (1080p)
+- CAN TV19 (1080p)
+- CAN TV21 (1080p)
+- CAN TV27 (1080p)
+- CAN TV36 (1080p)
+- CVTV Channel 192 (1080p)
+- CVTV Channel 194 (1080p)
+- Camu TV (480p) [Not 24/7]
+- Colors (576p)
+- Colors HD (1080p)
+- Colors Infinity HD (1080p)
+- FXX East (720p) [Not 24/7]
+- Food Food
+- Jalsha Movies HD (1080p)
+- Jaya TV
+- KSEE NBC (Fresno CA)
+- KTV
+- Natick Education Channel (720p)
+- Natick Government Channel (720p)
+- Natick Public Access Channel (720p)
+- National Geographic Wild (576p)
+- Sonic (576p)
+- Sony Aath (576p)
+- Sony Pix HD (1080p)
+- Sony SAB (720p)
+- Sony SAB HD (1080p)
+- Sony Sports Ten 2 HD (1080p)
+- Sony Sports Ten 3 Hindi (576p)
+- Sony Sports Ten 5 HD (1080p)
+- Sony Yay! (576p)
+- Star Gold 2 HD (1080p)
+- Star Gold HD (1080p)
+- Star Gold Select HD (1080p)
+- Star Sports 1 HD (1080p)
+- Star Sports 2 Tamil (1080p)
+- Star Vijay
+- StarPlus (576p)
+- StarPlus HD (1080p)
+- Sun Music
+- Sun TV
+- Surya TV (1080p)
+- Surya TV SD (1080p)
+- WTWC NBC (Tallahassee FL)
+- Zee 24 Ghanta
+- Zee Bangla Sonar (576p)
+- Zee Cafe HD (1080p)
+- Zee TV HD (1080p)
+- Zee Tamil
+- Zee Zest HD (1080p)
 
 ### Channels Removed
-- None
+- ABC 10 San Diego CA (KGTV) (720p)
+- ABC 5 Boston MA (WCVB) (720p)
+- FOX 13 Seattle WA (KCPQ) (720p)
+- FXX East
+- Food Food (576p)
+- KABC-DT1 (360p) [Not 24/7]
+- KCBS-DT1 (1080p) [Not 24/7]
+- KDFW FOX (Dallas TX)
+- KFMB CBS (San Diego CA)
+- KFSN ABC (Fresno CA)
+- KHOU CBS (Houston TX)
+- KIRO CBS (Seattle WA)
+- KMBC ABC (Kansas City MO)
+- KNBC NBC (Los Angeles CA)
+- KNXV ABC (Phoenix AZ)
+- KRIV FOX (Houston TX)
+- KSAZ FOX (Phoenix AZ)
+- KSDK NBC (St. Louis MO)
+- KTBC FOX (Austin TX)
+- KUSA NBC (Denver CO)
+- KVUE ABC (Austin TX)
+- NBC 10 Philadelphia PA (WCAU) [Geo-blocked]
+- NBC 4 Washington DC (WRC) [Geo-blocked]
+- NBC 5 Dallas-Fort Worth TX (KXAS) [Geo-blocked]
+- NBC 6 Miami FL (WTVJ) [Geo-blocked]
+- NBC 8 Salinas CA (KSBW) (720p)
+- WABC-DT1 (720p) [Not 24/7]
+- WAGA FOX (Atlanta GA)
+- WBIR NBC (Knoxville TN)
+- WBTV CBS (Charlotte NC)
+- WCBS CBS (New York NY)
+- WCNC NBC (Charlotte NC)
+- WDAF FOX (Kansas City MO)
+- WDEF FOX (Chattanooga TN)
+- WFAA ABC (Dallas TX)
+- WFTV ABC (Orlando FL)
+- WFXT FOX (Boston MA)
+- WGRZ NBC (Buffalo NY)
+- WHAS ABC (Louisville KY)
+- WHBQ FOX (Memphis TN)
+- WHIO CBS (Dayton OH)
+- WJAX CBS (Jacksonville FL)
+- WJBK FOX (Detroit MI)
+- WJXX ABC (Jacksonville FL)
+- WKMG CBS (Orlando FL)
+- WMGT NBC (Macon GA)
+- WNBC-DT1 (720p) [Not 24/7]
+- WNYW FOX (New York NY)
+- WPXI NBC (Pittsburgh PA)
+- WSOC ABC (Charlotte NC)
+- WTHR NBC (Indianapolis IN)
+- WTLH NBC (Tallahassee FL)
+- WTTG FOX (Washington DC)
+- WTXF FOX (Philadelphia PA)
+- WTXL ABC (Tallahassee FL)
+- WUSA CBS (Washington DC)
+- WWL CBS (New Orleans LA)
+- WXIA NBC (Atlanta GA)
 
 ### Channels Updated (Link Changed)
-- None
+- AXS TV
+- Antenna TV
+- Aspire
+- BBC News North America
+- BET Her East
+- BET Jams
+- BET Soul
+- Bounce
+- Bravo East
+- Buzzr
+- CBS Chicago WBBM-DT1
+- Cleo TV (720p)
+- Comedy TV
+- Cozi TV
+- Crime + Investigation
+- Disney XD (720p)
+- ESPN U (720p)
+- FX East
+- FanDuel Sports Network
+- INSP
+- ION TV East
+- KCPQ FOX (Seattle WA)
+- KOMO ABC (Seattle WA)
+- KPIX CBS (San Francisco CA)
+- KPRC NBC (Houston TX)
+- KRQE CBS (Albuquerque NM)
+- KRQE FOX (Albuquerque NM)
+- KSAT ABC (San Antonio TX)
+- KSBW NBC (Monterey CA)
+- KSNV NBC (Las Vegas NV)
+- KTRK ABC (Houston TX)
+- KVVU FOX (Las Vegas NV)
+- KYW CBS (Philadelphia PA)
+- Lifetime East
+- MTV East
+- MeTV
+- NTD TV China
+- News Nation (720p)
+- Nick Jr. East (720p)
+- Nickelodeon (576p)
+- Nicktoons East
+- Ovation (1080p)
+- Pop TV
+- Reelz (720p)
+- Showtime 2 East
+- Sony Channel
+- SportsNet New York (540p)
+- Sportsman Channel
+- Starz East
+- Starz Encore Classic East
+- Starz West
+- TV Land
+- W Network (720p)
+- WABC ABC (New York NY)
+- WAFB CBS (Baton Rouge LA)
+- WALA FOX (Mobile AL)
+- WAPT ABC (Jackson MS)
+- WBMA-LD ABC (Birmingham AL)
+- WBZ CBS (Boston MA)
+- WCAU NBC (Philadelphia PA)
+- WCJB ABC (Gainesville FL)
+- WCVB ABC (Boston MA)
+- WDBD FOX (Jackson MS)
+- WDFX FOX (Dothan AL)
+- WDRB FOX (Louisville KY)
+- WEWS ABC (Cleveland OH)
+- WFLA-DT1
+- WFLX-DT1
+- WFOR CBS (Miami FL)
+- WFOX FOX (Jacksonville FL)
+- WFXG FOX (Augusta GA)
+- WGCL CBS (Atlanta GA)
+- WJTV CBS (Jackson MS)
+- WKRG CBS (Mobile AL)
+- WKRN ABC (Nashville TN)
+- WLBT NBC (Jackson MS)
+- WLKY CBS (Louisville KY)
+- WMC NBC (Memphis TN)
+- WOFL FOX (Orlando FL)
+- WPEC-DT1
+- WPGH FOX (Pittsburgh PA)
+- WPMI ABC (Mobile AL)
+- WPVI ABC (Philadelphia PA)
+- WRC NBC (Washington DC)
+- WRDW CBS (Augusta GA)
+- WSHM CBS (Springfield MA)
+- WSMV NBC (Nashville TN)
+- WSVN ABC (Miami FL)
+- WSVN FOX (Miami FL)
+- WTEN ABC (Albany NY)
+- WTLV NBC (Jacksonville FL)
+- WTNZ FOX (Knoxville TN)
+- WTOC CBS (Savannah GA)
+- WTOG-DT1
+- WTVJ NBC (Miami FL)
+- WTVY CBS (Dothan AL)
+- WTVY NBC (Dothan AL)
+- WVLA FOX (Baton Rouge LA)
+- WVLA NBC (Baton Rouge LA)
+- WVUE ABC (New Orleans LA)
+- WWLP NBC (Springfield MA)
+- WXIN FOX (Indianapolis IN)
+- WXYZ ABC (Detroit MI)
+- We TV East
+- World Fishing Network
