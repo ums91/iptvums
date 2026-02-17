@@ -2,22 +2,224 @@
 
 ## 📡 Auto Playlist Update Overview
 
-Last Updated: 2026-02-17 03:32 UTC
+Last Updated: 2026-02-17 14:50 UTC
 
 ### Channels Added
-- Polsat Viasat Nature (1080p)
-- Public TV (576p) [Geo-blocked]
-- Travelxp 4K HDR (2160p) [Geo-blocked]
-- VITAL Drive
-- WP TV (1080p)
+- ABC 10 San Diego CA (KGTV) (720p)
+- ABC 5 Boston MA (WCVB) (720p)
+- BUZZR
+- Crime + Investigation (720p) [Not 24/7]
+- Disney Junior East (720p) [Not 24/7]
+- Disney XD East (720p) [Not 24/7]
+- E! East (1080p) [Not 24/7]
+- FOX 13 Seattle WA (KCPQ) (720p)
+- FX East (720p) [Not 24/7]
+- FYI East (720p) [Not 24/7]
+- Fox Business Network (720p) [Not 24/7]
+- Fox Soul (1080p)
+- Fuse East (1080p) [Not 24/7]
+- Golf Channel (1080p) [Not 24/7]
+- Hallmark Drama (720p) [Not 24/7]
+- Hallmark Movies & Mysteries East (1080p) [Not 24/7]
+- KABC-DT1 (360p) [Not 24/7]
+- KCBS-DT1 (1080p) [Not 24/7]
+- Lifetime Movies East (720p) [Not 24/7]
+- MSG (1080p) [Not 24/7]
+- NBC 10 Philadelphia PA (WCAU) [Geo-blocked]
+- NBC 4 Washington DC (WRC) [Geo-blocked]
+- NBC 5 Dallas-Fort Worth TX (KXAS) [Geo-blocked]
+- NBC 6 Miami FL (WTVJ) [Geo-blocked]
+- NBC 8 Salinas CA (KSBW) (720p)
+- Revolt (1080p)
+- Starz East (1080p) [Not 24/7]
+- WABC-DT1 (720p) [Not 24/7]
+- WNBC-DT1 (720p) [Not 24/7]
 
 ### Channels Removed
-- MGM HD [Not 24/7]
-- Public TV (720p)
-- VHS TV [Not 24/7]
-- VITAL Drive [Not 24/7]
-- Любимое Индийское Кино [Not 24/7]
-- Малдер Мегахит [Not 24/7]
+- ACCN (720p)
+- AMC East (1080p)
+- AXS TV
+- Antenna TV
+- Aspire
+- BBC News North America
+- BET Her East
+- BET Jams
+- BET Soul
+- Big Ten Network
+- Bounce
+- Bravo East
+- Buzzr
+- C-SPAN
+- CBS Chicago WBBM-DT1
+- CBS Sports Network USA
+- CMT East
+- CNBC World
+- Cleo TV (720p)
+- Crave 1
+- Crave 3
+- Crime + Investigation
+- Disney Junior East
+- Disney XD (720p)
+- E! East
+- ESPN U (720p)
+- ESPNews (720p)
+- FX East
+- FXM East
+- FYI East
+- FanDuel Sports Network
+- Fox Business Network (720p)
+- Fox Soul
+- Fox Sports 1
+- Fuse East (720p)
+- GetTV (480p)
+- Golf Channel
+- Hallmark Channel East (720p)
+- Hallmark Drama (720p)
+- Hallmark Movies Mysteries East
+- History
+- INSP
+- ION TV East
+- KABB FOX (San Antonio TX)
+- KABC ABC (Los Angeles CA)
+- KCBS CBS (Los Angeles CA)
+- KCNC CBS (Denver CO)
+- KCPQ FOX (Seattle WA)
+- KDVR FOX (Denver CO)
+- KGTV ABC (San Diego CA)
+- KHON FOX (Honolulu HI)
+- KOMO ABC (Seattle WA)
+- KPIX CBS (San Francisco CA)
+- KPRC NBC (Houston TX)
+- KRQE CBS (Albuquerque NM)
+- KRQE FOX (Albuquerque NM)
+- KSAT ABC (San Antonio TX)
+- KSBW NBC (Monterey CA)
+- KSEE NBC (Fresno CA)
+- KSNV NBC (Las Vegas NV)
+- KTRK ABC (Houston TX)
+- KTVI FOX (St. Louis MO)
+- KTVT CBS (Dallas TX)
+- KVVU FOX (Las Vegas NV)
+- KXAS NBC (Dallas TX)
+- KYW CBS (Philadelphia PA)
+- Lifetime East
+- Lifetime Movies East
+- MGM+ East
+- MLB Network
+- MSG
+- MTV Classic (360p)
+- MTV East
+- MTV Live (720p)
+- MTV2 (720p)
+- MeTV
+- Military History
+- Much (720p)
+- National Geographic East
+- National Geographic Wild East
+- News Nation (720p)
+- Nick Jr. East (720p)
+- Nicktoons East
+- Ovation (1080p)
+- Oxygen East
+- Paramount Network East
+- Pop TV
+- Reelz (720p)
+- Revolt
+- Showtime 2 East
+- Showtime East
+- Showtime Next East
+- Showtime West (1080p)
+- Smithsonian Channel East
+- Sony Channel
+- SportsNet New York (540p)
+- Sportsman Channel
+- Starz East
+- Starz Encore Classic East
+- Starz West
+- Sundance TV East
+- Syfy East
+- TV Land
+- TV One
+- W Network (720p)
+- WABC ABC (New York NY)
+- WAFB CBS (Baton Rouge LA)
+- WALA FOX (Mobile AL)
+- WAPT ABC (Jackson MS)
+- WAVE NBC (Louisville KY)
+- WBBH NBC (Fort Myers FL)
+- WBMA-LD ABC (Birmingham AL)
+- WBRC FOX (Birmingham AL)
+- WBZ CBS (Boston MA)
+- WCAU NBC (Philadelphia PA)
+- WCCO CBS (Minneapolis MN)
+- WCJB ABC (Gainesville FL)
+- WCVB ABC (Boston MA)
+- WDBD FOX (Jackson MS)
+- WDFX FOX (Dothan AL)
+- WDIV NBC (Detroit MI)
+- WDRB FOX (Louisville KY)
+- WEWS ABC (Cleveland OH)
+- WFFT FOX (Fort Wayne IN)
+- WFLA-DT1
+- WFLX-DT1
+- WFOR CBS (Miami FL)
+- WFOX FOX (Jacksonville FL)
+- WFTS-DT1
+- WFXG FOX (Augusta GA)
+- WFXR FOX (Roanoke VA)
+- WGCL CBS (Atlanta GA)
+- WGXA CBS (Macon GA)
+- WINK CBS (Fort Myers FL)
+- WIVB CBS (Buffalo NY)
+- WJTV CBS (Jackson MS)
+- WKBW ABC (Buffalo NY)
+- WKRG CBS (Mobile AL)
+- WKRN ABC (Nashville TN)
+- WKYT CBS (Lexington KY)
+- WLBT NBC (Jackson MS)
+- WLKY CBS (Louisville KY)
+- WLS-DT1 ABC
+- WMC NBC (Memphis TN)
+- WNBC NBC (New York NY)
+- WNLO CW (Buffalo NY)
+- WOAI NBC (San Antonio TX)
+- WOFL FOX (Orlando FL)
+- WPEC-DT1
+- WPGH FOX (Pittsburgh PA)
+- WPMI ABC (Mobile AL)
+- WPVI ABC (Philadelphia PA)
+- WRC NBC (Washington DC)
+- WRDW CBS (Augusta GA)
+- WSBT CBS (South Bend IN)
+- WSHM CBS (Springfield MA)
+- WSMV NBC (Nashville TN)
+- WSVN ABC (Miami FL)
+- WSVN FOX (Miami FL)
+- WTAE ABC (Pittsburgh PA)
+- WTEN ABC (Albany NY)
+- WTLV NBC (Jacksonville FL)
+- WTNZ FOX (Knoxville TN)
+- WTOC CBS (Savannah GA)
+- WTOG-DT1
+- WTVJ NBC (Miami FL)
+- WTVY ABC (Dothan AL)
+- WTVY CBS (Dothan AL)
+- WTVY NBC (Dothan AL)
+- WTWC NBC (Tallahassee FL)
+- WUTV FOX (Buffalo NY)
+- WVLA FOX (Baton Rouge LA)
+- WVLA NBC (Baton Rouge LA)
+- WVTM NBC (Birmingham AL)
+- WVUE ABC (New Orleans LA)
+- WVUE FOX (New Orleans LA)
+- WWBT NBC (Richmond VA)
+- WWLP NBC (Springfield MA)
+- WXIN FOX (Indianapolis IN)
+- WXYZ ABC (Detroit MI)
+- WZTV FOX (Nashville TN)
+- We TV East
+- World Fishing Network
+- Yes Network
 
 ### Channels Updated (Link Changed)
-- None
+- Comedy TV
