@@ -2,13 +2,22 @@
 
 ## 📡 Auto Playlist Update Overview
 
-Last Updated: 2026-02-16 15:16 UTC
+Last Updated: 2026-02-17 03:32 UTC
 
 ### Channels Added
-- None
+- Polsat Viasat Nature (1080p)
+- Public TV (576p) [Geo-blocked]
+- Travelxp 4K HDR (2160p) [Geo-blocked]
+- VITAL Drive
+- WP TV (1080p)
 
 ### Channels Removed
-- None
+- MGM HD [Not 24/7]
+- Public TV (720p)
+- VHS TV [Not 24/7]
+- VITAL Drive [Not 24/7]
+- Любимое Индийское Кино [Not 24/7]
+- Малдер Мегахит [Not 24/7]
 
 ### Channels Updated (Link Changed)
 - None
