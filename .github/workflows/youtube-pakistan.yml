@@ -1,4 +1,4 @@
-name: Build YouTube Pakistan Playlist
+name: Auto Update YouTube Pakistan Playlist
 
 on:
   schedule:
@@ -26,7 +26,7 @@ jobs:
           FILE="playlists/youtube-pakistan.m3u"
           TEMP="playlists/youtube-pakistan.tmp"
 
-          echo "#EXTM3U" > $TEMP
+          echo "#EXTM3U" > "$TEMP"
 
           build_stream () {
             NAME="$1"
@@ -37,18 +37,18 @@ jobs:
 
             STREAM=$(yt-dlp -g "$URL" 2>/dev/null | head -n1)
 
-            echo "#EXTINF:-1 tvg-id=\"${SAFE_ID}.pk@LIVE\" tvg-logo=\"$LOGO\" group-title=\"Pakistani TV Live\",$NAME (Live)" >> $TEMP
+            echo "#EXTINF:-1 tvg-id=\"${SAFE_ID}.pk@LIVE\" tvg-logo=\"$LOGO\" group-title=\"Pakistani TV Live\",$NAME (Live)" >> "$TEMP"
 
             if [ -n "$STREAM" ]; then
-              echo "$STREAM" >> $TEMP
+              echo "$STREAM" >> "$TEMP"
             else
-              echo "https://example.com/offline.mp4" >> $TEMP
+              echo "https://example.com/offline.mp4" >> "$TEMP"
             fi
 
-            echo "" >> $TEMP
+            echo "" >> "$TEMP"
           }
 
-          # Core Channels
+          # Channels
           build_stream "ARY QTV" "https://i.imgur.com/NX3vvAX.png" "https://www.youtube.com/@OfficialARYQTV/live"
           build_stream "ARY News" "https://i.imgur.com/Kp7pVnJ.png" "https://www.youtube.com/@ARYNEWS/live"
           build_stream "ARY Digital" "https://i.imgur.com/arydigital.png" "https://www.youtube.com/@arydigitalasia/live"
@@ -75,10 +75,11 @@ jobs:
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
 
-          if git diff --quiet; then
+          git add playlists/youtube-pakistan.m3u
+
+          if git diff --cached --quiet; then
             echo "No changes to commit"
           else
-            git add playlists/youtube-pakistan.m3u
             git commit -m "Auto-update YouTube Pakistan playlist"
             git push
           fi
