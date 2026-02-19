@@ -1,1 +1,34 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="ARYQTV.pk@LIVE" tvg-logo="https://i.imgur.com/NX3vvAX.png" group-title="Pakistani TV Live",ARY QTV (Live)
+https://example.com/offline.mp4
+
+#EXTINF:-1 tvg-id="ARYNews.pk@LIVE" tvg-logo="https://i.imgur.com/Kp7pVnJ.png" group-title="Pakistani TV Live",ARY News (Live)
+https://example.com/offline.mp4
+
+#EXTINF:-1 tvg-id="ARYDigital.pk@LIVE" tvg-logo="https://i.imgur.com/arydigital.png" group-title="Pakistani TV Live",ARY Digital (Live)
+https://example.com/offline.mp4
+
+#EXTINF:-1 tvg-id="GeoNews.pk@LIVE" tvg-logo="https://i.imgur.com/geonews.png" group-title="Pakistani TV Live",Geo News (Live)
+https://example.com/offline.mp4
+
+#EXTINF:-1 tvg-id="BolNews.pk@LIVE" tvg-logo="https://i.imgur.com/bolnews.png" group-title="Pakistani TV Live",Bol News (Live)
+https://example.com/offline.mp4
+
+#EXTINF:-1 tvg-id="GNN.pk@LIVE" tvg-logo="https://i.imgur.com/gnn.png" group-title="Pakistani TV Live",GNN (Live)
+https://example.com/offline.mp4
+
+#EXTINF:-1 tvg-id="SAMAATV.pk@LIVE" tvg-logo="https://i.imgur.com/5aPNb1m.png" group-title="Pakistani TV Live",SAMAA TV (Live)
+https://example.com/offline.mp4
+
+#EXTINF:-1 tvg-id="ExpressNews.pk@LIVE" tvg-logo="https://i.imgur.com/z7YqgZC.png" group-title="Pakistani TV Live",Express News (Live)
+https://example.com/offline.mp4
+
+#EXTINF:-1 tvg-id="HUMNews.pk@LIVE" tvg-logo="https://i.imgur.com/ZcEY3YD.png" group-title="Pakistani TV Live",HUM News (Live)
+https://example.com/offline.mp4
+
+#EXTINF:-1 tvg-id="PTVNews.pk@LIVE" tvg-logo="https://i.imgur.com/ARck0jl.png" group-title="Pakistani TV Live",PTV News (Live)
+https://example.com/offline.mp4
+
+#EXTINF:-1 tvg-id="DawnNews.pk@LIVE" tvg-logo="https://i.imgur.com/ExjXc4J.png" group-title="Pakistani TV Live",Dawn News (Live)
+https://example.com/offline.mp4
+
