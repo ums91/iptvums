@@ -2302,6 +2302,8 @@ http://localhost:5001/live/3469.m3u8
 http://localhost:5001/live/3470.m3u8
 #EXTINF:-1 tvg-id="3471" tvg-name="Punjabi Shorts" tvg-logo="http://localhost:5001/jtvimage/PunjabiShorts.png" tvg-language="Punjabi" tvg-type="Movies" group-title="Movies", Punjabi Shorts
 http://localhost:5001/live/3471.m3u8
+#EXTINF:-1 tvg-id="3472" tvg-name="ARY QTV" tvg-logo="http://localhost:5001/jtvimage/PunjabiShorts.png" tvg-language="Urdu" tvg-type="Islamic" group-title="Islamic", ARY QTV
+https://www.youtube.com/live/k0unDXRANyc?si=ZAhWs_fzNOUlrHXT.m3u8
 # === MANUAL CHANNELS (PRESERVED) END ===
 
 # === AUTO-GENERATED CHANNELS (DO NOT EDIT BELOW) ===
