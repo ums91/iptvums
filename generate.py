@@ -1,49 +1,25 @@
 import subprocess
 import os
-import json
 import datetime
-import re
 
 OUTPUT_FILE = "playlists/youtube-pakistan.m3u"
 GROUP_NAME = "Pakistan Live"
 
 
-def resolve_live_video(channel_live_url):
-    try:
-        # Ask yt-dlp for flat list of live tab
-        result = subprocess.run(
-            ["yt-dlp", "--flat-playlist", "-J", channel_live_url],
-            capture_output=True,
-            text=True,
-            timeout=90
-        )
-
-        if not result.stdout:
-            return None
-
-        data = json.loads(result.stdout)
-
-        entries = data.get("entries", [])
-        if not entries:
-            return None
-
-        video_id = entries[0].get("id")
-        if not video_id:
-            return None
-
-        return f"https://www.youtube.com/watch?v={video_id}"
-
-    except:
-        return None
-
-
-def extract_stream(video_url):
+def extract_stream(url):
     try:
         result = subprocess.run(
-            ["yt-dlp", "-g", "-f", "best[protocol=m3u8]", video_url],
+            [
+                "yt-dlp",
+                "-f", "best[protocol=m3u8]",
+                "-g",
+                "--no-warnings",
+                "--live-from-start",
+                url
+            ],
             capture_output=True,
             text=True,
-            timeout=90
+            timeout=120
         )
 
         stream = result.stdout.strip()
@@ -53,7 +29,7 @@ def extract_stream(video_url):
 
         return None
 
-    except:
+    except Exception:
         return None
 
 
@@ -75,17 +51,11 @@ def main():
     with open("channels.txt", "r") as f:
         channels = [line.strip() for line in f if line.strip()]
 
-    for channel_url in channels:
-        name = extract_name(channel_url)
-        print(f"Resolving: {name}")
+    for url in channels:
+        name = extract_name(url)
+        print(f"Checking: {name}")
 
-        video_url = resolve_live_video(channel_url)
-
-        if not video_url:
-            print(f"No live video: {name}")
-            continue
-
-        stream = extract_stream(video_url)
+        stream = extract_stream(url)
 
         if stream:
             playlist += (
@@ -97,7 +67,7 @@ def main():
             print(f"Added: {name}")
             added += 1
         else:
-            print(f"Stream extraction failed: {name}")
+            print(f"Offline or not live: {name}")
 
     os.makedirs("playlists", exist_ok=True)
 
