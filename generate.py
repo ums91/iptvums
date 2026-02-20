@@ -2,15 +2,17 @@ import subprocess
 import os
 import json
 import datetime
+import re
 
 OUTPUT_FILE = "playlists/youtube-pakistan.m3u"
 GROUP_NAME = "Pakistan Live"
 
-def get_live_stream(url):
+
+def resolve_live_video(channel_live_url):
     try:
-        # Get JSON metadata
+        # Ask yt-dlp for flat list of live tab
         result = subprocess.run(
-            ["yt-dlp", "-J", url],
+            ["yt-dlp", "--flat-playlist", "-J", channel_live_url],
             capture_output=True,
             text=True,
             timeout=90
@@ -21,20 +23,37 @@ def get_live_stream(url):
 
         data = json.loads(result.stdout)
 
-        # If not live, skip
-        if data.get("is_live") is not True:
+        entries = data.get("entries", [])
+        if not entries:
             return None
 
-        # Extract HLS URL directly
-        formats = data.get("formats", [])
+        video_id = entries[0].get("id")
+        if not video_id:
+            return None
 
-        for f in formats:
-            if f.get("protocol") == "m3u8_native":
-                return f.get("url")
+        return f"https://www.youtube.com/watch?v={video_id}"
+
+    except:
+        return None
+
+
+def extract_stream(video_url):
+    try:
+        result = subprocess.run(
+            ["yt-dlp", "-g", "-f", "best[protocol=m3u8]", video_url],
+            capture_output=True,
+            text=True,
+            timeout=90
+        )
+
+        stream = result.stdout.strip()
+
+        if "googlevideo.com" in stream:
+            return stream
 
         return None
 
-    except Exception:
+    except:
         return None
 
 
@@ -56,11 +75,17 @@ def main():
     with open("channels.txt", "r") as f:
         channels = [line.strip() for line in f if line.strip()]
 
-    for url in channels:
-        name = extract_name(url)
-        print(f"Checking: {name}")
+    for channel_url in channels:
+        name = extract_name(channel_url)
+        print(f"Resolving: {name}")
 
-        stream = get_live_stream(url)
+        video_url = resolve_live_video(channel_url)
+
+        if not video_url:
+            print(f"No live video: {name}")
+            continue
+
+        stream = extract_stream(video_url)
 
         if stream:
             playlist += (
@@ -72,14 +97,14 @@ def main():
             print(f"Added: {name}")
             added += 1
         else:
-            print(f"Offline: {name}")
+            print(f"Stream extraction failed: {name}")
 
     os.makedirs("playlists", exist_ok=True)
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.write(playlist)
 
-    print("Total added:", added)
+    print("Total live channels added:", added)
     print("Updated at:", datetime.datetime.utcnow())
 
 
