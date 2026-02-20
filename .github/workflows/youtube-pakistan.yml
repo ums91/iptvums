@@ -1,85 +1,36 @@
-name: Auto Update YouTube Pakistan Playlist
+name: Update YouTube Pakistan Playlist
 
 on:
   schedule:
-    - cron: '0 3 * * *'   # Daily at 03:00 UTC
+    - cron: "0 3 * * *"   # Runs once daily at 03:00 UTC
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  build:
+  update:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
       - name: Install yt-dlp
-        run: |
-          python -m pip install --upgrade pip
-          pip install yt-dlp
+        run: pip install --upgrade yt-dlp
 
-      - name: Build Pakistani YouTube Live playlist
-        run: |
-          FILE="playlists/youtube-pakistan.m3u"
-          TEMP="playlists/youtube-pakistan.tmp"
+      - name: Generate playlist
+        run: python generate.py
 
-          echo "#EXTM3U" > "$TEMP"
-
-          build_stream () {
-            NAME="$1"
-            LOGO="$2"
-            URL="$3"
-
-            SAFE_ID=$(echo "$NAME" | tr -d ' ' | tr -d '.')
-
-            STREAM=$(yt-dlp -g "$URL" 2>/dev/null | head -n1)
-
-            echo "#EXTINF:-1 tvg-id=\"${SAFE_ID}.pk@LIVE\" tvg-logo=\"$LOGO\" group-title=\"Pakistani TV Live\",$NAME (Live)" >> "$TEMP"
-
-            if [ -n "$STREAM" ]; then
-              echo "$STREAM" >> "$TEMP"
-            else
-              echo "https://example.com/offline.mp4" >> "$TEMP"
-            fi
-
-            echo "" >> "$TEMP"
-          }
-
-          # Channels
-          build_stream "ARY QTV" "https://i.imgur.com/NX3vvAX.png" "https://www.youtube.com/@OfficialARYQTV/live"
-          build_stream "ARY News" "https://i.imgur.com/Kp7pVnJ.png" "https://www.youtube.com/@ARYNEWS/live"
-          build_stream "ARY Digital" "https://i.imgur.com/arydigital.png" "https://www.youtube.com/@arydigitalasia/live"
-          build_stream "Geo News" "https://i.imgur.com/geonews.png" "https://www.youtube.com/@GeoNews/live"
-          build_stream "Bol News" "https://i.imgur.com/bolnews.png" "https://www.youtube.com/@BOLNewsofficial/live"
-          build_stream "GNN" "https://i.imgur.com/gnn.png" "https://www.youtube.com/@gnnhdofficial/live"
-          build_stream "SAMAA TV" "https://i.imgur.com/5aPNb1m.png" "https://www.youtube.com/@SAMAATV/live"
-          build_stream "Express News" "https://i.imgur.com/z7YqgZC.png" "https://www.youtube.com/@ExpressNewsPK/live"
-          build_stream "HUM News" "https://i.imgur.com/ZcEY3YD.png" "https://www.youtube.com/@HUMNewsPakistan/live"
-          build_stream "PTV News" "https://i.imgur.com/ARck0jl.png" "https://www.youtube.com/@PTVNewsOfficial/live"
-          build_stream "Dawn News" "https://i.imgur.com/ExjXc4J.png" "https://www.youtube.com/@dawnnewspakistan/live"
-
-          # Replace only if changed
-          if ! cmp -s "$TEMP" "$FILE"; then
-            mv "$TEMP" "$FILE"
-            echo "Playlist updated."
-          else
-            rm "$TEMP"
-            echo "No changes detected."
-          fi
-
-      - name: Commit changes if updated
+      - name: Commit updated playlist
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
-
           git add playlists/youtube-pakistan.m3u
-
-          if git diff --cached --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "Auto-update YouTube Pakistan playlist"
-            git push
-          fi
+          git commit -m "Daily refresh youtube-pakistan.m3u" || echo "No changes"
+          git push
