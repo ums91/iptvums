@@ -2,19 +2,23 @@
 
 ## 📡 Auto Playlist Update Overview
 
-Last Updated: 2026-02-20 07:38 UTC
+Last Updated: 2026-02-20 11:25 UTC
 
 ### Channels Added
-- Life TV (720p)
-- Pershyi (1080p) [Geo-blocked]
-- Samay Kolkata (1080p)
-- Suspilne. Krym (1080p) [Geo-blocked]
-- Suspilne. Kultura (1080p) [Geo-blocked]
-- WLII-DT1 [Not 24/7]
+- 92 News 
+- Aaj News 
+- Ary Digital 
+- Ary News 
+- Ary QTV 
+- Geo News 
+- Geo TV 
+- Star Plus 
+- Ten Cricket 
+- Ten Sports 
+- Zee Cinema 
 
 ### Channels Removed
-- CCTV-14 (2160p)
-- Samay Kolkata (720p)
+-  ARY QTV
 
 ### Channels Updated (Link Changed)
 - None
