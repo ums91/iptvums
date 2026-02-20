@@ -1,23 +1,36 @@
 import subprocess
 import os
+import json
 import datetime
 
 OUTPUT_FILE = "playlists/youtube-pakistan.m3u"
 GROUP_NAME = "Pakistan Live"
 
-def get_stream(url):
+def get_live_stream(url):
     try:
+        # Get JSON metadata
         result = subprocess.run(
-            ["yt-dlp", "-f", "best[protocol=m3u8]", "-g", url],
+            ["yt-dlp", "-J", url],
             capture_output=True,
             text=True,
-            timeout=60
+            timeout=90
         )
 
-        stream_url = result.stdout.strip()
+        if not result.stdout:
+            return None
 
-        if "googlevideo.com" in stream_url:
-            return stream_url
+        data = json.loads(result.stdout)
+
+        # If not live, skip
+        if data.get("is_live") is not True:
+            return None
+
+        # Extract HLS URL directly
+        formats = data.get("formats", [])
+
+        for f in formats:
+            if f.get("protocol") == "m3u8_native":
+                return f.get("url")
 
         return None
 
@@ -34,10 +47,10 @@ def extract_name(url):
 
 def main():
     playlist = "#EXTM3U\n"
-    added = set()
+    added = 0
 
     if not os.path.exists("channels.txt"):
-        print("channels.txt not found")
+        print("channels.txt missing")
         return
 
     with open("channels.txt", "r") as f:
@@ -45,13 +58,9 @@ def main():
 
     for url in channels:
         name = extract_name(url)
-
-        if name in added:
-            continue
-
         print(f"Checking: {name}")
 
-        stream = get_stream(url)
+        stream = get_live_stream(url)
 
         if stream:
             playlist += (
@@ -60,8 +69,8 @@ def main():
                 f'group-title="{GROUP_NAME}",{name}\n'
             )
             playlist += stream + "\n"
-            added.add(name)
             print(f"Added: {name}")
+            added += 1
         else:
             print(f"Offline: {name}")
 
@@ -70,7 +79,8 @@ def main():
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.write(playlist)
 
-    print("Playlist updated at:", datetime.datetime.utcnow())
+    print("Total added:", added)
+    print("Updated at:", datetime.datetime.utcnow())
 
 
 if __name__ == "__main__":
