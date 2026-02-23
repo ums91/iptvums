@@ -1,0 +1,5 @@
+#EXTM3U
+#EXTINF:-1 group-title="Pakistan | Islamic",ARY QTV
+https://aryqtv.aryzap.com/05ff0ab455b9f744a5eea705b5005840/699d6677/v1/0183ea2a0eec0b8ed5941a38bc76/0183ea2a4e470b8ed5aa4d793457/main.m3u8|Referer=https://live.aryqtv.tv/&Origin=https://live.aryqtv.tv
+#EXTINF:-1 group-title="Pakistan | News",ARY News
+https://arynewsm.aryzap.com/v1/0183ef4f7c260b8ed5941a38bc84/0183ef4fadde0b8ed5941a38bc87/main.m3u8|Referer=https://live.arynews.tv/&Origin=https://live.arynews.tv
