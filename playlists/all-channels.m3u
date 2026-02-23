@@ -2302,8 +2302,8 @@ http://localhost:5001/live/3469.m3u8
 http://localhost:5001/live/3470.m3u8
 #EXTINF:-1 tvg-id="3471" tvg-name="Punjabi Shorts" tvg-logo="http://localhost:5001/jtvimage/PunjabiShorts.png" tvg-language="Punjabi" tvg-type="Movies" group-title="Movies", Punjabi Shorts
 http://localhost:5001/live/3471.m3u8
-#EXTINF:3,Ary News 
-http://ams2.jadoo.tv/ECpull/arynews.stream/playlist.m3u8 
+#EXTINF:-1 group-title="Pakistan | Islamic",ARY QTV
+https://dawn-frost-1006.ensiferum930.workers.dev/aryqtv.m3u8
 
 # === MANUAL CHANNELS (PRESERVED) END ===
 

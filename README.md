@@ -2,20 +2,13 @@
 
 ## 📡 Auto Playlist Update Overview
 
-Last Updated: 2026-02-23 08:12 UTC
+Last Updated: 2026-02-23 09:41 UTC
 
 ### Channels Added
-- Alterna TV (720p) [Not 24/7]
-- Canal+ en clair (720p) [Geo-blocked]
-- Jaya Plus (576p)
-- KUVN-DT1
-- Sana Tv
-- Sportdigital FUSSBALL HD (1080p)
-- TVP Sport (1080p)
+- ARY QTV
 
 ### Channels Removed
-- Alterna TV (720p)
-- Sana TV (1080p) [Not 24/7]
+- Ary News 
 
 ### Channels Updated (Link Changed)
 - None
