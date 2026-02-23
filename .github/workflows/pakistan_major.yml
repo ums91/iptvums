@@ -1,0 +1,25 @@
+name: Build Pakistan Major IPTV (Manual)
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install yt-dlp
+        run: pip install yt-dlp
+
+      - name: Run builder
+        run: python scripts/build_pakistan_major.py
+
+      - name: Commit playlist
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add playlists/pakistan_major.m3u
+          git diff --quiet && git diff --staged --quiet || git commit -m "Manual Pakistan major update"
+          git push
