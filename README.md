@@ -2,392 +2,58 @@
 
 ## 📡 Auto Playlist Update Overview
 
-Last Updated: 2026-02-24 09:46 UTC
+Last Updated: 2026-02-25 04:57 UTC
 
 ### Channels Added
-- 24 Horas Internacional [Geo-Blocked]
-- 3sat HD (1080p) [Geo-Blocked]
-- 6ter (1080p) [Geo-blocked] [Geo-Blocked]
-- AB1 [Geo-Blocked]
-- AB3 HD [Geo-Blocked]
-- ABC 15 Phoenix AZ (KNXV) (720p)
-- ABC 23 Bakersfield CA (KERO) (720p)
-- ABC 27 Tallahassee FL (WTXL) (720p)
-- ABC News Live
-- ARD-alpha HD [Geo-Blocked]
-- ATV2 HD [Geo-Blocked]
-- Al Jazeera English [Geo-Blocked]
-- Al Maghribia [Geo-Blocked]
-- Al Masriyah [Geo-Blocked]
-- Animaux [Geo-Blocked]
-- Aragon TV (720p) [Geo-Blocked]
-- Atrescine (1080p)
-- BBC Four/CBeebies (1080p) [Geo-Blocked]
-- BBC News Europe [Geo-Blocked]
-- BBC Three/CBBC (1080p) [Geo-Blocked]
-- BBC Two HD (1080p) [Geo-Blocked]
-- BFM Business [Geo-Blocked]
-- BFM TV [Geo-Blocked]
-- BNT 4 [Geo-Blocked]
-- BR Fernsehen Sud (1080p) [Geo-Blocked]
-- BVN [Geo-Blocked]
-- Bloomberg TV Europe [Geo-Blocked]
-- Blue Zoom F (720p) [Geo-Blocked]
-- C Star (720p) [Geo-Blocked]
-- CBS 3 Omaha NE (KMTV) (720p)
-- CNBC Europe HD (1080p) [Geo-Blocked]
-- CNews (1080p) [Geo-Blocked]
-- Canal 5 TV Chepes
-- Canal 9 Televida
-- Canal J HD [Geo-Blocked]
-- Canal+ en clair (720p) [Geo-blocked] [Geo-Blocked]
-- Canale 5 HD [Geo-Blocked]
-- Carac 5 (1080p) [Geo-Blocked]
-- Carac 5 SD [Geo-Blocked]
-- Cars.TV
-- Channel 4 UK HD (1080p) [Geo-Blocked]
-- Channel 5 HD (1080p) [Geo-Blocked]
-- Citytv Bogota
-- Comedy Central HD (1080p) [Geo-Blocked]
-- DM Sat [Geo-Blocked]
-- Das Erste (720p) [Geo-Blocked]
-- Deluxe Music [Geo-Blocked]
-- Disney Channel (576p) [Geo-Blocked]
-- DraftKings Network
-- Duna (720p) [Geo-Blocked]
-- ESPN 8: The Ocho
-- Euro D (1080p) [Geo-Blocked]
-- Euronews French HD [Geo-Blocked]
-- Film4 HD (1080p) [Geo-Blocked]
-- France 2 HD (720p) [Geo-Blocked]
-- France 24 [Geo-Blocked]
-- France 3 HD (720p) [Geo-Blocked]
-- France 4 HD (720p) [Geo-Blocked]
-- France 5 HD (720p) [Geo-Blocked]
-- Franceinfo [Geo-Blocked]
-- Golf Channel Latin America
-- Gulli (720p) [Geo-Blocked]
-- ITV2 [Geo-Blocked]
-- ITV3 (1080p) [Geo-Blocked]
-- ITV4 (1080p) [Geo-Blocked]
-- Italia 1 HD [Geo-Blocked]
-- Justice Central TV
-- KSHB-DT1 (720p)
-- KTO [Geo-Blocked]
-- KiKA HD [Geo-Blocked]
-- L'Equipe (1080p) [Geo-Blocked]
-- LA7 HD [Geo-Blocked]
-- LCI HD [Geo-Blocked]
-- LCP [Geo-Blocked]
-- La7 Cinema (720p) [Geo-Blocked]
-- Lotus Macau HD (1080p)
-- Léman Bleu (1080p)
-- M6 [Geo-blocked] [Geo-Blocked]
-- MDR Fernsehen Thuringen [Geo-Blocked]
-- MNB (576p)
-- MNB World (576p)
-- MNB Монголын Мэдээ (576p)
-- MTV (1080p) [Geo-Blocked]
-- Mezzo (1080p) [Geo-Blocked]
-- More4 HD [Geo-Blocked]
-- NBC 26 Green Bay WI (WGBA) (720p)
-- NBC 6 Santa Barbara CA (KSBY) (720p)
-- NDR Fernsehen [Geo-Blocked]
-- NHK World-Japan HD [Geo-Blocked]
-- NOVO19 (720p) [Geo-Blocked]
-- NRTV [Geo-Blocked]
-- Nick/Comedy Central +1 HD (1080p) [Geo-Blocked]
-- Nitro HD (1080p) [Geo-Blocked]
-- ORF 1 HD
-- ORF 2 Tirol HD (720p) [Geo-Blocked]
-- One HD (1080p) [Geo-Blocked]
-- Paramount Channel (1080p) [Geo-Blocked]
-- Pasiones
-- Planete+ (1080p) [Geo-Blocked]
-- RMC Decouverte (1080p) [Geo-Blocked]
-- RMC Life [Geo-Blocked]
-- RMC Story (1080p) [Geo-Blocked]
-- RSI La 1 (720p) [Geo-Blocked]
-- RSI La 2 (720p) [Geo-Blocked]
-- RTK 1 [Geo-Blocked]
-- RTL Super [Geo-Blocked]
-- RTL Zwei HD (1080p) [Geo-Blocked]
-- RTL [Geo-Blocked]
-- RTL9 [Geo-Blocked]
-- RTS 1 (1080p) [Geo-Blocked]
-- RTS 2 (1080p) [Geo-Blocked]
-- RTS Svet HD (720p) [Geo-Blocked]
-- Rai 1 HD (720p) [Geo-Blocked]
-- Rai 2 HD [Geo-Blocked]
-- Rai 3 HD [Geo-Blocked]
-- Rai Gulp HD [Geo-Blocked]
-- Rai News 24 HD [Geo-Blocked]
-- Rai Scuola HD [Geo-Blocked]
-- Rai Sport HD [Geo-Blocked]
-- Rai Storia HD [Geo-Blocked]
-- RecordTV
-- Rete 4 HD [Geo-Blocked]
-- RiC [Geo-Blocked]
-- SRF 1 (1080p) [Geo-Blocked]
-- SRF info HD (1080p) [Geo-Blocked]
-- SRF zwei (1080p) [Geo-Blocked]
-- SWR Fernsehen Baden-Wurttemberg [Geo-Blocked]
-- Scripps News (1080p)
-- ServusTV HD [Geo-Blocked]
-- Star TV [Geo-Blocked]
-- T18 [Geo-Blocked]
-- TF1 HD (720p) [Geo-Blocked]
-- TF1 Series Films (1080p) [Geo-Blocked]
-- TFX (1080p) [Geo-Blocked]
-- TMC HD (1080p) [Geo-Blocked]
-- TRT Turk [Geo-Blocked]
-- TV 24 (1080p) [Geo-Blocked]
-- TV2 [Geo-Blocked]
-- TV5Monde France Belgium Switzerland Monaco HD [Geo-Blocked]
-- TVC News (576p) [Geo-Blocked]
-- TVCG MNE (720p) [Geo-Blocked]
-- TVE Internacional Europe-Asia [Geo-Blocked]
-- TVP Polonia [Geo-Blocked]
-- TVR International [Geo-Blocked]
-- TeleBarn (1080p) [Geo-Blocked]
-- TeleBielingue (1080p) [Geo-Blocked]
-- Trek HD (1080p) [Geo-Blocked]
-- Ultimate TV (576p)
-- VOX (576p) [Geo-blocked] [Geo-Blocked]
-- W9 [Geo-blocked] [Geo-Blocked]
-- WDR Fernsehen (1080p) [Geo-Blocked]
-- WELT (1080p) [Geo-Blocked]
-- WSCV-DT1
-- WXXA-DT3
-- ZDF HD (720p) [Geo-Blocked]
-- ZDFinfo HD (720p) [Geo-Blocked]
-- ZDFneo HD (720p) [Geo-Blocked]
-- arte HD (1080p) [Geo-Blocked]
-- n-tv (1080p) [Geo-Blocked]
-- phoenix [Geo-Blocked]
-- rbb Fernsehen [Geo-Blocked]
+- &flix HD (1080p)
+- BestClasicosTV (720p) [Not 24/7]
+- CNT Mas TV (720p) [Not 24/7]
+- Canal 79 Mar del Plata
+- Colors Bangla HD (1080p)
+- Crime + Investigation Polsat (1080p)
+- DTR Music 1 (720p)
+- DTR Zona 1 (720p)
+- DTR Zona 2 (720p)
+- India Today (720p) [Geo-blocked]
+- Junior Technologia TV (1080p) [Not 24/7]
+- National Geographic HD (1080p)
+- National Geographic Wild HD (1080p)
+- ORF Sport+ HD (720p)
+- Puls 4 (576p)
+- Rai Gulp (576p)
+- Rai Premium (576p) [Geo-blocked]
+- Rai YoYo (576p) [Geo-blocked]
+- Retrox TV (720p) [Not 24/7]
+- Sony Max 2 (576p)
+- Star Bharat (576p)
+- Star Gold Romance (576p)
+- Star Movies HD (1080p)
+- Star Movies Select HD (1080p)
+- Star Sports Select 1 HD (1080p)
+- Star Sports Select 2 HD (1080p)
+- TVP HD (1080p)
+- Unitel Santa Cruz (720p) [Not 24/7]
+- W9 [Geo-Blocked]
+- WNBC-DT1
 
 ### Channels Removed
-- 23 ABC Bakersfield CA (KERO) (720p)
-- 24 Horas Internacional
-- 3sat HD (1080p)
-- 6ter (1080p) [Geo-blocked]
-- AB1
-- AB3 HD
-- ABC 15 Phoenix AZ (KNXV-TV) (720p)
-- ABC 30 Fresno and Central Valley News (KFSN-DT1) (720p)
-- ABC 7 Bay Area and San Francisco News (KGO-DT1) (720p)
-- ABC 7 Los Angeles CA (KABC-TV) (720p)
-- ABC News (720p)
-- ABC Tallahassee (720p) [Not 24/7]
-- ARD-alpha HD
-- ATV2 HD
-- Al Jazeera English (1080p)
-- Al Maghribia
-- Al Masriyah
-- Animaux
-- Aragon TV (720p)
-- AsianBox (720p)
-- Auto TV (720p)
-- BBC Earth Asia (720p)
-- BBC Four/CBeebies (1080p)
-- BBC Lifestyle Asia (720p)
-- BBC News Asia Pacific (1080p)
-- BBC News Europe
-- BBC Three/CBBC (1080p)
-- BBC Two HD (1080p)
-- BFM Business (576p)
-- BFM TV (576p)
-- BNT 4
-- BR Fernsehen Sud (1080p)
-- BVN
-- Bloomberg TV Europe (720p)
-- Bloomberg TV Mongolia HD (720p)
-- Blue Zoom F (720p)
-- C Star (720p)
-- C1 (720p)
-- CBLTDT CBC (Toronto ON)
-- CBMTDT CBC (Montreal QC)
-- CBS 3 Omaha NE (KMTV-TV) (720p)
-- CBeebies Asia (720p)
-- CFTODT CTV (Toronto ON)
-- CITYDT Citytv (Toronto ON)
-- CITYDT Citytv (Vancouver BC)
-- CNBC Europe HD (1080p)
-- CNBC MGL (720p)
-- CNews (1080p) [Geo-blocked]
-- CTV News Channel
-- Canal J HD
-- Canal+ en clair (720p) [Geo-blocked]
-- Canale 5 HD
-- Carac 5 (1080p)
-- Carac 5 SD
-- Central TV (720p)
-- Channel 11 (720p)
-- Channel 4 UK HD (1080p)
-- Channel 5 HD (1080p)
-- Comedy Central HD (1080p)
-- DM Sat
-- Das Erste (1080p)
-- Deluxe Music (720p)
-- Dream TV (720p)
-- Duna (720p)
-- Eagle News HD (720p)
-- Education (1080p)
-- Euro D (1080p)
-- Euronews French HD
-- Film4 HD (1080p)
-- France 2 HD (720p)
-- France 24
-- France 3 HD (720p)
-- France 4 HD (720p)
-- France 5 HD (720p)
-- Franceinfo
-- Gandan TV (720p)
-- Global TV
-- Gulli (720p)
-- ITV2
-- ITV3 (1080p)
-- ITV4 (1080p)
-- Italia 1 HD
-- KSBY News San Louis Obispo CA (720p)
-- KSHB 41 (Kansas City MO) (720p)
-- KTO (404p) [Not 24/7]
-- KTRK TV ABC 13 News (720p)
-- KiKA HD
-- L'Equipe (1080p)
-- LA7 HD
-- LCI HD
-- LCP
-- La7 Cinema (720p)
-- Leman Bleu (1080p)
-- Lotus Macau HD (1080p) [Not 24/7]
-- M6 [Geo-blocked]
-- MDR Fernsehen Thuringen
-- MN25 (1080p)
-- MNB (1080p)
-- MNB World (1080p)
-- MNB Гэр бүл (1080p) [Not 24/7]
-- MNB Монголын Мэдээ (1080p)
-- MNC (720p)
-- Malchin TV (720p)
-- Mezzo (1080p)
-- More4 HD
-- MovieBox (720p)
-- NBC 26 Green Bay WI (WGBA-DT1) (720p)
-- NDR Fernsehen
-- NHK World-Japan HD (1080p) [Geo-blocked]
-- NOVO19 (720p)
-- NRTV
-- NTV (1080p)
-- Nick/Comedy Central +1 HD (1080p)
-- Nitro HD (1080p)
-- ONTV (720p)
-- ORF 1 HD (720p)
-- ORF 2 Tirol HD (720p)
-- One HD (1080p)
-- Paramount Channel (1080p)
-- Parliament TV (720p)
-- Phoenix (720p) [Geo-blocked]
-- Planete+ (1080p)
-- Popcorn (720p)
-- Premier Sports 1 (720p) [Geo-blocked]
-- Premier Sports 2
-- Premier Sports 2 (720p) [Geo-blocked]
-- Premier Sports 3 (720p) [Geo-blocked]
-- Premier Sports 4 (720p) [Geo-blocked]
-- Premier Sports 5 (720p) [Geo-blocked]
-- RMC Decouverte (1080p)
-- RMC Life
-- RMC Story (1080p)
-- RSI La 1 (720p)
-- RSI La 2 (720p)
-- RTK 1
-- RTL
-- RTL Super
-- RTL Zwei HD (1080p)
-- RTL9
-- RTS 1 (1080p)
-- RTS 2 (1080p)
-- RTS Svet HD (720p)
-- Rai 1 HD (720p)
-- Rai 2 HD
-- Rai 3 (720p) [Not 24/7]
-- Rai Gulp HD
-- Rai News 24 HD
-- Rai Scuola HD
-- Rai Sport HD
-- Rai Storia HD
-- Record
-- Rete 4 HD
-- RiC (1080p)
-- SBN (720p)
-- SRF 1 (1080p)
-- SRF info HD (1080p)
-- SRF zwei (1080p)
-- STS Love (576i)
-- SWR Fernsehen Baden-Wurttemberg
-- Scripps News (720p)
-- ServusTV HD
-- Seven Channel (480p)
-- Star TV
-- Star TV (1080p)
-- Suld TV (720p)
-- T18 (1080p)
-- TF1 HD (720p)
-- TF1 Series Films (1080p)
-- TFX (1080p)
-- TMC HD (1080p)
-- TRT Turk
-- TV 24 (1080p)
-- TV 4
-- TV2
-- TV5Monde France Belgium Switzerland Monaco HD
-- TV7 (720p)
-- TV8 (720p)
-- TV9 (720p)
-- TVC News (576p)
-- TVCG MNE (1080p)
-- TVE Internacional Europe-Asia (576p) [Geo-blocked]
-- TVP Polonia (1080p)
-- TVR International
-- TeleBarn (1080p)
-- TeleBielingue (1080p)
-- TenGer TV (720p)
-- Trek HD (1080p)
-- UBS (1080p)
-- VOX (576p) [Geo-blocked]
-- W9 [Geo-blocked]
-- WDR Fernsehen (1080p)
-- WELT (1080p)
-- WLS ABC 7 News (Chicago IL) (720p)
-- WPVI ABC 6 News (Philadelphia PA) (720p)
-- WTVD ABC 11 News (Raleigh-Durham NC) (720p)
-- ZDF HD (720p)
-- ZDFinfo HD (720p)
-- ZDFneo HD (720p)
-- arte HD (1080p)
-- n-tv (1080p)
-- rbb Fernsehen
-- Время
-- Домашний International
-- Карусель International
-- Мир (1080p) [Not 24/7]
-- Перец International
-- Победа
-- Пятница! International
-- РЕН ТВ International
-- СТС International
-- Соён Гэгээрүүлэгч (720p)
-- ТНТ International
-- ТНТ4 International
-- Телекафе
-- Хөгжим (720p)
-- Өлзий ТВ (720p)
+- BestClasicosTV (576p) [Not 24/7]
+- Colors Bangla HD (720p)
+- India Today (720p) [Not 24/7]
+- RAI Italia Asia (576p)
+- Rai Gulp (1080p)
+- Rai Premium (1080p)
+- Rai Yoyo (1080p)
+- Retrox TV (576p) [Not 24/7]
+- SONY PAL (576p)
+- Unitel Santa Cruz
+- W9 [Geo-blocked] [Geo-Blocked]
+- WNBC-DT1 (720p) [Not 24/7]
 
 ### Channels Updated (Link Changed)
-- Comedy TV
-- ETV (720p)
-- MNB Sport (1080p)
-- MTV (1080p)
-- TD Ameritrade Network (1080p)
+- Anmol Cinema (576p)
+- Disney Channel
+- Sistesur Canal 49 (1080p) [Not 24/7]
+- Star Vijay HD (360p)
+- TV 10 San Juan (720p) [Not 24/7]
+- Zee Tamil HD (360p)
