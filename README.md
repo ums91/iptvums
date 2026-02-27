@@ -2,58 +2,1622 @@
 
 ## 📡 Auto Playlist Update Overview
 
-Last Updated: 2026-02-25 04:57 UTC
+Last Updated: 2026-02-27 13:44 UTC
 
 ### Channels Added
-- &flix HD (1080p)
-- BestClasicosTV (720p) [Not 24/7]
-- CNT Mas TV (720p) [Not 24/7]
-- Canal 79 Mar del Plata
-- Colors Bangla HD (1080p)
-- Crime + Investigation Polsat (1080p)
-- DTR Music 1 (720p)
-- DTR Zona 1 (720p)
-- DTR Zona 2 (720p)
-- India Today (720p) [Geo-blocked]
-- Junior Technologia TV (1080p) [Not 24/7]
-- National Geographic HD (1080p)
-- National Geographic Wild HD (1080p)
-- ORF Sport+ HD (720p)
-- Puls 4 (576p)
-- Rai Gulp (576p)
-- Rai Premium (576p) [Geo-blocked]
-- Rai YoYo (576p) [Geo-blocked]
-- Retrox TV (720p) [Not 24/7]
-- Sony Max 2 (576p)
-- Star Bharat (576p)
-- Star Gold Romance (576p)
-- Star Movies HD (1080p)
-- Star Movies Select HD (1080p)
-- Star Sports Select 1 HD (1080p)
-- Star Sports Select 2 HD (1080p)
-- TVP HD (1080p)
-- Unitel Santa Cruz (720p) [Not 24/7]
-- W9 [Geo-Blocked]
-- WNBC-DT1
+- ABC News Live (720p)
+- Americas Test Kitchen (720p)
+- Anger Management Channel (1080p)
+- Antiques Roadshow UK (1080p)
+- BBC Doctor Who Classic (1080p)
+- BUZZR (720p)
+- Bloomberg TV + (2160p)
+- BritBox Mysteries (1080p)
+- CBS News 24/7 (720p)
+- CGTN Arabic (1080p) [Not 24/7]
+- CGTN Español (1080p)
+- CGTN Français (1080p) [Not 24/7]
+- CGTN Русский (1080p)
+- CITV Channel
+- Cops (720p)
+- D Music (1280p) [Not 24/7]
+- Dog The Bounty Hunter [Geo-blocked] (1080p)
+- Dog the Bounty Hunter (1080p)
+- EAC News TV (720p)
+- EWTN Germany (720p)
+- Espreso TV
+- Euronews German (720p)
+- Fox Sports en Espanol (720p)
+- Game Show Central (720p)
+- Gordon Ramsay (720p)
+- MLB (720p) [Not 24/7]
+- MST3K (1080p)
+- Midsomer Murders (1080p)
+- Milenio Televisión (720p) [Not 24/7]
+- MovieSphere (720p)
+- Multimedios CDMX (720p) [Not 24/7]
+- News 12 New York (1080p)
+- Newsmax TV
+- ORF 1 (720p)
+- PGA Tour (720p)
+- Poker Go (1080p)
+- Polsat 2 (576p)
+- Rai 1 (576p) [Geo-blocked]
+- Real Madrid TV (1080p)
+- Régió TV (406p)
+- Swerve Combat (1080p)
+- TV Nové Zámky (486p) [Not 24/7]
+- TV Puls (1080p)
+- TVP Historia (720p)
+- The Bob Ross Channel (720p)
+- The Jamie Oliver Channel (720p) [Geo-blocked]
+- The Price Is Right: The Barker Era (1080p) [Geo-blocked]
+- This Old House (1080p)
+- Today All Day (1080p)
+- Willow Sports (1080p) [Geo-blocked]
+- Women's Sports Network (720p)
+- Yu-Gi-Oh! (1080p)
+- Zee Nung (1080p) [Geo-blocked]
+- ČT24 (1080p)
+- Настоящее Время
 
 ### Channels Removed
-- BestClasicosTV (576p) [Not 24/7]
-- Colors Bangla HD (720p)
-- India Today (720p) [Not 24/7]
-- RAI Italia Asia (576p)
-- Rai Gulp (1080p)
-- Rai Premium (1080p)
-- Rai Yoyo (1080p)
-- Retrox TV (576p) [Not 24/7]
-- SONY PAL (576p)
-- Unitel Santa Cruz
-- W9 [Geo-blocked] [Geo-Blocked]
-- WNBC-DT1 (720p) [Not 24/7]
+- 00s Replay
+- 16 Anni e Incinta
+- 21 Jump Street
+- 24/7 Gameshows
+- 2900 Happiness
+- 3point.dk
+- 48 Hours
+- 5 Cops
+- 5 Emergency Rescue
+- 5 Exploring Britain
+- 5 Trucking Hell
+- 5 on Pluto TV
+- 50 Cent Action
+- 60 Minutes
+- 70s Cinema
+- 7th Heaven
+- 80s Rewind
+- 90's Kids
+- 90210
+- 90s Kids TV 2
+- 90s Throwback
+- A Caçadora de Relíquias
+- A Feiticeira
+- A Haunting
+- A New Life in the Sun
+- A&E Crime 360
+- ABC News Live
+- ADN Noticias
+- ALLBLK Gems
+- ANIME x HIDIVE
+- APTN Beyond
+- AWSN
+- Acapulco Shore
+- Acapulco Shore Pluto TV
+- Actualidad 360
+- Acumuladores Obsessivos
+- Adjugé vendu !
+- Adrenalina Pura TV
+- Adult Animation
+- Affare Fatto
+- Aftershock
+- Afterwork TV
+- Al Jazeera (1080p)
+- Al Ritmo del Jaripeo
+- Al salir de clase
+- Alerta Cobra
+- Alerte Cobra
+- Alerte à Malibu
+- Alice Nevers
+- All Reality WE tv
+- All exclusive
+- Alle hassen Chris
+- Allociné
+- America's Funniest Home Videos
+- America's Next Top Model
+- America's Test Kitchen
+- America's Voice News
+- American Pickers
+- Ana y los 7
+- Ancient Aliens
+- Andromeda
+- Anger Management
+- Anthony Bourdain: Parts Unknown
+- Antiques Road Show UK
+- Antiques Road Trip
+- Antiques Roadshow UK
+- Archivos Extraterrestres
+- Archivos Forenses
+- Are We There Yet?
+- Are You The One?
+- Arthur
+- As Tartarugas Ninja
+- Assassination Classroom
+- Assombrações
+- Auction Hunters
+- Auf Achse
+- Aussie Drama Pop-Up
+- Australia's Next Top Model
+- Auto Motor Sport
+- Autostop per il cielo
+- Avatar
+- Avatar+
+- Avatar: A lenda de Aang
+- Avatar: La Leyenda de Aang
+- Awkward
+- Ax Men
+- Ax Men Die Holzfäller
+- Axel!
+- Azteca Deportes Network
+- Azteca Deportes Premium
+- Azteca Internacional
+- Azteca UNO -1 hora
+- BBC Drama
+- BBC Series
+- BBC Travel
+- BET
+- BET Cinema
+- BET Classics
+- BET Comedy Movies
+- BET Pluto TV
+- BET Throwbacks
+- BET Visionaries
+- BET x Tyler Perry Comedy
+- BET x Tyler Perry Drama
+- BET25 LIVE
+- BET25 Live+
+- BIG BROTHER CLASSIC
+- BM&C News
+- BUZZR
+- BVB-Frauen
+- Babyfirst
+- Bar Rescue
+- Barbie & Friends
+- Barney & Friends
+- Baywatch
+- Beach Day
+- Beauty and the Beast
+- Beavis and Butt-Head
+- Becker
+- Beelzebub
+- Bellator MMA
+- Best of Bobby Flay by Food Network
+- Best of Dr. Phil
+- Best of MTV
+- Best of Paradise Hotel: Finalveckan
+- Best of Paradise Hotel: Kyssar & kärlek
+- Best of Paradise Hotel: Pandoras Ask
+- Best of Paradise Hotel: Skolveckan
+- Best of The Drew Barrymore Show
+- Beverly Hillbillies
+- Beverly Hills 90210
+- Beyond Belief: Fact or Fiction
+- Beyond History
+- Beyond the Gates
+- Big Brother
+- Black Family Sitcoms
+- Black Ink Crew
+- Blaze Live
+- Bloodline Detectives
+- Blue Bloods
+- Blue Mountain State
+- Bob Esponja
+- Bob Esponja Calça Quadrada
+- Bob Esponja LATAM
+- Bob Esponja Pantalones Cuadrados
+- Bob l'éponge
+- Boligjakten
+- Boligkjøp i blinde
+- Boligkøb i blinde
+- Bonanza
+- Bondi Rescue
+- Born to Kill
+- Boruto: Naruto Next Generations
+- Breinholts
+- BritBox Mysteries
+- Britain's Next Top Model
+- British Screen Classics
+- Broad City
+- Bromas Gags Just for Laughs
+- Bronco
+- Brøndby TV
+- Burgerimies
+- Burning Love
+- Busted at the Border
+- Buying Blind Denmark
+- C'est pas sorcier
+- C4 en Alerta
+- CATFISH TV
+- CBC News
+- CBC News British Columbia
+- CBC News Toronto
+- CBS News
+- CBS News 24/7
+- CBS News Bay Area
+- CBS News Miami
+- CBS News Philadelphia
+- CBS News Texas
+- CBS Sports HQ
+- CBS en español
+- CC Pluto TV
+- CGTN Arabic
+- CGTN French
+- CGTN Russian
+- CGTN Spanish
+- CMT Equal Play
+- CSI
+- CSI en Español
+- CSI: Crime Scene Investigation
+- CSI: Miami
+- CSI: Miami en español
+- CSI: NY
+- CSI: NY en español
+- CT24
+- Cagney & Lacey
+- Call the Midwife
+- Camp Kulinaris
+- Canal 6 CDMX (720p)
+- Canal 6 CdMX
+- Canal Claro
+- Canal Claro (720p)
+- Captain Tsubasa
+- Car Chase
+- Carabinieri
+- Caroline in the City
+- Cash In The Attic
+- Casos de la Dra. Polo
+- Casualty 24/7
+- Catfish
+- Catfish: De största bedragarna
+- Catfish: De største bedrag
+- Catfish: OMG!
+- Cazador de Homicidas
+- Cazasubastas
+- Caçadores de Óvnis
+- Celeb Reality
+- Chaos City
+- Chaos on Cam
+- Chappelle's Show
+- Charlotte aux Fraises
+- Charmed: Jovens Bruxas
+- Charterfeber
+- Cheaters
+- Cheers
+- Cheers + Frasier
+- Chef vs Chef by Food Network
+- Cherif
+- Chip & Jo: Feels Like Home by Magnolia Network
+- Christmas 365
+- Christmas Movies
+- Cin Cin
+- Cine Adrenalina (720p)
+- Cine Amor
+- Cine Clásico
+- Cine Crimen
+- Cine Premiere (720p)
+- Cine Terror LATAM [Geo-blocked]
+- Cine aventura
+- Cine comedia
+- Cine en español
+- Cine terror
+- CineThriller
+- Cinema Poliziottesco
+- CinemaWorld (576p) [Geo-blocked]
+- Ciné 666 by Pluto TV
+- Ciné Action by Pluto TV
+- Ciné Catastrophe by Pluto TV
+- Ciné Horreur by Pluto TV
+- Ciné Romance by Pluto TV
+- Ciné Rétro by Pluto TV
+- Ciné Sci-Fi by Pluto TV
+- Ciné Thrillers by Pluto TV
+- Ciné Western by Pluto TV
+- Ciné by Pluto TV
+- Ciné d'Asie by Pluto TV
+- Ciudadanos por el mundo
+- Claro Sports 2
+- Claro Sports Mexico
+- Classic Movie Westerns
+- Classic Movies Channel
+- Classic TV Comedy
+- Classic TV Crime Drama
+- Classic TV Drama
+- Classic TV: Families
+- Classica
+- Clube do Terror
+- Cocoricó
+- Coeur Océan
+- Cold Case Files by A&E
+- Come Dine with Me
+- Comedia Made in Spain+
+- Comedia a lo bestia de Pluto TV
+- Comedy Central
+- Comedy Central Animation
+- Comedy Central Pluto TV
+- Comedy Central Roast
+- Comedy Central South Park
+- Comedy Central en español
+- Concert Channel
+- Conciertos por Stingray
+- Confess by Nosey
+- Construcciones Asombrosas
+- Cops
+- Corazón
+- Corner Gas
+- Crime & Justice
+- Crime 360
+- Crime Hunters
+- Crime Investigation
+- Crime Scene Solvers
+- Crime Time
+- Crime Up Close
+- Crimen
+- Crimen & Historia
+- Crimes That Shook Britain
+- Criminal Minds
+- Crunchyroll
+- Crímenes imperfectos
+- Curro Jiménez
+- Curzon Cinema
+- DAZN Darts x Pluto TV
+- DAZN Handball x Pluto TV
+- DAZN Heldinnen x Pluto TV
+- DAZN Ringside
+- DAZN TV
+- DCC: Making the Team
+- DFB Play TV
+- Dallas Cowboys Cheerleaders
+- Dance Moms
+- Daria
+- Dating Disasters
+- Deadly Women
+- Deal or no Deal
+- Death Note
+- Declassified
+- Degrassi
+- Degrassi VIDAA TEST
+- Delicious Eats by Food Network
+- Demand Drama
+- Den gode gerning
+- Den gule sofa med Allan Sindberg
+- Der Chef
+- Der Denver-Clan
+- Desafío Super Humanos
+- Desi Play TV
+- Det sene show med Christian Fuhlendorff
+- Detective Conan
+- Detetives Médicos
+- Diagnosis Murder
+- Diane femme flic
+- Die Nanny
+- Die Sieben-Millionen-Dollar-Frau
+- Die Thundermans
+- Die fliegenden Ärzte
+- Diff’rent Strokes Arnold
+- Digimon Adventure
+- Dinos 24/7
+- Ditzel & Turbomodul
+- Doc Martin
+- Doctor Who Classic
+- Documentary Channel
+- Dog The Bounty Hunter
+- Dog Whisperer
+- Dog Whisperer VIDAA TEST
+- Dog Whisperer with Cesar Millan
+- Dog el cazarrecompensas
+- Dog the Bounty Hunter
+- Dollars
+- Dominance FC TV
+- Don Matteo
+- Dora TV
+- Doraemon
+- Dossiers FBI
+- Dr. Quinn Medicine Woman
+- Dragon Ball
+- Dragon Ball Z
+- Dragon TV International (360p)
+- Drake & Josh
+- Duck Dynasty
+- Dulce by elGourmet
+- Duri a Morire
+- Duudsonit
+- Dyn Sport Mix
+- Dynastia
+- Dynastiet
+- Dynastin
+- Dynasty
+- EWTN
+- Earth: Final Conflict
+- Ebony TV Drama
+- Echappées Belles & Co
+- Efterlyst
+- Egg Network (720p)
+- Ein Engel auf Erden
+- Eine himmlische Familie
+- Eine schrecklich nette Familie
+- El Comisario
+- El Detective Endeavour
+- El Encantador de Perros
+- El Mueble
+- El Reino Infantil
+- El Rey Rebel
+- El encantador de perros
+- Embarrassing Bodies
+- Embrujadas
+- Empeños a lo bestia
+- En el punto de mira
+- Enquêtes Criminelles
+- Enquêtes de Choc
+- Ernest goes to Pluto TV
+- Escape to the Country
+- Espreso TV (1080p)
+- Estado Paranormal
+- Estrellas de Acción
+- Euronews Português
+- Eventyrlig Oppussing
+- Everybody Hates Chris
+- Evidence of Evil
+- Ex On The Beach
+- Explore TV
+- Extreme Makeover Home Edition
+- F.B.I. Files
+- F1 Channel
+- FBI Files
+- FBoy Island
+- FCK Løvinderne
+- FOX Deportes
+- FOX LOCAL Seattle
+- FOX Sports
+- FailArmy
+- FailArmy Spain
+- Faites entrer l'accusé
+- Familie Dr. Kleist
+- Familien fra Bryggen
+- Family Club
+- Family Feud
+- Family Ties
+- FanDuel TV Extra
+- Fangene på Fortet
+- Farmland TV
+- Farscape
+- Feel Good Drama
+- Filmelier TV
+- Filmes Suspense
+- Filmgold
+- Fixers and Flippers
+- Flashpoint
+- Flicks of Fury
+- Flipper
+- Fluss-Monster
+- Flynn Carson et The Outpost
+- For lækker til love
+- Forensic Files
+- Forever Kids
+- Forsidefruer
+- Frasier
+- Frasier VIDAA TEST
+- Frasier: Det bedste med Niles
+- Frasier: Nilesin parhaat
+- Frasier: tähtivieraat
+- Frasiers bedste gæstestjerner
+- Frasiers herlige højtider
+- Freaks and Geeks
+- Fresh Movies by VVS Films
+- From South Park with Love
+- Frusna Vägar
+- Full Custom Garage
+- Funny AF
+- Game Show Central
+- Gaming Central: League of Legends
+- Gaming Central: Shooters
+- Garfield and Friends
+- Geordie Shore
+- Germany Shore
+- Ghost Hunters
+- Gigolos
+- Girlfriends
+- Global News (1080p)
+- Global News National
+- Glory Kickboxing
+- Go Go Gadget!
+- GolfPass
+- Good Chef Bad Chef
+- Gordon Ramsay's Hell's Kitchen
+- Gormiti
+- Gunsmoke
+- Génération Sitcoms
+- Hallmark Movies & More
+- Happy Days
+- Hardcore Pawn
+- HauntTV
+- Hausmeister Krause
+- Have You Been Paying Attention?
+- Hawaii Five-O
+- Heartland
+- Heartland VIDAA TEST
+- Hechiceras
+- Hechizada
+- Heidi
+- Hell's Kitchen
+- Hells Kitchen
+- Hercules: The Legendary Journeys
+- Hey Arnold!
+- Highway to Heaven
+- Historia y Vida
+- Historias de Ultratumba
+- Hit Sitcoms
+- Hoarders & Dirty Home Rescue
+- Hogan's Heroes
+- Home Cooking by Food Network
+- Home.Made.Nation
+- Homicide
+- Homicide Hunter
+- Horror Club
+- Horse & Country
+- Hot Bench
+- Hot Ones
+- House of Lies
+- How To Use Pluto TV
+- Hundehviskeren
+- Hunter
+- Hunter x Hunter
+- Huvila & Huussi
+- Hélène et les garçons
+- Högspänning
+- I Love Lucy
+- I Puffi
+- I Survived
+- I soliti idioti
+- INA 70
+- ION
+- IS esittää: Sain sen videolle
+- Ice Pilots
+- Ice Pilots VIDAA TEST
+- Ice Road Truckers
+- Icons Unearthed+
+- Ihmemies MacGyver
+- Il Banco dei Pugni
+- Il Testimone
+- Imagen TV+
+- Inazuma Eleven
+- Income Property
+- Incroyables Transformations
+- Ink Master
+- Inspector Gadget
+- Inspetor Bugiganga
+- Instant Saga
+- Inuyasha
+- Investiga
+- Investigation by Pluto TV
+- Iron Chef
+- Ironside
+- JAG
+- Jackie Chan Adventures
+- Jade Fever
+- Jakt är Jakt
+- Jersey Shore
+- Jersey Shore Family Vacation
+- JoJo’s Bizarre Adventure
+- Jornada nas Estrelas A Nova Geração
+- Jornada nas Estrelas Deep Space Nine
+- Jornada nas Estrelas Voyager
+- Judge Judy
+- Just Tattoo of Us
+- Just for Laughs GAGS
+- Just.fishing
+- Juste pour Rire GAGS
+- K+ (Indonesian subtitle) (576p)
+- KIRO Seattle
+- Karaoke por Stingray
+- Kaverille ei jätetä
+- Kellarin Kunkku: appiukon parhaat
+- Kellarin kunkku
+- Kellarin kunkku: tien päällä
+- Kenan & Kel
+- Kenan y Kel
+- Ketonen & Myllyrinne
+- Key & Peele
+- Kickin'it
+- King of Queens
+- Kitchen Battles
+- Klovn
+- Koch'en på toppen
+- Koskinen
+- KultKrimi
+- KultKrimi: Der Alte
+- KultKrimi: Der Kommissar
+- KultKrimi: Derrick
+- KultKrimi: Die Rettungsflieger
+- KultKrimi: Ein Fall für zwei
+- KultKrimi: Küstenwache
+- Kultkrimi: Derrick
+- Kumman kaa
+- Kummeli esittää: Kontio & Parmas
+- Kungen Av Queens
+- Kungen av Queens: På vift
+- Kungen av Queens: Svärfar special
+- Kunnian miehet
+- Kvart i Bold
+- LCI (720p)
+- LEGO Kids TV
+- LOL Just For Laughs
+- La Familia del Barrio
+- La Selección
+- La fiebre del Jade
+- La maison France 5
+- Ladykracher
+- Lain nimessä
+- Langt fra Bryggen
+- Las Tortugas Ninja
+- Law & Order
+- Le Figaro TV
+- Le miracle de l'amour
+- Le sorelle McLeod
+- Leave it to Bryan
+- Lemmenlaiva
+- Les Années fac
+- Les Marseillais
+- Les Nouveaux Detectives
+- Les Reines du Shopping
+- Les Routes du Paradis
+- Les Schtroumpfs
+- Les Z'amours
+- Les filles d'à côté
+- Let's Make A Deal
+- Let's Make a deal
+- Liebe Sünde
+- Life & Legend of Wyatt Earp
+- Lifetime Movie Favorites
+- Little Angel's Playroom
+- Little Angel's Playroom en Español
+- Little Stars Universe
+- Live Music
+- Live PD Presents
+- Living With Evil
+- Location location location
+- Logo Pluto TV
+- Los Asesinatos de Midsomer
+- Los Padrinos Mágicos
+- Los Pitufos
+- Los archivos del FBI
+- Los caballeros del Zodiaco
+- Los misterios de Murdoch
+- Los nuevos detectives
+- Louis La Brocante
+- Love & Hip Hop
+- Love Boat
+- Love Island Danmark
+- Love Island UK
+- Love Island USA
+- Love Island: All Stars
+- Lucha Libre AAA
+- Luksusfellen
+- Luksusfellen Sverige
+- Luksusfælden
+- Lupin
+- Lyxfällan
+- Lyxfällan Danmark
+- Lyxfällan Norge
+- MLB
+- MODUS Super Series Darts
+- MOVIEDOME
+- MST3K
+- MTV Are You The One?
+- MTV Are you the One?
+- MTV Awkward
+- MTV Biggest Pop
+- MTV CLASSICS
+- MTV Catfish
+- MTV Catfish TV Show
+- MTV Classic
+- MTV Classics+
+- MTV Com o Ex
+- MTV Con Mi Ex
+- MTV Cribs+
+- MTV Dating
+- MTV Drag
+- MTV Embarazada a los 16
+- MTV Ex On The Beach
+- MTV Flow Latino
+- MTV Geordie Shore
+- MTV Geordies
+- MTV Jersey Shore
+- MTV Jerseys
+- MTV Jovens e Mães
+- MTV Just Tattoo of Us
+- MTV Originals
+- MTV Pluto TV
+- MTV Reality
+- MTV Retro
+- MTV Ridiculousness
+- MTV Rocks
+- MTV Shore
+- MTV Siesta Key
+- MTV Spankin' New
+- MTV Spankin’ New
+- MTV Tattoo a dos
+- MTV Teen Mom
+- MTV The Hills
+- MTV The Shores
+- MTV Vergüenza ajena
+- MTV en español
+- MacGyver
+- Mai dire sì
+- Mais MasterChef Brasil
+- Makkah TV (576p)
+- Man with a Plan
+- Mannen som talar med hundar
+- MasterChef
+- MasterChef Brasil Profissionais
+- MasterChef Danmarks største madtalenter
+- Matched Married Meet by Lifetime
+- Matlock
+- Mattel Junior
+- Max & Ruby
+- Mayday Air Disaster
+- Mayday: Catastrophe Aérienne
+- Mayday: Disastro Aereo
+- McLeods Töchter
+- McLeods døtre & Grantchester
+- Med kniven for struben
+- Mediano TV
+- Medical Detectives
+- Medical Emergency
+- Medium
+- Melrose Place
+- Melrose Place VIDAA TEST
+- Mentori
+- Merhaba Türkische Serien
+- Merlí
+- Merry Christmas from Viafree
+- Metal Rocks
+- Mi Bella Genio
+- Mi Coche Clásico
+- Mi Extraña Obsesión
+- Midsomer Murders
+- Milenio Television (720p)
+- Milenio Televisión
+- Million Dollar Listing
+- Minuto Para Ganar
+- Mission Impossible
+- Missions
+- Mister Rogers' Neighborhood
+- Misterios Medicos
+- Misterios sin Resolver
+- Misterios sin resolver
+- Mistérios sem Solução
+- Mit plastikmareridt
+- Modern Marvels
+- Modern Marvels by HISTORY
+- Moesha
+- Mona The Vampire
+- Monkey
+- Monstruos de Rio
+- Moranguinho
+- More Pluto TV Comedy
+- More TV Crime
+- More TV Drama
+- More TV Sci-fi
+- More TV Sitcoms
+- More True Crime
+- Most Haunted
+- Most Haunted: Unseen
+- Motorvision TV
+- MovieSphere by Lionsgate
+- Moviepilot TV mit Pluto TV
+- Movies for Gamers
+- Moviesphere
+- Murdertown
+- My Cinema (1080p)
+- My Cinema Asia (1080p) [Geo-blocked]
+- My Family Channel (1080p) [Geo-blocked]
+- My Kidz (1080p) [Geo-blocked]
+- Mystery TV
+- Más adrenalina
+- N24 Doku
+- NCIS
+- NCIS: Det bedste med Gibbs
+- NCIS: Det bedste med Tony & Ziva
+- NCIS: Gibbsin parhaat
+- NCIS: Los Angeles
+- NCIS: Tonyn ja Zivan parhaat
+- NFL Channel
+- NHK World-Japan (1080p)
+- NOW 70's
+- NZTV
+- NaDoo Commerce (1080p) [Geo-blocked]
+- NaDoo Korean (1080p) [Geo-blocked]
+- Naruto
+- Naruto Shippuden
+- Nash Bridges
+- Nashville
+- Nature Time
+- NatureTime
+- Naturescape
+- News 12 New York
+- Newsmax TV (720p)
+- Nick Jr Club
+- Nick Jr. Club
+- Nick Jr. Pluto TV
+- Nick Pluto TV
+- NickTeen
+- NickToons
+- NickToons 90s
+- Nickelodeon Classics
+- Nickelodeon Clásico
+- Nickelodeon Clássico
+- Nickelodeon Teen
+- Nickelodeon Toons
+- Nickelodeon en español
+- Nickelodeon iCarly
+- Ninja Warrior
+- No Reservations
+- NonStop Kung Fu
+- Nonstop Drama
+- Nordisk krim fra Viaplay
+- Northern Exposure
+- Nosey
+- Now 80's
+- Numb3rs
+- Numbers
+- Näin meillä
+- Näkijä
+- Números
+- O Encantador de Cães
+- O Homem que veio do Céu
+- O Reino Infantil
+- ONE Championship TV
+- ORF 1
+- ORF 2
+- OUTflix Movies
+- Obsesión por los Autos
+- Oggy e as Baratas Tontas
+- Olive & Tom
+- On The Case
+- On the Case
+- One Piece
+- One TV Asia (576p) [Geo-blocked]
+- Onnen päivät
+- Os Arquivos do FBI
+- Os Padrinhos Mágicos
+- Os Smurfs
+- Outback Truckers
+- OuterSphere
+- Oxygen True Crime Archives
+- P+ VLL
+- PBR RidePass
+- PGA TOUR
+- POP
+- Paavo Pesusieni
+- Pacific Blue
+- Paisajes por Stingray
+- Paradise
+- Paradise Hotel
+- Paradise Hotel: Under lagnerne
+- Paramount Movie Channel
+- Paramount Network de Pluto TV
+- Paramount+ Picks
+- Paranormal State
+- Pastewka
+- Pegadinhas Just for Laughs
+- Pensacola Flügel aus Stahl
+- Pensacola – Flügel aus Stahl
+- Peppa Pig
+- Perhe on paras
+- Perry Mason
+- Pickers & Pawn
+- Pimp My Ride
+- Pixel.tv
+- Plato del Dia by elGourmet
+- Plus Belle la Vie 2
+- Pluto Classic Movie Westerns
+- Pluto TV 2010's Classics
+- Pluto TV 80's Action
+- Pluto TV 90's Classics
+- Pluto TV A La Mexicana
+- Pluto TV Action
+- Pluto TV Action Movies
+- Pluto TV Action+
+- Pluto TV Adult Animation
+- Pluto TV Adventure
+- Pluto TV Alberto Sordi
+- Pluto TV Alien Invasion
+- Pluto TV Aliens
+- Pluto TV American True Crime
+- Pluto TV Animais
+- Pluto TV Animales
+- Pluto TV Animals
+- Pluto TV Animation
+- Pluto TV Animaux
+- Pluto TV Anime
+- Pluto TV Anime Ação
+- Pluto TV Anime Movies
+- Pluto TV Anime: Fantasy
+- Pluto TV Aventura
+- Pluto TV Aventure
+- Pluto TV Backcountry
+- Pluto TV Bang Bang
+- Pluto TV Brigade Criminelle
+- Pluto TV Britain at War
+- Pluto TV Britische Serien
+- Pluto TV British Comedy
+- Pluto TV Brittisk Crime & Drama
+- Pluto TV Bud & Terence
+- Pluto TV Buskis
+- Pluto TV Canal UOL
+- Pluto TV Cars
+- Pluto TV Catástrofes
+- Pluto TV Christmas tutto l'anno
+- Pluto TV Cine Accion
+- Pluto TV Cine Acción
+- Pluto TV Cine Clásico
+- Pluto TV Cine Clássicos
+- Pluto TV Cine Comedia
+- Pluto TV Cine Comédia
+- Pluto TV Cine Comédia Romântica
+- Pluto TV Cine Crime
+- Pluto TV Cine Crimen
+- Pluto TV Cine Drama
+- Pluto TV Cine Estelar
+- Pluto TV Cine Estelar Spain+
+- Pluto TV Cine Estelar+
+- Pluto TV Cine Familia
+- Pluto TV Cine Família
+- Pluto TV Cine Inspirador
+- Pluto TV Cine Inspiração
+- Pluto TV Cine Romance
+- Pluto TV Cine Romántico
+- Pluto TV Cine Sucessos
+- Pluto TV Cine Suspenso
+- Pluto TV Cine Terror
+- Pluto TV Cine de autor
+- Pluto TV Cinema Italiano
+- Pluto TV Cinema Orientale
+- Pluto TV Ciné+
+- Pluto TV Classic TV
+- Pluto TV Classic TV FR
+- Pluto TV Classic TV Families
+- Pluto TV Classic TV Variety
+- Pluto TV Cocina
+- Pluto TV Comedia made in Spain
+- Pluto TV Comedias Románticas
+- Pluto TV Comedy
+- Pluto TV Comedy Movies
+- Pluto TV Competencias
+- Pluto TV Competition
+- Pluto TV Comédie
+- Pluto TV Comédies Cultes
+- Pluto TV Conspiracy
+- Pluto TV Cozinha
+- Pluto TV Criaturas Malditas
+- Pluto TV Crime
+- Pluto TV Crime Drama
+- Pluto TV Crime Movies
+- Pluto TV Crime+
+- Pluto TV Cucina
+- Pluto TV Cuisine
+- Pluto TV Cult Films
+- Pluto TV Curiosidade
+- Pluto TV Danske klassikere
+- Pluto TV Darts
+- Pluto TV Dating
+- Pluto TV Deportes
+- Pluto TV Desenhos Clássicos
+- Pluto TV Deutsche Comedy
+- Pluto TV Diseño
+- Pluto TV Dive Italiane
+- Pluto TV Documentales
+- Pluto TV Documentari
+- Pluto TV Dokkarit
+- Pluto TV Dokumentar
+- Pluto TV Dokumentär
+- Pluto TV Drama
+- Pluto TV Drama Movies
+- Pluto TV Dramas Coreanos
+- Pluto TV Dramas Coreanos Teen
+- Pluto TV E-Sports
+- Pluto TV Emmanuelle Filme
+- Pluto TV Eros
+- Pluto TV Esportes
+- Pluto TV Estilo de Vida
+- Pluto TV Estrellas de Accion
+- Pluto TV Europäische Krimis
+- Pluto TV Explore
+- Pluto TV FBI
+- Pluto TV Family Movie Club
+- Pluto TV Fantastic
+- Pluto TV Fantasy & Horror
+- Pluto TV Femme Fatale
+- Pluto TV Ferne Galaxien
+- Pluto TV Ficção Científica
+- Pluto TV Film
+- Pluto TV Film Azione
+- Pluto TV Film Azione+
+- Pluto TV Film Commedia
+- Pluto TV Film Commedia+
+- Pluto TV Film Romantici
+- Pluto TV Film Romantici+
+- Pluto TV Film Storici
+- Pluto TV Film Thriller
+- Pluto TV Film+
+- Pluto TV Filmes Aventura
+- Pluto TV Filmes Ação
+- Pluto TV Filmes Nacionais
+- Pluto TV Filmes de Luta
+- Pluto TV Fishing
+- Pluto TV Food
+- Pluto TV Forever Kids
+- Pluto TV French Collection
+- Pluto TV Game Shows
+- Pluto TV Gaming por Ubisoft
+- Pluto TV Gasolina
+- Pluto TV Gore & Slasher
+- Pluto TV Handboll Highlights
+- Pluto TV Handboll Live
+- Pluto TV Harlequin
+- Pluto TV Heiße Nächte Retro
+- Pluto TV Hibernation Movies
+- Pluto TV Histoire
+- Pluto TV Historia
+- Pluto TV Historische Serien
+- Pluto TV History
+- Pluto TV História
+- Pluto TV Horror
+- Pluto TV Horror-Serien
+- Pluto TV Humor
+- Pluto TV Håndbold Highlights
+- Pluto TV Håndbold Live
+- Pluto TV Icons
+- Pluto TV Impacto
+- Pluto TV In Love
+- Pluto TV Inside
+- Pluto TV Inside+
+- Pluto TV Invasión Alien
+- Pluto TV Investiga
+- Pluto TV Investigation
+- Pluto TV Investigação
+- Pluto TV John Wayne
+- Pluto TV Junior
+- Pluto TV Juniorikerho
+- Pluto TV Juniorklubben
+- Pluto TV K-Drama
+- Pluto TV KFOOD
+- Pluto TV Karaokê por Stingray
+- Pluto TV Kauhu
+- Pluto TV Kids
+- Pluto TV Kids Classics
+- Pluto TV Kids Club
+- Pluto TV Klassiske tegnefilm
+- Pluto TV Klassiske tegnefilmer
+- Pluto TV Knallhart
+- Pluto TV Komedi
+- Pluto TV Komedia
+- Pluto TV Komedie
+- Pluto TV Kult Comedies
+- Pluto TV Kultfilm
+- Pluto TV Kultfilme
+- Pluto TV Kultfilmer
+- Pluto TV Kulttileffat
+- Pluto TV Leffat
+- Pluto TV Legami Letali
+- Pluto TV Lives
+- Pluto TV Love Stories
+- Pluto TV Maailmansodat
+- Pluto TV Mi Obsesión Favorita
+- Pluto TV Military
+- Pluto TV Minha Obsessão Favorita
+- Pluto TV Misterios
+- Pluto TV Mistérios
+- Pluto TV Motor
+- Pluto TV Motor+
+- Pluto TV Movies
+- Pluto TV Mystery
+- Pluto TV Natura
+- Pluto TV Naturaleza
+- Pluto TV Nature
+- Pluto TV Natureza
+- Pluto TV Negócio Fechado
+- Pluto TV Netmovies
+- Pluto TV Nordic Crime
+- Pluto TV Notti di Crimine
+- Pluto TV Notti di Passione
+- Pluto TV Notti di Sangue
+- Pluto TV Notti di Terrore
+- Pluto TV Novelas
+- Pluto TV Novelas de México
+- Pluto TV Novelas de Otros Continentes
+- Pluto TV Novelas de Venezuela
+- Pluto TV Nuestro Cine
+- Pluto TV Overnaturlig
+- Pluto TV Paisagens por Stingray
+- Pluto TV Paranormaali
+- Pluto TV Paranormal
+- Pluto TV Paranormal+
+- Pluto TV Peleas
+- Pluto TV PetrolHeads
+- Pluto TV Polar
+- Pluto TV Polar+
+- Pluto TV Policial
+- Pluto TV Polizeiserien
+- Pluto TV Popkultur
+- Pluto TV Psycho
+- Pluto TV Reaction
+- Pluto TV Real Life
+- Pluto TV Real Life+
+- Pluto TV Reality
+- Pluto TV Record News
+- Pluto TV Reportagen
+- Pluto TV Retro Crime Drama
+- Pluto TV Retro Kid
+- Pluto TV Retro Toons
+- Pluto TV Retrô
+- Pluto TV Romance
+- Pluto TV Romance+
+- Pluto TV Romantiikka
+- Pluto TV Romantik
+- Pluto TV Romantikk
+- Pluto TV Sanfte Berührungen
+- Pluto TV Scherzi e risate
+- Pluto TV Sci-Fi
+- Pluto TV Sci-fi
+- Pluto TV Sci-fi Series
+- Pluto TV Science
+- Pluto TV Serie
+- Pluto TV Serie Crime
+- Pluto TV Serie Sci-Fi
+- Pluto TV Serie+
+- Pluto TV Series
+- Pluto TV Series Latinas
+- Pluto TV Series Retro
+- Pluto TV Series Sci-Fi
+- Pluto TV Series criminales
+- Pluto TV Series de Acción
+- Pluto TV Series de Comedia
+- Pluto TV Series de Crimen
+- Pluto TV Series de Drama
+- Pluto TV Series de Otros Continentes
+- Pluto TV Series de Sci-Fi
+- Pluto TV Sharks
+- Pluto TV Sherlock
+- Pluto TV Shore
+- Pluto TV Shows por Stingray
+- Pluto TV Sitcoms
+- Pluto TV Sitcoms+
+- Pluto TV Snooker 900
+- Pluto TV Space
+- Pluto TV Sport
+- Pluto TV Spotlight
+- Pluto TV Staff Picks
+- Pluto TV Star Trek
+- Pluto TV Storia
+- Pluto TV Super Kids
+- Pluto TV Séries Ação
+- Pluto TV Séries Comédia
+- Pluto TV Séries Criminais
+- Pluto TV Séries Drama
+- Pluto TV Séries Fantastiques
+- Pluto TV Séries Novelescas
+- Pluto TV Séries Sci-Fi
+- Pluto TV Tecknade klassiker
+- Pluto TV Tecknat
+- Pluto TV Teen
+- Pluto TV Tegnefilm
+- Pluto TV Telenovelas
+- Pluto TV Telenovelas Clásicas
+- Pluto TV Terror
+- Pluto TV Terror Trash
+- Pluto TV Thriller
+- Pluto TV Thrillers
+- Pluto TV Thrillers Spain
+- Pluto TV Toiminta
+- Pluto TV Toimintasankarit
+- Pluto TV Toons
+- Pluto TV Totò
+- Pluto TV Trending Now
+- Pluto TV True Crime
+- Pluto TV Turbo
+- Pluto TV Ungdomsserier
+- Pluto TV Velocidad
+- Pluto TV Verdenskrigene
+- Pluto TV Viagens
+- Pluto TV Viaggi
+- Pluto TV Vida Real
+- Pluto TV Vintage
+- Pluto TV Världskrigen
+- Pluto TV Weddings
+- Pluto TV Western
+- Pluto TV Westerns
+- Pluto TV Wild West
+- Pluto TV Wildest Adventures
+- Pluto TV Zombies
+- Pluto TV heiße Nächte
+- PodRadio på Pluto TV
+- Poirot & Miss Marple
+- PokerGO
+- Pokémon
+- Poliisit
+- Popeye
+- Primeval
+- Prisoner: Cell Block H
+- ProSieben (1080p)
+- Profiling Paris
+- Project Runway
+- Pronto-socorro: Histórias De Emergência
+- Puberty Blues
+- Puto TV Classic TV Crime Drama
+- På Tur
+- Pêche à haut risque
+- QVC2
+- Qello Concerts
+- Quantum Leap
+- Qui veut gagner des millions?
+- RACER Brasil
+- RCN Noticias
+- RT News (1080p) [Geo-blocked]
+- Radio-Canada INFO
+- Rai 1 (720p)
+- Rauchende Colts
+- Rawhide
+- Rawhide Tausend Meilen Staub
+- Real Disaster Channel
+- Reality Awards
+- Realmadrid TV
+- Red Shoe Diaries
+- Regio TV
+- Relic Hunter
+- Renegade
+- Reno 911
+- Reno Duo
+- Reno Rehab
+- Retake E-sport Live
+- Revive Gran Hermano
+- Ridiculousness
+- Ridiculousness Nya avsnitt
+- Ridiculousness Nye afsnit
+- Ridiculousness Nye episoder
+- RiffTrax
+- RigTV
+- River Monsters
+- Robert Prisen
+- Robinson Ekspeditionen
+- RoboCop
+- Robot Wars by MECH+
+- Rock Channel
+- Romance 365
+- Romance Movies
+- Roni Back Top 10
+- Rookie Blue
+- Rookie Blue: Policías Novatos
+- Rugby Pass TV
+- Rugrats
+- Rules of Engagement
+- Runtime
+- Rustic Retreats
+- Ruutu Futis
+- Ruutu Pesis
+- S.W.A.T.
+- SFT Combat
+- SPIEGEL TV
+- SPIEGEL TV Konflikte
+- Sabrina The Teenage Witch
+- Sabrina Total verhext!
+- Sabrina teininoita
+- Sabrina the Teenage Witch
+- Sailor Moon
+- Sala de Emergencias: Historias Inéditas
+- Salem News Channel
+- Salon Line
+- Sams Bar
+- Sanctuary
+- Scare Tactics
+- Scorpion
+- Scripps News
+- Se og Hør – rød løber
+- Sea Patrol
+- Seasonal Movies
+- SensaCine TV x Pluto
+- Sensing Murder
+- Series by Pluto TV
+- Settimo Cielo
+- Shades of Black
+- Shockwave
+- Shop LC
+- Simba Prisen
+- Sin Tetas No Hay Paraíso
+- Sister Sister
+- Sitcom Legends
+- Six Million Dollar Man
+- Sketchy AF
+- Skjønnhetsfellen Danmark
+- Skål
+- Skönhetsfällan Danmark
+- Skønne ombygninger
+- Smithsonian Channel Pluto TV
+- Smithsonian Channel Selects
+- Smurfarna
+- Smurfene
+- Smurffit
+- Smølferne
+- Sony Canal Escape Perfecto
+- Sony One Competencias
+- Sony One Shark Tank Brasil
+- Sony One Shark Tank México
+- South Park
+- South Park 2
+- South Park Armageddon
+- South Park En Français
+- South Park Halloween
+- South Park Rockin' Out
+- South Park Versión Original
+- South Park: Butters Collection
+- South Park: Cartman Collection
+- South Park: Colección Cartman
+- South Park: Colección Kenny
+- South Park: Colección Kyle
+- South Park: Colección Stan
+- South Park: Coleção Cartman
+- South Park: Coleção Kenny
+- South Park: Coleção Kyle
+- South Park: Coleção Stan
+- South Park: Holiday Collection
+- South Park: Into the Stars
+- South Park: Kenny Collection
+- South Park: Kyle Collection
+- South Park: Original Version
+- South Park: Stan Collection
+- South Park: Welcome to Canada!
+- Spike Outdoors
+- Spike Pluto TV
+- Spin City
+- SpongeBob Schwammkopf
+- SpongeBob SquarePants
+- Squadra Speciale Cobra 11
+- Stand-up Comedy
+- Star Trek
+- Star Trek Movies
+- Star Trek: Deep Space Nine
+- Star Trek: Enterprise
+- Star Trek: The Next Generation
+- Star Trek: The Original Series
+- Star Trek: Voyager
+- Stargate
+- Stingray Holidayscapes
+- Storage Wars by A&E
+- Storie Criminali
+- Strawberry Shortcake and Friends
+- Stromberg
+- Stugfixarna Norge
+- Sulle tracce del crimine
+- Sun TV (576p)
+- Suomen Huutokauppakeisari
+- Super Channel Hearties
+- Super Onze
+- Super! Big Time Rush
+- Super! Cartoni Animati
+- Super! Kids Classics
+- Super! Pop
+- Super! SpongeBob
+- Super! Victorious
+- Super! Zoey 101
+- Super! iCarly
+- Supermarket Sweep
+- Supernatural Drama
+- Survivor
+- SvampBob Fyrkant
+- SvampeBob Firkant
+- Svenska Hollywoodfruar
+- Svenska Truckers
+- Svenske Truckers
+- Swamp People
+- Swerve Sports
+- Syke
+- Sí quiero ese vestido
+- TMNT: The 90's Movies
+- TNA Wrestling
+- TODAY All Day
+- TV Land Drama
+- TV Land Sitcoms
+- TVP Historia (1080p) [Geo-blocked]
+- Takeshi's Castle
+- Tandem
+- Tareq Taylor's Nordic Cookery
+- Tastemade Casa
+- Tastemade Hogar
+- Tastemade Smokehouse
+- Tastemade Viagem
+- Tastemade Viajes
+- Taxi
+- Team Ahma
+- Teen Mom
+- Teen Nick
+- Teenage Mutant Ninja Turtles
+- TeleFórmula
+- Telefe Internacional (720p)
+- Telemundo telenovelas clásicas
+- Telenovela ZDF
+- Teletubbies
+- TennisChannel 2
+- Terra Mater WILD
+- Thank God You’re Here
+- The Addams Family
+- The Amazing Race
+- The Andy Griffith Show
+- The Asylum
+- The Beverly Hillbillies
+- The Bionic Woman
+- The Bob Ross Channel
+- The Challenge
+- The Cheap Seats
+- The Conners
+- The Daily Show
+- The Dick Van Dyke Show
+- The Dog House
+- The Dog Whisperer with Caesar Millan
+- The Emeril Lagasse Channel
+- The First 48 by A&E
+- The Good Wife
+- The Graham Norton Show
+- The Hills
+- The Hills: särkyneet sydämet
+- The Hotel Inspector
+- The Incredible Hulk
+- The Jamie Oliver Channel
+- The Judge Judy Channel
+- The L Word – Wenn Frauen lieben
+- The Love Boat
+- The Martha Stewart Channel
+- The NBA Channel
+- The Nanny
+- The Nanny & Mr Sheffield A Fine Romance
+- The New Detectives
+- The Only Way is Essex
+- The Outer Limits
+- The Pink Panther
+- The Price Is Right (720p)
+- The Price Is Right: The Barker Era
+- The Price is Right
+- The Price is Right: The Barker Era
+- The Real Housewives
+- The Rifleman
+- The Smurfs
+- The Twilight Zone
+- The Walking Dead by AMC
+- The Walking Dead en español
+- The Weather Network
+- The Wild Wild West
+- The X-Files
+- The Yellow Couch with Jeremy Lynch
+- This Old House
+- Three's Company
+- Thrillers 365
+- TikTok Radio Brasil
+- TikTok Radio en Español
+- Til Middag Hos
+- Til julefrokost hos r8Dio
+- Tiny House Nation
+- Tohtori tuli kaupunkiin
+- Tokusato
+- Tony Robbins Network
+- Top Chef
+- Top Gear
+- Top Gear Classics
+- Top Rank Classics
+- Tortues Ninja TV
+- Tosh.0
+- Total Crime
+- Totally Turtles
+- Touched by an Angel
+- Tough Jobs
+- Tout le monde déteste Chris
+- Toute une histoire
+- Transformers
+- Transformers TV
+- Triton Poker
+- Trucking Hell
+- True Crime Now
+- True Crime UK
+- True Crime by Pluto TV
+- True Stories
+- True crime från Viaplay
+- Turbo
+- Turma da Mônica
+- Täterjagd
+- U&Laughs
+- U&Real Heroes
+- U&The Past
+- U&Transport
+- UEFA Champions League
+- Ubeat lite
+- Ultimate Builds
+- Un Si Grand Soleil
+- Un Village Français
+- Un gars une fille
+- UnXplained Zone
+- Undercover Boss
+- Unentdeckt Mörder unter uns
+- Unentdeckt – Mörder unter uns
+- Unforgettable
+- Unga Mammor
+- Unidad de investigación
+- Unsolved Mysteries
+- Unsolved Mysteries with Dennis Farina
+- Untold Stories of the ER
+- VH1 Queens of Reality
+- Vaya semanita
+- Vevo R&B
+- Vevo Regional Mexicano
+- Vevo Rock
+- Vevo True School Hip-Hop
+- Vevo Íconos Latinos
+- Viafree Movies
+- Victorious
+- Vidas Extremas
+- Vive Kanal D Drama
+- Voyages & Saveurs
+- WPT
+- Walker Texas Ranger
+- Warner Bros. TV Say Yes to the Dress
+- Warner Bros. TV Sweet Escapes
+- WeatherNation
+- WeatherNation Seattle
+- Weeds / Nurse Jackie
+- Weird or What? With William Shatner
+- Wentworth
+- Wer ist hier der Boss?
+- Western TV
+- Wild 'N Out
+- Wild Side TV
+- Wild at Heart
+- Wildfire
+- Willkommen bei den Louds
+- Willow Sports
+- Wings Die Überflieger
+- Wings – Die Überflieger
+- Winx Club
+- Wipe Out
+- Wipeout
+- Women's Sports Network
+- World Of Survivor
+- World War TV
+- World of Love Island
+- Wrestling Central
+- Wrestling Legends TV
+- X-Factor: Das Unfassbare
+- XITE Classic Country
+- XITE Gospel
+- XITE Rock x Metal
+- Xena – Die Kriegerprinzessin
+- Xena: Warrior Princess
+- Xtreme Outdoor by HISTORY
+- Y'a que la vérité qui compte
+- Yo! MTV
+- Yu-Gi-Oh
+- Yu-Gi-Oh!
+- Zoey 101
+- Zona Investigación TV
+- Zone Interdite
+- iCarly
+- iCarly TV
+- tvN Asia (Indonesian Subtitle) (576p)
+- tvN Movies (Indonesian Subtitle) (576p)
+- Águila Roja
+- Érase una vez...
+- Настоящее время
+- 中天新聞台 (1080p)
+- 天才衝衝衝 (1080p)
+- 東森購物60 (480p)
 
 ### Channels Updated (Link Changed)
-- Anmol Cinema (576p)
-- Disney Channel
-- Sistesur Canal 49 (1080p) [Not 24/7]
-- Star Vijay HD (360p)
-- TV 10 San Juan (720p) [Not 24/7]
-- Zee Tamil HD (360p)
+- COPS
+- Euronews
+- GLORY Kickboxing
+- Norteña TV
+- ORF 2 (720p)
+- Stories by AMC
+- Tastemade
+- Tennis Channel
+- The Walking Dead Universe
+- Universal Crime
+- Wicked Tuna
