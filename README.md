@@ -2,13 +2,634 @@
 
 ## 📡 Auto Playlist Update Overview
 
-Last Updated: 2026-03-01 13:17 UTC
+Last Updated: 2026-03-01 23:41 UTC
 
 ### Channels Added
-- None
+- .sci-fi
+- 2x2
+- 365 Дней
+- 7TV
+- 9X Jhakaas (576p)
+- ABN Andhra Jyoti (720p)
+- ACL Cornhole TV (1080p)
+- AMusic Channel (720p)
+- ANB News (576p)
+- ANTV (1080p)
+- ARD-alpha (720p)
+- AWE Encore (720p)
+- Aadinath TV (576p)
+- Aastha Bhajan (576p)
+- Aastha Gujarati (576p)
+- Aastha Kannada (576p)
+- Aastha Telugu (576p)
+- Al Hadath (1080p)
+- Al Jazeera (1080p)
+- Al Jazeera English (1080p)
+- Alkarma TV Australia (1080p)
+- Amedia Hit
+- Amedia Premium
+- Antena 3 Internacional
+- Are We There Yet? (720p)
+- Argus News (576p)
+- Az Star TV (1080p)
+- B4U Kadak (1080p) [Not 24/7]
+- B4U Movies India (1080p)
+- BBC Earth (1080p)
+- BBC Four HD (1080p) [Geo-blocked]
+- BBC News (1080p)
+- BBC News Europe
+- BBC One East Yorkshire (1080p) [Geo-blocked]
+- BBC One London (1080p) [Geo-blocked]
+- BBC One Yorks (720p) [Geo-blocked]
+- BBC Three HD (1080p) [Geo-blocked]
+- BIG TV (720p)
+- BUZZR (720p)
+- Baby Shark TV (1080p)
+- BeIN SPORTS XTRA En Espanol (720p)
+- BeIN Sports XTRA (1080p)
+- Bharat Express (576p)
+- Black News Channel (1080p)
+- Bloomberg HT (720p)
+- Bloomberg TV Europe (720p)
+- Brat TV (1080p)
+- CBC News Network (1080p)
+- CBeebies HD (1080p) [Geo-blocked]
+- CCTV-13新闻 (2160p) [Geo-blocked]
+- CMC-USA (California Music Channel) (720p)
+- CTV 9 (1080p)
+- CharityTV (1080p) [Not 24/7]
+- Choppertown (720p)
+- Cine Western (720p)
+- Cinevault 80s (720p)
+- Cinevault Westerns (720p)
+- Circle (1080p)
+- Crime360 (1080p)
+- DD Bharati (720p)
+- DD Bihar (720p)
+- DD Chhattisgarh (720p)
+- DD India HD (1080p)
+- DD Kisan HD (1080p)
+- DD Madhya Pradesh (720p)
+- DD Rajasthan (720p)
+- DD Sports SD (1080p)
+- DD Tamil (1080p)
+- DD Urdu (720p)
+- DD Uttar Pradesh (720p)
+- DD Uttarakhand (720p)
+- DY 365 (576p)
+- Das Erste (1080p)
+- DeFiance Media (1080p)
+- Deluxe Music (720p)
+- Disney Channel East (720p) [Not 24/7]
+- Documentary+ International (1080p)
+- Duna TV (1080p)
+- ET Now (720p)
+- EWTN Germany (720p)
+- Electric Now (1080p)
+- English Class HD
+- Esperia TV (480p)
+- Espreso TV (1080p)
+- Euronews English (720p)
+- FAN
+- FASHION & LIFESTYLE
+- FOX 2 Detroit MI (WJBK) (720p)
+- FOX Weather (1080p) [Geo-blocked]
+- Fakt Marathi (720p) [Not 24/7]
+- Fateh TV (576p)
+- Feva TV (1080p)
+- FilAmTV Network (1080p)
+- First India News (576p)
+- France 24 French (1080p)
+- Franceinfo
+- Francophonie24 (1080p)
+- Freebie TV (720p)
+- Freedom (FREEДOM) (UATV) (720p)
+- Fun Roads TV (720p)
+- GMM 25 (720p)
+- Golf Network (544p)
+- HSN (720p)
+- Hard Knocks (1080p) [Not 24/7]
+- Hare Krsna TV (576p)
+- Hitradio Ö3 (720p) [Not 24/7]
+- Hollywood
+- Horse & Country TV (1080p)
+- Huasco Televisión (360p)
+- Humor Mill TV (1080p)
+- INH 24x7 (576p)
+- INWILD (1080p) [Geo-blocked]
+- ITV Patagonia (720p)
+- Iman TV (720p)
+- India Today (720p) [Not 24/7]
+- Inside Crime (1080p)
+- Jaihind TV (576p)
+- Jednotka STV1 (720p) [Not 24/7]
+- Jewish Life Television (1080p)
+- KCTV-DT1 (720p)
+- KHL
+- KHL Prime
+- KTO (404p) [Not 24/7]
+- KTV HD (1080p)
+- Kalaignar Murasu (396p)
+- Kanal 34 (720p)
+- KiKA (1080p) [Not 24/7]
+- KiKA HD
+- L'Equipe (1080p)
+- LATV (720p) [Geo-blocked]
+- LiveNOW from FOX (720p)
+- Living Asia Channel (1080p)
+- Love Nature (1080p)
+- MDR Fernsehen Thüringen (1080p) [Geo-blocked]
+- ML5 TV (480p)
+- MMA-TV
+- MNX HD (1080p)
+- MTV (1080p)
+- Makkah TV (576p)
+- Malabar News (720p)
+- Manoranjan Grand (720p)
+- Manoranjan Movies (720p)
+- Manoranjan TV (720p)
+- Mathrubhumi News (576p)
+- Mega Cine TV (720p)
+- Megavisión TV (480p)
+- Mh 1 News (576p)
+- Mindanow Network TV (1080p)
+- Movies Now + (1080p)
+- Mystery TV (1080p)
+- NDR Hamburg (720p)
+- NDTV India (576p)
+- NHK World-Japan (1080p)
+- NHK World-Japan HD (1080p) [Geo-blocked]
+- Netmax TV (720p)
+- News 24 Albania (392p)
+- News18 Kerala (1080p)
+- Newsmax 2 (1080p)
+- Newsmax TV (1080p) [Not 24/7]
+- Nick HD+ (1080p)
+- Niederbayern TV Landshut (1080p)
+- Nigbati (720p) [Not 24/7]
+- Nippon TV (544p)
+- OAN (1080p)
+- OANPlus (1080p)
+- OK Stendal (1080p)
+- ONE HD 31 (720p)
+- ORF 1 HD (720p) [Geo-Blocked]
+- Omroep Tilburg TV (480p)
+- OnTV4U (1080p) [Geo-blocked]
+- Oscar Movies Bhojpuri (720p)
+- Outside TV (1080p)
+- PBS Sedalia British Columbia MO (KMOS) (1080p) [Geo-blocked]
+- Pac 12 Insider (1080p)
+- Pardesi TV (720p)
+- Parlamentsfernsehen 1 (1080p) [Not 24/7]
+- Phoenix (720p) [Geo-blocked]
+- Polsat News (720p)
+- Pop (1080p)
+- Popstar! TV (1080p)
+- ProSieben (1080p)
+- Public TV (720p)
+- PursuitUP (1080p)
+- QVC Live (720p) [Not 24/7]
+- RCN Más (1080p)
+- RPP TV
+- RT Documentary Russian (1080p)
+- RTG TV
+- RU.TV
+- RVTV (1080p) [Geo-blocked]
+- Rai 1 (720p)
+- Rai 3 (720p)
+- Rai 4 (576p)
+- Rai 5 (1080p)
+- Rai Gulp (1080p)
+- Rai News 24 (1080p)
+- Rai Scuola (1080p)
+- Rai Yoyo (1080p)
+- Record News (720p)
+- Republic TV (1080p)
+- Reuters TV (1080p) [Geo-blocked]
+- Revry (720p) [Not 24/7]
+- RiC (1080p)
+- RightNow TV (720p)
+- Rotana Cinema KSA (1080p)
+- Rotana Classic (1080p)
+- SIC (1080p)
+- SIC Notícias (1080p)
+- SWR Fernsehen Baden-Württemberg (720p) [Geo-blocked]
+- Sana Plus (1080p)
+- Sansad TV 1 (1080p)
+- Sansad TV 2 (1080p)
+- Santa Cecilia TV (1080p)
+- Sat7 Türk (1080p)
+- Shemaroo Bollywood (1080p)
+- Shemaroo TV (720p)
+- Shemaroo Umang (720p)
+- Showbox (576p)
+- Sony Entertainment Television HD (1080p)
+- Sony Sports Ten 1 HD (1080p)
+- Sony Sports Ten 3 Hindi HD (1080p)
+- Sport Italia (1080p)
+- SportsGrid (1080p)
+- Star Bharat HD (1080p)
+- Star Maa Gold (576p)
+- Star Sports 2 HD (1080p)
+- Star Sports 2 Hindi HD (1080p)
+- Star Sports 3 (576p)
+- Suria
+- T18 (1080p)
+- TBS (544p)
+- TGRT Belgesel TV (576p)
+- TRACE Brazuca (1080p)
+- TRACE Latina (1080p)
+- TRT Türk (720p)
+- TV 8 (1080p)
+- TV ITN
+- TV2 Canal Algérie (1080p)
+- TV5 Monde Asia (Asie) (1080p) [Geo-blocked]
+- TVCG MNE (1080p)
+- TVE Internacional Europe-Asia (576p) [Geo-blocked]
+- TVE Internacional Europe-Asia HD (1080p)
+- TVM (480p)
+- TVP Polonia (1080p)
+- TVR Iasi (1080p) [Not 24/7]
+- TVR International
+- Telecentro (1080p)
+- Telenord Corrientes (1080p) [Not 24/7]
+- Tennis Channel (1080p)
+- The Bob Ross Channel (1080p)
+- The Carol Burnett Show (1080p)
+- The Design Network (1080p)
+- The Young Turks (TYT) (1080p) [Not 24/7]
+- Tide TV (1080p)
+- Timeline (1080p)
+- Tin TV (720p)
+- Tiny House Nation (1080p)
+- Travel+Adventure
+- True Crime Network+ (1080p) [Geo-blocked]
+- True History (720p)
+- Télé Congo (720p)
+- Télé Sahel (576p)
+- Univer TV (1080p)
+- VTV2 HD (1080p)
+- VTV3 HD (1080p)
+- VTV7 HD (1080p)
+- VTV8 HD (1080p)
+- VTV9 HD (1080p)
+- Vasantham
+- Vegas Life TV (1080p)
+- W9 [Geo-blocked] [Geo-Blocked]
+- WNBC-DT1 (720p) [Not 24/7]
+- WNJU-DT1 (1080p) [Not 24/7]
+- Wild TV (1080p)
+- Wine Watches & Whiskey (1080p)
+- Wonder (1080p)
+- World Poker Tour (1080p)
+- Xplore (1080p)
+- YLE TV 1 (1080p) [Not 24/7]
+- YLE TV 2 (1080p) [Not 24/7]
+- YLE TV Teema & Fem (1080p) [Not 24/7]
+- Young Hollywood (720p)
+- Zee Cinema HD (1080p)
+- Zee Talkies HD (1080p)
+- Zylo Cine Western (1080p)
+- Zylo Todo Novelas (1080p)
+- rbb Fernsehen
+- viju TV1000 Русское
+- Óčko Gold (540p)
+- БСТ (Башкирское спутниковое телевидение) (576p)
+- Бокс ТВ
+- Доктор
+- Жара TV
+- Здоровое ТВ
+- К1 (576p)
+- КИНОСАТ
+- Кинеко
+- Кто есть Кто
+- МАТЧ! Арена
+- МАТЧ! Боец
+- МАТЧ! Игра
+- Мама
+- Мир (1080p) [Not 24/7]
+- Мир Сериала
+- Моя Планета
+- Музыка Live
+- Мульт
+- Мульт и Музыка
+- Мультиландия
+- НТН (576p)
+- Ностальгия
+- Первый Музыкальный Канал HD (1080p)
+- Первый Музыкальный Канал Россия HD (1080p)
+- Родное Кино
+- Россия 1 (+6)
+- Русский Иллюзион
+- Русский Экстрим
+- Сапфир
+- Сарафан
+- ТВ 21
+- ТНТ4
+- Тамыр (Уфа) (576p)
+- Тонус
+- Точка ТВ
+- 兵团卫视 (540p) [Not 24/7]
+- 内蒙古 (576p)
+- 北京衛視 (1080p) [Geo-blocked]
+- 宁夏卫视 (576p)
+- 江苏卫视 (1080p)
+- 江苏影视 (576p)
+- 江苏教育 (576p)
+- 浙江卫视 (1080p)
+- 滁州科教 (450p)
+- 纪实人文 (1080p)
+- 金鹰卡通 (576p)
+- 黑龙江卫视 (2160p)
 
 ### Channels Removed
-- None
+- 9X Jhakaas
+- ABN Andhra Jyothy
+- ACL Cornhole TV
+- AMusic Channel
+- ANTV (1080p) [Geo-blocked]
+- ARD-alpha (720p) [Not 24/7]
+- AWE Encore (720p) [Geo-blocked]
+- Aastha Bhajan (480p)
+- Aastha Gujarati (480p)
+- Aastha Kannada (480p)
+- Aastha Telugu (480p)
+- Al Arabiya Al Hadath (1080p) [Not 24/7]
+- Al Jazeera English [Geo-Blocked]
+- Alkarma TV Australia (1080p) [Not 24/7]
+- Antena 3 Internacional [Not 24 7]
+- Are we there Yet? [Geo-blocked]
+- Azstar TV
+- B4U Kadak (1080p) [Geo-blocked]
+- B4U Movies (1080p) [Geo-blocked]
+- BBC Earth (1080p) [Geo-blocked]
+- BBC Four (540p) [Geo-blocked]
+- BBC News (1080p) [Geo-blocked]
+- BBC News Europe [Geo-Blocked]
+- BBC One (720p)
+- BBC One East (720p) [Geo-blocked]
+- BBC One East Yorkshire (540p) [Geo-blocked]
+- BBC Three
+- BFM Business [Geo-Blocked]
+- BFM Lyon (576p)
+- BFM TV [Geo-Blocked]
+- BFM2
+- BRTV 北京卫视 [Not 24/7]
+- Baby Shark TV (720p)
+- BeIN SPORTS XTRA (1080p) [Geo-blocked]
+- BeIN SPORTS XTRA en Espanol (720p) [Geo-blocked]
+- Bharat Express (480p)
+- Big Tv
+- Bingtuan Satellite TV
+- Black News Channel (720p)
+- Bloomberg HT (720p) [Not 24/7]
+- Bloomberg TV Europe [Geo-Blocked]
+- Brat TV (720p) [Geo-blocked]
+- Buzzr
+- CBC News Network (720p) [Geo-blocked]
+- CBeebies
+- CCTV-13 (1080p)
+- CTV 9
+- California Music Channel (720p) [Not 24/7]
+- Channel 5 [Geo-blocked]
+- Charity TV
+- ChopperTown
+- Cinevault 80s (540p) [Geo-blocked]
+- Cinevault Westerns (540p) [Geo-blocked]
+- Circle [Geo-blocked]
+- Crime 360 (720p)
+- DD Bharati (576p)
+- DD Bihar (576p)
+- DD Chhattisgarh (576p)
+- DD India (576p)
+- DD Kisan (576p)
+- DD Madhya Pradesh (576p)
+- DD Rajasthan (576p)
+- DD Sports (576p)
+- DD Tamil (576p)
+- DD Urdu (576p)
+- DD Uttar Pradesh (576p)
+- DD Uttarakhand (576p)
+- DY 365 (360p)
+- Das Erste (720p) [Geo-Blocked]
+- DeFiance Media
+- Deluxe Music [Geo-Blocked]
+- Disney Channel
+- Documentary Humanities Channel
+- Documentary+
+- Duna (720p) [Geo-Blocked]
+- EWTN
+- Electric Now (1080p) [Not 24/7]
+- Esperia TV (480p) [Not 24/7]
+- Espreso TV
+- FEVA TV
+- FREEDOM
+- Fakt Marathi (576p)
+- Fateh TV [Not 24/7]
+- FilAmTV Network
+- First India News (360p) [Not 24/7]
+- Fox Weather (720p)
+- France 24 [Geo-Blocked]
+- Franceinfo [Geo-Blocked]
+- Francophonie (360p)
+- Freebie TV (720p) [Not 24/7]
+- Fun Roads (404p)
+- GMM 25
+- Golden Eagle Cartoon
+- Golf Network (540p)
+- HSN
+- Hard Knocks
+- Hare Krsna
+- Hitradio O3
+- Horse and Country (720p)
+- Huasco Television
+- Humor Mill
+- INH 24x7 (360p)
+- ITN [Not 24/7]
+- ITV Patagonia (720p) [Not 24/7]
+- Iman TV (480p)
+- InWild (720p)
+- India Today (720p) [Geo-blocked]
+- Inside Crime (1080p) [Geo-blocked]
+- JORX-DTV
+- Jaihind TV (396p)
+- Jednotka
+- Jewish Life Television (720p)
+- K1 (512p)
+- KCTV-DT1 [Geo-blocked]
+- KMOS-DT1 (720p)
+- KTO [Geo-Blocked]
+- KTV HD (360p)
+- Kalaignar Murasu (396p) [Not 24/7]
+- Kanal 34 (720p) [Not 24/7]
+- KiKA (1080p) [Geo-blocked]
+- KiKA HD [Geo-Blocked]
+- L'Equipe (1080p) [Geo-Blocked]
+- LATV [Geo-blocked]
+- LiveNOW from FOX (720p) [Geo-blocked]
+- Living Asia Channel
+- Love Nature (720p) [Geo-blocked]
+- MDR Fernsehen Thuringen [Geo-Blocked]
+- ML5 TV (480p) [Not 24/7]
+- MNB (576p)
+- MNB World (576p)
+- MNB Монголын Мэдээ (576p)
+- MTV (1080p) [Not 24/7]
+- Malabar News (720p) [Not 24/7]
+- Manoranjan Grand (576p)
+- Manoranjan Movies (576p)
+- Manoranjan TV (576p)
+- Mathrubhumi News (576p) [Not 24/7]
+- Mega Cine TV (720p) [Not 24/7]
+- Megavision Canal 43 (480p) [Not 24/7]
+- Mh 1 News (360p)
+- Mindanow Network TV
+- Mystery TV (1080p) [Geo-blocked]
+- NDR Fernsehen [Geo-Blocked]
+- NDTV India (480p) [Not 24/7]
+- NHK World Premium (720p) [Not 24/7]
+- NHK World-Japan HD [Geo-Blocked]
+- Nei Monggol TV
+- Netmax TV (720p) [Not 24/7]
+- News 24 (392p) [Not 24/7]
+- News18 Kerala (1080p) [Geo-blocked]
+- Newsmax 2 (720p)
+- Newsmax TV
+- Niederbayern TV Landshut (1080p) [Not 24/7]
+- Nigbati TV
+- Nippon TV (540p) [Not 24/7]
+- OAN (720p)
+- OAN Plus
+- OK Stendal (1080p) [Not 24/7]
+- ONTV4U
+- ORF 1 HD
+- Omroep Tilburg (480p) [Not 24/7]
+- One 31
+- Oscar Movies Bhojpuri (576p)
+- Outside
+- Pac 12 Insider
+- Pardesi TV (720p) [Not 24/7]
+- Parlamentsfernsehen 1 (1080p) [Geo-blocked]
+- Polsat News (720p) [Geo-blocked]
+- Pop (1080p) [Geo-blocked]
+- Popstar! TV (1080p) [Not 24/7]
+- Public TV (576p) [Geo-blocked]
+- Pursuit UP (720p)
+- QVC
+- RCN Mas
+- RT en Español (1080p) [Geo-blocked]
+- RTД
+- RVTV
+- Rai 1 (576p) [Geo-blocked]
+- Rai 3 HD [Geo-Blocked]
+- Rai 4 (576p) [Geo-blocked]
+- Rai 5 (576p) [Geo-blocked]
+- Rai Gulp (576p)
+- Rai News 24 (720p)
+- Rai Scuola (576p) [Geo-blocked]
+- Rai YoYo (576p) [Geo-blocked]
+- Record News (720p) [Geo-blocked]
+- Republic TV (1080p) [Geo-blocked]
+- Reuters
+- RiC [Geo-Blocked]
+- Right Now Tv
+- SIC (1080p) [Geo-blocked]
+- SIC Notícias (1080p) [Geo-blocked]
+- SMTV (720p) [Not 24/7]
+- SWR Fernsehen Baden-Wurttemberg [Geo-Blocked]
+- Sana Plus (1080p) [Not 24/7]
+- Sansad TV 2 (1080p) [Not 24/7]
+- Santa Cecilia TV (1080p) [Not 24/7]
+- Sat 7 Türk (720p)
+- Shemaroo Bollywood
+- Shemaroo TV (576p)
+- Shemaroo Umang (576p)
+- ShowBox
+- Sony Entertainment Television HD (720p)
+- Sportitalia (720p) [Geo-blocked]
+- SportsGrid
+- Star Sports 2 Hindi HD (480p)
+- Suria [Geo-blocked]
+- T18 [Geo-Blocked]
+- TGRT Belgesel TV (576p) [Not 24/7]
+- TRACE Brazuca
+- TRT Turk [Geo-Blocked]
+- TV 8 (1080p) [Not 24/7]
+- TV2 [Geo-Blocked]
+- TV5Monde Asia (720p)
+- TVCG MNE (720p) [Geo-Blocked]
+- TVE Internacional Europe-Asia HD (1080p) [Geo-blocked]
+- TVE Internacional Europe-Asia [Geo-Blocked]
+- TVE RS (1080p) [Not 24/7]
+- TVM (480p) [Not 24/7]
+- TVP Polonia [Geo-Blocked]
+- TVR International [Geo-Blocked]
+- Tastemade International
+- Tele Congo
+- Tele Sahel
+- Telemicro (1080i) [Not 24/7]
+- Telenord (720p) [Not 24/7]
+- Tennis Channel
+- The Bob Ross Channel (720p)
+- The Carol Burnett Show (720p)
+- The Design Network (1080p) [Geo-blocked]
+- The Young Turks (1080p) [Geo-blocked]
+- Tide TV (1080p) [Not 24/7]
+- Timeline (720p)
+- Tin TV (720p) [Not 24/7]
+- Tiny House Nation (720p)
+- Trace Latina [Geo-blocked]
+- True Crime Network
+- True History
+- Télé-Québec (720p)
+- Univer TV (1080p) [Not 24/7]
+- VTV2 HD (1080p) [Geo-blocked]
+- VTV3 HD (1080p) [Geo-blocked]
+- VTV7 HD (1080p) [Geo-blocked]
+- VTV8 HD (1080p) [Geo-blocked]
+- VTV9 HD (1080p) [Geo-blocked]
+- Vasantham [Geo-blocked]
+- Vegas Life TV
+- W9 [Geo-Blocked]
+- WJBK-DT1
+- WNBC-DT1
+- WNJU-DT1
+- Wild TV
+- Wine Watches & Whiskey
+- Wonder (720p)
+- Xplore
+- YLE TV 1 (1080p) [Geo-blocked]
+- YLE TV 2 (1080p) [Geo-blocked]
+- YLE TV Teema & Fem (1080p) [Geo-blocked]
+- Young Hollywood
+- Zee Cinema HD (480p)
+- Zhejiang Satellite TV
+- Zylo Cine Western (1080p) [Geo-blocked]
+- Zylo Ciné Western
+- Zylo Todo Novelas (1080p) [Geo-blocked]
+- phoenix [Geo-Blocked]
+- rbb Fernsehen [Geo-Blocked]
+- Óčko Gold (540p) [Geo-blocked]
+- БСТ 24 (Братск)
+- ЛенТВ24
+- НТН (576p) [Not 24/7]
+- Первый Музыкальный Канал (576p)
+- Первый Музыкальный Канал Россия (576p)
+- Пятница!
+- Россия К
+- Сфера ТВ
+- Тамыр (Уфа)
+- Че!
+- 宁夏卫视 (576p) [Not 24/7]
+- 江苏卫视 (1080p) [Not 24/7]
+- 江苏影视 (576p) [Not 24/7]
+- 江苏教育 (576p) [Not 24/7]
+- 滁州市广播电视台 科教频道 (400p)
+- 黑龙江 (1080p)
 
 ### Channels Updated (Link Changed)
-- None
+- Euronews
+- Revry
+- Tastemade (1080p)
+- World Poker Tour
+- Zee Biskope (576p)
