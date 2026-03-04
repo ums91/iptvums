@@ -2,22 +2,378 @@
 
 ## 📡 Auto Playlist Update Overview
 
-Last Updated: 2026-03-03 07:45 UTC
+Last Updated: 2026-03-04 04:44 UTC
 
 ### Channels Added
-- Kairali Arabia (576p)
-- MBG TV (1080p)
-- Max Movies (1080p)
-- Max Music (1080p)
-- Oli TV (1080p)
-- Tsargrad TV (1080p) [Geo-blocked]
-- WSOC Now (1080p) [Geo-blocked]
+- 21 Jump Street (720p)
+- 4UV (1080p)
+- 60 Days In by A&E (720p)
+- ABC 20/20 (1080p)
+- ABC News Live (1080p) [Geo-blocked]
+- AFV with Alfonso Ribeiro (1080p)
+- ALLBLK Gems (720p)
+- AMC en Español (720p) [Geo-blocked]
+- ANIME x HIDIVE (720p)
+- ARDB TV (1080p) [Not 24/7]
+- Acorn TV Mysteries (720p)
+- All Babies Channel (720p)
+- All Out Reality (1080p)
+- All Reality We TV (720p) [Geo-blocked]
+- All Weddings We TV (720p) [Geo-blocked]
+- Alone By History (720p)
+- America's Got Talent (720p)
+- America's Test Kitchen (1080p) [Geo-blocked]
+- American Crimes (1080p) [Geo-blocked]
+- American Pickers by History (1080p) [Geo-blocked]
+- America’s Funniest Home Videos (1080p)
+- Ancient Aliens (720p) [Geo-blocked]
+- Animation+ (1080p) [Geo-blocked]
+- At Home with Family Handyman (720p)
+- BBC Comedy (720p)
+- BBC Drama (1080p) [Geo-blocked]
+- BBC Food (1080p)
+- BBC Home & Garden (1080p)
+- BBC Kids (720p)
+- BBC News (1080p) [Geo-blocked]
+- BET x Tyler Perry Comedy (1080p)
+- BET x Tyler Perry Drama (1080p)
+- BUZZR (1080p) [Geo-blocked]
+- BYUtv (1080p)
+- Baby Einstein (720p)
+- Backstage (1080p)
+- Barbie and Friends (1080p)
+- Barney and Friends (720p)
+- Beach Bonfire Vibes (1080p)
+- Big 12 Studios (1080p)
+- Billboard TV (1080p)
+- Biography The Icons (1080p)
+- BizaarTV (720p)
+- Blippi (1080p)
+- Bondi Rescue (1080p) [Geo-blocked]
+- Brave Wilderness (1080p)
+- Bring It! (1080p) [Geo-blocked]
+- BuzzFeed Celeb (1080p)
+- BuzzFeed Tasty (1080p)
+- BuzzFeed Unsolved (1080p)
+- CBC News (1080p)
+- CW FOREVER (1080p)
+- CW Gold (1080p)
+- Caillou (720p)
+- Campfire Vibes (1080p)
+- Canela.TV (1080p)
+- Caught on Tape (1080p) [Geo-blocked]
+- Challenge Accepted (1080p)
+- Cheaters (1080p) [Geo-blocked]
+- Cheddar News (1080p)
+- Cine Romantico (720p)
+- Clarity 4K (2160p) [Geo-blocked]
+- Conan O'Brien TV (1080p) [Geo-blocked]
+- Coreano by CJ ENM (1080p)
+- Cozy Vibes (1080p)
+- CraftsyTV (1080p)
+- Crime 24/7 (720p) [Geo-blocked]
+- Crime ThrillHer (720p)
+- Crimes Cults Killers (720p)
+- Curiosity Animales (1080p)
+- Curiosity Explora (1080p)
+- Curiosity Motores (1080p)
+- Cutlers Court (1080p)
+- Dance Moms (1080p) [Geo-blocked]
+- DangerTV (720p)
+- Deal Zone (720p) [Geo-blocked]
+- Death Valley Days (1080p)
+- Degrassi (720p)
+- Dhar Mann TV (1080p)
+- Dinos 24/7 (1080p)
+- Divorce Court (720p)
+- Dog Whisperer (1080p) [Geo-blocked]
+- Donut (1080p)
+- Dove Channel (1080p)
+- Dr Phil's MeritTV (1080p)
+- Dr. G Medical Examiner (1080p)
+- DraftKings Network (1080p)
+- Drool (1080p)
+- ESPN8 The Ocho (1080p)
+- Ebony TV by Lionsgate (1080p) [Geo-blocked]
+- Educa TV (720p) [Not 24/7]
+- Emeril Lagasse Channel (1080p)
+- Envoy FAST (720p) [Geo-blocked]
+- Epic Gardening TV (1080p)
+- FOX Sports (1080p)
+- FanDuel TV Extra (1080p)
+- FilmRise Anime (720p)
+- FilmRise Westerns (720p)
+- Fireplace Vibes (2160p) [Geo-blocked]
+- Forensic Files (720p) [Geo-blocked]
+- Forged In Fire (720p) [Geo-blocked]
+- FreeTV Estelar (1080p)
+- Game & Fish TV (1080p)
+- Genie K Drama (1080p)
+- Genie K Movie (1080p)
+- Ghost Stories (720p)
+- GolfPass (1080p)
+- Gravitas Movies (1080p)
+- Hallmark Movies & More (1080p) [Geo-blocked]
+- HappyKids (1080p)
+- Heartland (1080p) [Geo-blocked]
+- Historia (1080p)
+- History & Warfare Now (1080p)
+- History 365 (1080p) [Geo-blocked]
+- Hoarders by A&E (720p)
+- Home Refresh (720p) [Geo-blocked]
+- Hot Ones (1080p)
+- Hot Wheels Action (1080p)
+- Hungry (720p)
+- Hunter x Hunter (1080p)
+- I Survived… (720p)
+- ION (1080p) [Geo-blocked]
+- ION Mystery (1080p) [Geo-blocked]
+- In Depth with Graham Bensinger (1080p)
+- Intervention by A&E (1080p) [Geo-blocked]
+- Island Vibes (1080p)
+- It’s Anime (1080p)
+- JOURNY TV (720p)
+- Jamie Oliver (1080p) [Geo-blocked]
+- JoJo's Bizarre Adventure (1080p)
+- K Drama by CJ ENM (1080p)
+- K Drama+ (1080p)
+- K Food by CJ ENM (1080p)
+- K POP by CJ ENM (1080p)
+- K Stories by CJ ENM (1080p)
+- Kidoodle.TV (1080p)
+- Kitchen Nightmares (720p) [Geo-blocked]
+- Laff More (1080p)
+- Let's Make A Deal Classic (1080p)
+- Lifetime Movie Favorites (720p) [Geo-blocked]
+- Lifetime Movies Love & Drama (1080p)
+- Little Women LA (1080p) [Geo-blocked]
+- Live PD Presents (1080p)
+- LiveNOW from FOX (1080p) [Geo-blocked]
+- Localish (1080p)
+- Love Nature 4K (2160p) [Geo-blocked]
+- Love The Planet DE (1080p) [Geo-blocked]
+- Love The Planet ES (1080p) [Geo-blocked]
+- Love The Planet IT (1080p) [Geo-blocked]
+- Lucky Dog (720p)
+- Luxe Fireplace Vibes (1080p) [Geo-blocked]
+- MHz Mysteries (720p)
+- MLB Channel (1080p) [Geo-blocked]
+- MSG SportsZone (720p)
+- Mark Rober TV (1080p)
+- Matched Married Meet (1080p) [Geo-blocked]
+- Mattel Jr. (720p)
+- MeatEater (1080p)
+- Midnight Pulp (1080p)
+- Military Heroes (1080p)
+- Million Dollar Dream Home (1080p) [Geo-blocked]
+- Miramax Channel (1080p) [Geo-blocked]
+- Modern Marvels Presented by History (720p) [Geo-blocked]
+- MotoGP Channel (1080p)
+- Mountain Men (1080p) [Geo-blocked]
+- MrBeast (1080p)
+- Mysteries Xplored (720p)
+- Mythical 24/7 (1080p) [Geo-blocked]
+- NASCAR Channel (1080p)
+- NBC LX Home (1080p)
+- NESN Nation (1080p)
+- NEW KMOVIES (1080p)
+- NEW KPOP (1080p)
+- NFL Channel (1080p) [Geo-blocked]
+- NHRA TV (1080p)
+- Naruto (1080p)
+- National Lampoon (1080p) [Geo-blocked]
+- Nice TV (1080p)
+- Ninja Kidz (720p)
+- Noticias Telemundo Ahora (1080p) [Geo-blocked]
+- Novelas Turcas (1080p)
+- OUTflix Movies (1080p)
+- Ocean Vibes (2160p) [Geo-blocked]
+- Operation Repo (1080p)
+- Outdoor America (1080p)
+- OuterSphere (1080p)
+- Overtime (1080p)
+- PBS Digital Studios (1080p)
+- PBS Food (1080p)
+- PBS Genealogy (1080p)
+- PBS Nature (1080p)
+- PBS Travel (1080p)
+- PFL (720p)
+- PGA Tour (1080p) [Geo-blocked]
+- Pawn Stars (720p) [Geo-blocked]
+- Perform (720p)
+- PickleballTV (1080p) [Geo-blocked]
+- Pokémon (1080p) [Geo-blocked]
+- Portlandia (720p)
+- Project Runway (1080p) [Geo-blocked]
+- Pursuit UP (1080p)
+- Qué Culpa Tiene Fatmagül (1080p)
+- RACER Select (1080p)
+- REELZ Famous & Infamous (1080p)
+- RIG TV (1080p)
+- Rachael Ray Presents (1080p)
+- Rainbow Ruby (720p)
+- Rainy Day Vibes (1080p)
+- Rev and Roll (720p)
+- Revry (1080p)
+- RiffTrax (720p)
+- Road Renegades (720p) [Geo-blocked]
+- Roku Sports Channel (1080p)
+- Rovr Pets (1080p) [Geo-blocked]
+- RugbyPass TV (720p)
+- SLVR (1080p)
+- SURFER TV (1080p)
+- Sailor Moon (1080p)
+- Salem News Channel (1080p) [Geo-blocked]
+- Samsung Wild Life (720p) [Geo-blocked]
+- Sensical Jr (1080p)
+- Sensical Makers (1080p)
+- Series K Edge (1080p)
+- Series K Heart (1080p)
+- Series K Legacy (1080p)
+- Shades of Black (1080p) [Geo-blocked]
+- Shout! TV (1080p)
+- Slugterra (720p)
+- Smosh (1080p)
+- Sonic The Hedgehog (720p)
+- Sony One Competencias (720p)
+- Sony One Novelas (720p)
+- Star Jalsha HD (720p)
+- Storage Wars LA (720p) [Geo-blocked]
+- Storm Vibes (1080p)
+- Strawberry Shortcake (720p)
+- Sun Bangla (720p)
+- Super Hungama (576p)
+- Swamp People (1080p) [Geo-blocked]
+- TED (1080p)
+- TMZ (1080p) [Geo-blocked]
+- TNA Wrestling (1080p)
+- TODAY All Day (1080p)
+- Tastemade Home (1080p)
+- Tastemade Travel (1080p)
+- Team Liquid (1080p)
+- Team USA TV (1080p)
+- Telefe (720p)
+- Telemundo Al Día (720p)
+- Teletubbies (720p)
+- Tennis Channel 2 (1080p) [Geo-blocked]
+- The Asylum (1080p)
+- The Curse of Oak Island (1080p) [Geo-blocked]
+- The First 48 (720p) [Geo-blocked]
+- The Hill TV (1080p) [Geo-blocked]
+- The Jack Hanna Channel (1080p) [Geo-blocked]
+- The Jim Rome Show (1080p)
+- The Martha Stewart Channel (1080p)
+- The Pet Collective (1080p) [Geo-blocked]
+- The Ringer from Spotify (1080p)
+- The Try Guys (1080p)
+- The UnXplained with William Shatner (1080p) [Geo-blocked]
+- The Walking Dead Universe (720p) [Geo-blocked]
+- TheSorryGirls TV (1080p)
+- This Old House Makers (1080p)
+- Tony Robbins (1080p) [Geo-blocked]
+- Toon Goggles Junior (720p)
+- Torque (720p) [Geo-blocked]
+- TruBlu (720p)
+- UFC (1080p) [Geo-blocked]
+- USA Today (1080p) [Geo-blocked]
+- Unbeaten Sports Channel (1080p)
+- Unidentified (1080p)
+- Universe Mysteries Solved (1080p) [Geo-blocked]
+- Unsolved Mysteries (720p)
+- Van Helsing (1080p)
+- Vevo 2010s (1080p)
+- Vevo Country Rewind (1080p)
+- Vevo Hip Hop (1080p)
+- Vevo R&B (1080p)
+- Victory+ (1080p)
+- WAPA+ (1080p)
+- WWE Superstar Central (1080p)
+- WeatherNation Charlotte (720p)
+- Western Bound (1080p) [Geo-blocked]
+- Wild West TV (1080p) [Geo-blocked]
+- Willow Sports (1080p)
+- Winter Vibes (1080p)
+- Witness to Justice (720p)
+- Women's Sports Network (1080p)
+- World’s Most Evil Killers (1080p) [Geo-blocked]
+- XITE 80s Flashback (1080p)
+- XITE 90s Throwback (1080p)
+- XITE Celebrates (1080p)
+- XITE Christian Hits (1080p)
+- XITE Classic Country (1080p) [Geo-blocked]
+- XITE Country Today (1080p) [Geo-blocked]
+- XITE Hits (1080p)
+- XITE Just Chill (1080p)
+- XITE Nuevo Latino (1080p)
+- XITE R&B Classic Jams (1080p) [Geo-blocked]
+- XITE Reggae Vibes (1080p)
+- XITE Rock x Metal (1080p)
+- XITE Siempre Latino (1080p)
+- Xtreme Outdoor Presented by HISTORY (720p)
+- Yahoo! Sports Network (1080p)
+- Zee Bangla HD (1080p)
+- batteryPOP (720p)
+- beIN Sports XTRA en Espanol (1080p)
+- fubo Sports Network (1080p)
+- pocket.watch Game On (1080p)
 
 ### Channels Removed
-- Bloomberg Quicktake (1080p)
-- Rotana Cinema KSA (1080p)
-- Rotana Classic (1080p)
-- TVS (576p) [Geo-blocked]
+- ABC News Live (720p)
+- AFV (720p)
+- All Weddings We TV
+- Americas Test Kitchen (720p)
+- At Home with Family Handyman
+- BBC News Europe
+- BUZZR (720p)
+- BYU TV (1080p) [Geo-blocked]
+- Backstage [Geo-blocked]
+- BeIN SPORTS XTRA En Espanol (720p)
+- CBC News Network (1080p)
+- CanelaTV
+- Cheddar News (720p)
+- Cine Romantico
+- Dove Channel
+- DraftKings Network
+- ESPN 8: The Ocho
+- Fubo Sports Network (1080p) [Geo-blocked]
+- LiveNOW from FOX (720p)
+- Localish (720p)
+- MLB (720p) [Not 24/7]
+- Merit Street [Geo-blocked]
+- NBCLX
+- NHRA TV (720p)
+- Ninja Kidz TV
+- Outdoor America
+- PBS Nature (1080p) [Geo-blocked]
+- PGA Tour (720p)
+- Portlandia
+- PursuitUP (1080p)
+- Revry (720p) [Not 24/7]
+- TMZ (720p)
+- TV Mazowsze (1080i)
+- Tastemade Travel [Geo-blocked]
+- Telefe (720p) [Geo-blocked]
+- The Hill TV (1080p)
+- The Jamie Oliver Channel (720p) [Geo-blocked]
+- The Walking Dead Universe
+- Today All Day (1080p)
+- USA Today
+- Unbeaten (1080p)
+- Willow Sports (1080p) [Geo-blocked]
+- Women's Sports Network (720p)
+- XITE Rock x Metal (1080p) [Geo-blocked]
 
 ### Channels Updated (Link Changed)
-- Bloomberg Originals (1080p)
+- Alien Nation by DUST (1080p)
+- Always Funny Videos (720p)
+- Flipping Nation (720p)
+- Ice Road Truckers (720p)
+- Love Pets (1080p)
+- Mystery Science Theater 3000 (1080p)
+- Outside TV (1080p)
+- Real America's Voice (720p)
+- Stadium (720p)
+- The Pet Collective International (720p)
+- Top Gear (720p)
+- WeatherSpy (720p)
+- WildEarth (1080p)
