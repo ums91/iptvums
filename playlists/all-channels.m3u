@@ -4,6 +4,8 @@
 #EXTM3U x-tvg-url="http://localhost:5001/epg.xml.gz"
 #EXTINF:-1 tvg-id="143" tvg-name="CNBC TV18 Prime" tvg-logo="http://localhost:5001/jtvimage/CNBCTV18Prime.png" tvg-language="English" tvg-type="Business" group-title="Business", CNBC TV18 Prime
 http://localhost:5001/live/143.m3u8
+#EXTINF:-1 group-title="YouTube",Geo News English
+https://www.youtube.com/@geonewseng/live
 #EXTINF:-1 tvg-id="144" tvg-name="Colors HD" tvg-logo="http://localhost:5001/jtvimage/ColorsHD.png" tvg-language="Hindi" tvg-type="Entertainment" group-title="Entertainment", Colors HD
 http://localhost:5001/live/144.m3u8
 #EXTINF:-1 tvg-id="146" tvg-name="History TV18 HD" tvg-logo="http://localhost:5001/jtvimage/History_HD.png" tvg-language="English" tvg-type="Infotainment" group-title="Infotainment", History TV18 HD
