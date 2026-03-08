@@ -2,14 +2,341 @@
 
 ## 📡 Auto Playlist Update Overview
 
-Last Updated: 2026-03-07 04:24 UTC
+Last Updated: 2026-03-08 12:15 UTC
 
 ### Channels Added
-- Canal 5 TV Max (720p)
-- Goldmines 2 (576p)
+- &flix (576p)
+- &pictures (576p)
+- &xplor HD (1080p)
+- 2M (1080p)
+- 2M Monde (576p)
+- Afriwood Blockbuster (720p)
+- Al Aoula Inter (576p)
+- Al Aoula Inter HD (1080p)
+- Al Maghribia (576p)
+- Al Maghribia HD (1080p)
+- Arryadia (576p)
+- Arryadia HD (1080p)
+- Arryadia HD1 (1080p)
+- Asianet (576p)
+- Asianet Movies (576p)
+- Assadisa (576p)
+- Assadissa HD (1080p)
+- Athaqafia (1080p)
+- Athaqafia (576p)
+- Berbere TV (1080p)
+- CGTN Global Biz (1080p)
+- Chebab TV (576p)
+- China Travel (1080p)
+- Chintu TV (576p)
+- Cinema Hausa (720p)
+- Cinema Yoruba (720p)
+- Cirque du Soleil (1080p) [Geo-blocked]
+- Colors Bangla (576p)
+- Colors Cineplex (576p)
+- Colors Cineplex HD (1080p)
+- Colors Gujarati (576p)
+- Colors Infinity (576p)
+- Colors Kannada (576p)
+- Colors Kannada Cinema (576p)
+- Colors Kannada HD (1080p)
+- Colors Marathi (576p)
+- Colors Marathi HD (1080p)
+- Colors Super (576p)
+- Colors Tamil HD (1080p)
+- Comercio TV (1080p)
+- Cowboy Channel (1080p)
+- DD National SD (576p)
+- DD Sahyadri HD (1080p)
+- DD Tamil HD (1080p)
+- Daystar Español (720p)
+- Daystar TV (1080p)
+- Discovering China (1080p)
+- Disney Channel HD (1080p)
+- ETV Bal Bharat (576p)
+- Entrepreneur TV [Geo-blocked]
+- FloRacing 24/7 (1080p)
+- Fork & Flight (1080p)
+- Gemini Movies (576p)
+- Gemini Music SD (576p)
+- Gemini TV (576p)
+- HanoiTV2 (720p)
+- History TV18 (576p)
+- History TV18 HD (1080p)
+- Ignite Television (1080p)
+- In Touch+ (1080p)
+- Investigation (1080p)
+- Jaya TV (1080p)
+- KTV (576p)
+- Kalaignar Murasu (576p)
+- Kalaignar TV (576p)
+- Laayoune TV (576p)
+- Laayoune TV HD (1080p)
+- MTRSPT1 (1080p)
+- MTV (576p)
+- MTV HD (1080p)
+- Movies Now HD (1080p)
+- National Geographic (576p)
+- Nolly Africa HD (1080p) [Geo-blocked]
+- ONTV4U (1080p)
+- Pravah Picture HD (1080p)
+- Pudhari News (576p)
+- RASD TV (1080i)
+- Raajje TV
+- Soham TV (576p)
+- Sony BBC Earth (576p)
+- Sports Connect (720p)
+- TNA Wrestling Channel (1080p) [Geo-blocked]
+- TV1 Algerian Television (1080p)
+- TV6 El-Chebabia (1080p)
+- TV7 El-Maarifa (576p)
+- TV8 El-Dhakira (576p)
+- TV9 El-Barlamaniya (1080p)
+- Tamazight TV (576p)
+- Tamazight TV HD (1080p)
+- The Reuters 60 (1080p)
+- True African (720p)
+- Télé Maroc (1080p)
+- Unleashed by DOGTV (1080p)
 
 ### Channels Removed
-- Lotus Macau HD (1080p)
+- 24 Hour Free Movies (720p)
+- 35MM
+- 4ACETV
+- 4ACETV CLASSIC HITS
+- 4K TRAVEL TV
+- 9XM (576p)
+- ABN Andhra Jyoti (720p)
+- ABP Majha (360p)
+- ABP Sanjha
+- ACI On The Go
+- ACL Cornhole TV (1080p)
+- AMusic Channel (720p)
+- AWE Plus
+- Aaj Ki Khabar
+- Abu Dhabi Emirates (1080p)
+- Abu Dhabi Sports 1 (1080p)
+- Abu Dhabi Sports 2 (1080p)
+- Abu Dhabi TV (1080p)
+- Afriwood Blockbuster
+- Al Maghribia [Geo-Blocked]
+- Amplified Voices TV
+- Ann Channel
+- Argus News (576p)
+- Arré
+- Atmadarshan Tv
+- Autumn Escape
+- BIG TV (720p)
+- Balle Balle (720p)
+- BarkTV
+- Baynounah TV (1080p)
+- BeIN Sports XTRA (1080p)
+- Bhakthi Siri
+- Bharat Express (576p)
+- Black Enterprise
+- Bless TV
+- Bloomberg TV US (720p)
+- Bollywood Masala
+- Bowery Classics
+- Bowling TV
+- Box Cinema
+- Box Gamers
+- BritAsiaTV
+- CJC Television Network
+- CN News
+- Cigar TV
+- CineLife
+- Cinema Hausa
+- Cinema Yoruba
+- Colorized.TV
+- Colors Tamil HD (360p)
+- Comedy Classics
+- Comercio TV
+- Cowboy Channel
+- Crime & Evidence
+- DA News Plus
+- DD National (576p)
+- DJ Central TV
+- Daystar Español
+- Daystar TV
+- DeFiance Media (1080p)
+- Dot Esports
+- Dove Channel (1080p)
+- DroneTV
+- ENCORE+
+- Elevation Church Network
+- Entrepreneur
+- Euronews English (720p)
+- Euronews Español
+- Everyday Heroes
+- FEVA MUSIC
+- Feva TV (1080p)
+- Fireplace Lounge
+- Fish Tank
+- Fitness Rewind by Collage Video
+- FloRacing 24/7
+- Garv Punjab Gurbani
+- Ghost Dimension
+- GlewedTV Spanish
+- GlewedTV The Vault
+- GlewedTV Yoga & Fitness
+- Goalcast
+- Green Chillies TV Zindagi ka Tadka!
+- HIP HOP TV
+- HITS MEXICANOS
+- HanoiTV2 (2160p) [Geo-blocked]
+- Hard Knocks (1080p) [Not 24/7]
+- Hare Krsna TV (576p)
+- History TV18 HD (1080p) [Geo-blocked]
+- Horizon Sports
+- Humor Mill TV (1080p)
+- IDG
+- Ignite Television (1080p) [Not 24/7]
+- In Touch+
+- India Daily 24x7
+- Indian News
+- IndieBox
+- Island Escape
+- JOURNY TV (720p)
+- Janataa TV Kannada
+- Jaya TV (360p)
+- Jewish Life Television (1080p)
+- Jyotish Duniya
+- KOZOOM TV
+- Kalaignar Murasu (396p)
+- Kalaignar TV (396p)
+- Kaloopy
+- Kalyan TV
+- Kartavya TV
+- Kids TV Español Latino Canciones Infantiles
+- Kids TV India Nursery Rhymes and Baby Songs
+- Kids TV Nursery Rhymes and Baby Songs
+- La Bocina Latina
+- Lakshya TV
+- Law & Crime (720p)
+- Life Style by Triptic
+- LifeFit by Triptic
+- M+
+- MMA Junkie
+- MTV HD (576p)
+- Mahaa News (720p)
+- Mahua Khabar
+- Mahua Play
+- Majid (1080p)
+- Masala Entertainment Plus
+- Mediacorp Entertainment – English
+- Mediacorp Entertainment – Tamil
+- Mi Miedo Canal
+- Mi Raza Canal
+- Mi Raza Canal Plus
+- MomCave
+- Monarch
+- Munsif TV (720p)
+- NOMADslow tv
+- Nakshatra Digital Tv
+- Namma Bangalore
+- National Geographic Abu Dhabi HD (1080p)
+- NatureStream.tv
+- News Marathi 24X7
+- Newsmax TV (1080p) [Not 24/7]
+- Nigbati (720p) [Not 24/7]
+- Nolly Africa [Geo-blocked]
+- Novo Comedy
+- Old West TV
+- OnTV4U (1080p) [Geo-blocked]
+- OurVinyl
+- Outside TV (1080p)
+- P18 News
+- PLL Network
+- PNC Drama
+- POWERtube TV
+- Powersports World
+- Prameya News7 (1080p) [Not 24/7]
+- Pratham Khabar 24x7 (576p)
+- Pro Football Focus
+- RASD TV (720p)
+- ROI TV
+- RVTV (1080p) [Geo-blocked]
+- Real America's Voice (720p)
+- Real Vision
+- Relaxing Rain
+- Relaxing WinterScapes
+- Revry (1080p)
+- Revry Her
+- RightNow TV (720p)
+- Rock Solid Wrestling TV
+- Rockola Television
+- Rotana Aflam+
+- Rozana Spokesman
+- Saga Music
+- Sakshi TV (576p)
+- Sana Tv
+- Schwab Network
+- Shemaroo Bollywood (1080p)
+- Shemaroo Filmigaane
+- Skull Bound TV
+- SoniCentric
+- Sports Connect
+- Sports First TV
+- SportsGrid (1080p)
+- SportsTVPlus
+- Sportskool TV
+- Spring Escape
+- Study Lounge
+- Sundrani Tv
+- Surf Roots TV
+- Swar Shree
+- Sword & Shield
+- TNA Wrestling Channel
+- TRACE Latina
+- TRACE UK
+- TV Punjab (720p) [Geo-blocked]
+- TV9 Kannada (720p) [Not 24/7]
+- Tabbar Hits
+- Tara Tv
+- Tele Maroc (1080p)
+- The Boat Show
+- The Holiday TV Channel
+- The Reuters 60
+- The Unmute
+- Titanic TV
+- ToonzKids
+- ToonzKids Atfal
+- ToonzKids niños
+- Top News Marathi
+- Tranquil Thunderstorms
+- TronTV
+- True African
+- True History (720p)
+- UnchainedTV
+- United Fight Alliance
+- Unleashed by DOGTV
+- Urban Action Channel
+- Us Weekly TV
+- Vande Bharat News
+- Viajar TV
+- Vikatan TV
+- WFN: World Fishing Network
+- WappTV
+- Watch Wellness
+- Watch Wellness Telugu
+- Wild TV (1080p)
+- Wine Watches & Whiskey (1080p)
+- World Poker Tour (1080p)
+- World Punjabi Tv
+- Yas TV (1080p)
+- Zoomer TV
+- a-z Best Classic TV
+- a-z Classic Flix
+- a-z Western Grit
+- crema.tv
+- fw.tv by Firework
 
 ### Channels Updated (Link Changed)
-- None
+- Africanews
+- Cartoon Classics
+- Colors Cineplex Superhits (576p)
+- Colors Rishtey Asia (576p)
+- Lone Star
+- Lone Star (1080p)
+- Stingray Remember the 80s
