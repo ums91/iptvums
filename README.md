@@ -2,13 +2,13 @@
 
 ## 📡 Auto Playlist Update Overview
 
-Last Updated: 2026-03-15 09:27 UTC
+Last Updated: 2026-03-15 10:13 UTC
 
 ### Channels Added
-- None
+- PTV Sports
 
 ### Channels Removed
-- None
+- ARY QTV
 
 ### Channels Updated (Link Changed)
-- ARY QTV
+- None
