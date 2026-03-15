@@ -2311,3 +2311,155 @@ https://arynews.aryzap.com/9dde25035ed35c5bf1b20f5b5f2c66a0/69b7e1fc/v1/0183ea20
 https://jk3lz82elw79-hls-live.5centscdn.com/newgeonews/07811dc6c422334ce36a09ff5cd6fe71.sdp/chunks.m3u8
 #EXTINF:-1 group-title="Pakistan",Geo News
 https://jk3lz82elw79-hls-live.5centscdn.com/newgeonews/07811dc6c422334ce36a09ff5cd6fe71.sdp/playlist.m3u8
+#EXTINF:-1 group-title="Pakistan",Geo News
+https://live.geo.tv/geonews/index.m3u8
+
+#EXTINF:-1 group-title="Pakistan",Aaj News
+https://stream.aaj.tv/aajnews/aajnews/index.m3u8
+
+#EXTINF:-1 group-title="Pakistan",Samaa News
+https://stream.samaa.tv/samaa/samaa3/index.m3u8
+
+#EXTINF:-1 group-title="Pakistan",PTV News
+https://live.ptv.com.pk/PTVNewsHD/index.m3u8
+
+#EXTINF:-1 group-title="Pakistan",PTV World
+https://live.ptv.com.pk/PTVWorldHD/index.m3u8
+
+#EXTINF:-1 group-title="Pakistan",PTV Home
+https://live.ptv.com.pk/PTVHomeHD/index.m3u8
+
+#EXTINF:-1 group-title="Pakistan",PTV Sports
+https://live.ptv.com.pk/PTVSportsHD/index.m3u8
+
+#EXTINF:-1 group-title="Pakistan",Dunya News
+http://imob.dunyanews.tv:1935/live/smil:stream.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="Pakistan",92 News
+http://95.211.187.210:1935/live/ngrp:92news_all/playlist.m3u8
+
+#EXTINF:-1 group-title="Pakistan",Lahore News
+http://mlive.lahorenews.tv:1935/lahorelive/lnews_1/playlist.m3u8
+
+#EXTINF:-1 group-title="Pakistan",PTV News Alt
+http://67.231.248.131:1935/live/PTVnews/chunklist_w1281891626.m3u8
+
+#EXTINF:-1 group-title="Pakistan",Geo News CDN
+https://jk3lz82elw79-hls-live.5centscdn.com/GEONEWS/3500ba09d0538297440ca620c9dd46bf.sdp/playlist.m3u8
+
+#EXTINF:-1 group-title="Pakistan",Geo News CDN2
+https://5centscdn.streamlock.net/geonews/geonews/playlist.m3u8
+
+#EXTINF:-1 group-title="Pakistan",Aaj News CDN
+https://5centscdn.streamlock.net/aajnews/aajnews/playlist.m3u8
+
+#EXTINF:-1 group-title="Pakistan",Samaa News CDN
+https://5centscdn.streamlock.net/samaanews/samaanews/playlist.m3u8
+
+#EXTINF:-1 group-title="Pakistan",Dunya News CDN
+https://5centscdn.streamlock.net/dunyanews/dunyanews/playlist.m3u8
+
+#EXTINF:-1 group-title="Pakistan",Express News CDN
+https://5centscdn.streamlock.net/expressnews/expressnews/playlist.m3u8
+
+#EXTINF:-1 group-title="Pakistan",Bol News CDN
+https://5centscdn.streamlock.net/bolnews/bolnews/playlist.m3u8
+
+#EXTINF:-1 group-title="Pakistan",92 News CDN
+https://5centscdn.streamlock.net/92news/92news/playlist.m3u8
+
+#EXTINF:-1 group-title="Pakistan",ARY News
+http://ams2.jadoo.tv/ECpull/arynews.stream/playlist.m3u8
+
+#EXTINF:-1 group-title="Pakistan",ARY Digital
+http://ams2.jadoo.tv/ECpull/arydigital.stream/playlist.m3u8
+
+#EXTINF:-1 group-title="Pakistan",ARY Qtv
+http://ams2.jadoo.tv/ECpull/aryqtv.stream/playlist.m3u8
+
+#EXTINF:-1 group-title="Pakistan",Hum TV
+http://ams2.jadoo.tv/ECpull/humtv.stream/playlist.m3u8
+
+#EXTINF:-1 group-title="Pakistan",Hum News
+http://ams2.jadoo.tv/ECpull/humnews.stream/playlist.m3u8
+
+#EXTINF:-1 group-title="Pakistan",Express Entertainment
+http://ams2.jadoo.tv/ECpull/expressentertainment.stream/playlist.m3u8
+
+#EXTINF:-1 group-title="Pakistan",Express News
+http://ams2.jadoo.tv/ECpull/expressnews.stream/playlist.m3u8
+
+#EXTINF:-1 group-title="Pakistan",Aaj News Alt
+http://ams2.jadoo.tv/ECpull/aajnews.stream/playlist.m3u8
+
+#EXTINF:-1 group-title="Pakistan",Khyber News
+http://ams2.jadoo.tv/ECpull/khybernews.stream/playlist.m3u8
+
+#EXTINF:-1 group-title="Pakistan",Sindh TV
+http://ams2.jadoo.tv/ECpull/sindhtv.stream/playlist.m3u8
+
+#EXTINF:-1 group-title="Pakistan",Pashto 1
+http://ams2.jadoo.tv/ECpull/pashto1.stream/playlist.m3u8
+
+#EXTINF:-1 group-title="Pakistan",Rohi TV
+http://ams2.jadoo.tv/ECpull/rohi.stream/playlist.m3u8
+
+#EXTINF:-1 group-title="Pakistan",Madani Channel
+http://ams2.jadoo.tv/ECpull/madanichannel.stream/playlist.m3u8
+
+#EXTINF:-1 group-title="Pakistan",Huda TV
+http://ams2.jadoo.tv/ECpull/hudatv.stream/playlist.m3u8
+
+#EXTINF:-1 group-title="Pakistan",ARY Qtv Akamai
+http://akamaihd.wowzahls28.yuppcdn.net/live/aryqtv/chunklist.m3u8
+
+#EXTINF:-1 group-title="Pakistan",Akamai Stream
+http://dcunilive23-lh.akamaihd.net/i/dclive_1@48939/index_150_av-p.m3u8
+
+#EXTINF:-1 group-title="Pakistan",Akamai Master
+http://dcunilive23-lh.akamaihd.net/i/dclive_1@48939/master.m3u8
+
+#EXTINF:-1 group-title="Pakistan",PTV Sports Cloudflare
+https://customer-jfpjrgh1mi5y63cd.cloudflarestream.com/c4ba0d95cea3149178946b74b1a8677b/manifest/video.m3u8
+
+#EXTINF:-1 group-title="Pakistan",PTV Sports Alt
+https://customer-jfpjrgh1mi5y63cd.cloudflarestream.com/c4ba0d95cea3149178946b74b1a8677b/manifest/stream.m3u8
+
+#EXTINF:-1 group-title="Pakistan",PTV Sports Master
+https://customer-jfpjrgh1mi5y63cd.cloudflarestream.com/c4ba0d95cea3149178946b74b1a8677b/manifest/master.m3u8
+
+#EXTINF:-1 group-title="Pakistan",Geo News Streamlock
+https://cdn-live.streamlock.net/geonews/geonews/playlist.m3u8
+
+#EXTINF:-1 group-title="Pakistan",Aaj News Streamlock
+https://cdn-live.streamlock.net/aajnews/aajnews/playlist.m3u8
+
+#EXTINF:-1 group-title="Pakistan",Samaa News Streamlock
+https://cdn-live.streamlock.net/samaanews/samaanews/playlist.m3u8
+
+#EXTINF:-1 group-title="Pakistan",Express News Streamlock
+https://cdn-live.streamlock.net/expressnews/expressnews/playlist.m3u8
+
+#EXTINF:-1 group-title="Pakistan",Dunya News Streamlock
+https://cdn-live.streamlock.net/dunyanews/dunyanews/playlist.m3u8
+
+#EXTINF:-1 group-title="Pakistan",Bol News Streamlock
+https://cdn-live.streamlock.net/bolnews/bolnews/playlist.m3u8
+
+#EXTINF:-1 group-title="Pakistan",92 News Streamlock
+https://cdn-live.streamlock.net/92news/92news/playlist.m3u8
+
+#EXTINF:-1 group-title="Pakistan",Hum TV Streamlock
+https://cdn-live.streamlock.net/humtv/humtv/playlist.m3u8
+
+#EXTINF:-1 group-title="Pakistan",Hum News Streamlock
+https://cdn-live.streamlock.net/humnews/humnews/playlist.m3u8
+
+#EXTINF:-1 group-title="Pakistan",ARY News Streamlock
+https://cdn-live.streamlock.net/arynews/arynews/playlist.m3u8
+
+#EXTINF:-1 group-title="Pakistan",ARY Digital Streamlock
+https://cdn-live.streamlock.net/arydigital/arydigital/playlist.m3u8
+
+#EXTINF:-1 group-title="Pakistan",ARY Qtv Streamlock
+https://cdn-live.streamlock.net/aryqtv/aryqtv/playlist.m3u8
