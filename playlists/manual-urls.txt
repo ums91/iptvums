@@ -2303,15 +2303,8 @@ http://localhost:5001/live/3470.m3u8
 http://localhost:5001/live/3471.m3u8
 #EXTINF:-1 group-title="Pakistan | Islamic",PTV Sports
 https://customer-jfpjrgh1mi5y63cd.cloudflarestream.com/c4ba0d95cea3149178946b74b1a8677b/manifest/video.m3u8
-#EXTINF:-1 group-title="Pakistan",ARY Digital
-https://arydigital.aryzap.com/85cda97bc804de52f498ebbe1bfb4441/69b7e1ea/v1/0183ea2408f90b8ed5941a38bc72/0183ea24302d0b8ed5941a38bc75/ARYDigitalHDh264_480p.m3u8
-#EXTINF:-1 group-title="Pakistan",ARY News
-https://arynews.aryzap.com/9dde25035ed35c5bf1b20f5b5f2c66a0/69b7e1fc/v1/0183ea205add0b8ed5941a38bc6f/0183ea20909b0b8ed5aa4d793456/ARYNewsH264_480p.m3u8
 #EXTINF:-1 group-title="Pakistan",Geo News
 https://jk3lz82elw79-hls-live.5centscdn.com/newgeonews/07811dc6c422334ce36a09ff5cd6fe71.sdp/playlist.m3u8
-#EXTINF:-1 group-title="Pakistan",ARY Qtv
-https://aryqtv.aryzap.com/9f9a6d1170484f3f0a3264d622737f86/69b83155/v1/0183ea2a0eec0b8ed5941a38bc76/0183ea2a4e470b8ed5aa4d793457/main.m3u8
-#EXTINF:-1 group-title="Pakistan",ARY Digital
-https://arydigital.aryzap.com/635eca4ff775733afc9c43a2d69301d6/69b833ab/v1/0183ea2408f90b8ed5941a38bc72/0183ea24302d0b8ed5941a38bc75/main.m3u8
 #EXTINF:-1 group-title="Pakistan",ARY News
+#EXTVLCOPT:http-referrer=https://live.arynews.tv
 https://arynews.aryzap.com/ea65b565a60c2a137faf9775d139bb15/69b83464/v1/0183ea205add0b8ed5941a38bc6f/0183ea20909b0b8ed5aa4d793456/main.m3u8
