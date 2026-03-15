@@ -2,15 +2,17 @@
 
 ## 📡 Auto Playlist Update Overview
 
-Last Updated: 2026-03-15 14:17 UTC
+Last Updated: 2026-03-15 16:51 UTC
 
 ### Channels Added
+- None
+
+### Channels Removed
 - 92 News
 - 92 News CDN
 - 92 News Streamlock
 - ARY Digital Streamlock
 - ARY News Streamlock
-- ARY Qtv
 - ARY Qtv Akamai
 - ARY Qtv Streamlock
 - Aaj News
@@ -52,9 +54,6 @@ Last Updated: 2026-03-15 14:17 UTC
 - Samaa News CDN
 - Samaa News Streamlock
 - Sindh TV
-
-### Channels Removed
-- None
 
 ### Channels Updated (Link Changed)
 - None
