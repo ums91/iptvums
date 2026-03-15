@@ -2,13 +2,15 @@
 
 ## 📡 Auto Playlist Update Overview
 
-Last Updated: 2026-03-15 10:13 UTC
+Last Updated: 2026-03-15 11:11 UTC
 
 ### Channels Added
-- PTV Sports
+- ARY Digital
+- ARY News
+- Geo News
 
 ### Channels Removed
-- ARY QTV
+- None
 
 ### Channels Updated (Link Changed)
 - None
