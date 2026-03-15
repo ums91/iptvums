@@ -2,120 +2,13 @@
 
 ## 📡 Auto Playlist Update Overview
 
-Last Updated: 2026-03-15 04:28 UTC
+Last Updated: 2026-03-15 08:42 UTC
 
 ### Channels Added
-- ABC 10 Duluth MN (WDIO) (1080p)
-- ABC 13 Asheville NC (WLOS) (1080p)
-- ABC 15 Myrtle Beach FL (WPDE) (1080p)
-- ABC 2 Portland OR (KATU) (1080p)
-- ABC 22 Dayton OH (WKEF) (1080p)
-- ABC 4 Charleston SC (WCIV) (1080p)
-- ABC 4 Seattle WA (KOMO) (1080p)
-- ABC 5 St. Paul MN (KSTP) (1080p)
-- ABC 6 Austin TX (KAAL) (1080p)
-- ABC 6 Columbus OH (WSYX) (1080p)
-- ABC 7 Washington DC (WJLA) (1080p)
-- AWE International (720p)
-- Absinthe TV (1080p)
-- American Stories (1080p)
-- American Stories (720p)
-- AsianCrush (1080p)
-- Beyond Paranormal (1080p)
-- Black Enterprise Streaming Network (1080p)
-- Bollywood 4U (1080p)
-- Bollywood Masala (1080p)
-- CBS 12 Cincinnati OH (WKRC) (1080p)
-- CBS 12 West Palm Beach FL (WPEC) (1080p)
-- CBS 2 Salt Lake City UT (KUTV) (1080p)
-- CBS 21 Harrisburg PA (WHP) (1080p)
-- CBS 22 South Bend IN (WSBT) (1080p)
-- CBS 3 Kalamazoo MI (WWMT) (1080p)
-- CBS 4 El Paso TX (KDBC) (1080p)
-- CBS 42 Austin TX (KEYE) (1080p)
-- CBS Sports Golazo Network (720p)
-- CBS Sports HQ (1080p) [Geo-blocked]
-- CBeebies
-- Cigar TV (1080p)
-- Color Vision (480p) [Not 24/7]
-- DIY Art (1080p)
-- Da Vinci
-- Daystar TV Espanol (1080p)
-- Dove Channel (1080p)
-- Drive + Speed (1080p)
-- Elevation Church (1080p)
-- FOX 11 Green Bay WI (WLUK) (1080p)
-- FOX 25 Oklahoma City OK (KOKH) (1080p)
-- FOX 26 Visalia CA (KMPH) (1080p)
-- FOX 45 Baltimore MD (WBFF) (1080p)
-- FTF Sports (720p)
-- GOD TV (720p)
-- H20 TV (1080p)
-- H20 TV (720p)
-- INTROUBLE (1080p)
-- INWILD (1080p)
-- Kapitan Bomba TV
-- MMA TV.com (1080p)
-- MVMT of Culture (1080p)
-- Mi Miedo Canal (1080p)
-- Mi Raza Canal (1080p)
-- Mi Raza Canal Plus (1080p)
-- NBC 10 Rochester NY (WHEC) (1080p)
-- NBC 13 Albany NY (WNYT) (1080p)
-- NBC 3 Las Vegas NV (KSNV) (1080p)
-- NBC 4 Albuquerque NM (KOB) (1080p)
-- NBC 4 San Antonio TX (WOAI) (1080p)
-- NBC 6 Johnstown PA (WJAC) (1080p)
-- NBC 9 Steubenville OH (WTOV) (1080p)
-- Playing for Change (1080p)
-- Powertube TV (1080p)
-- Real America's Voice (1080p)
-- Salem News Channel (1080p)
-- Shooting Sports Life (1080p)
-- So... Real (720p)
-- Stingray Euro Hits (1080p)
-- Stingray Greatest Hits (1080p)
-- Stingray Holidayscapes (1080p)
-- Stingray Jukebox Oldies (1080p)
-- Stingray Soft Hits (1080p)
-- Stingray ZenLIFE (1080p)
-- The Film Detective (720p)
-- Travel Escapes (1080p)
-- USA Today (1080p)
-- Valuetainment (1080p)
-- WeatherNation (1080p)
-- Western Bound (1080p)
-- Wild Nature (1080p)
-- Wildest Wish TV (1080p)
-- Yachting TV (1080p)
+- None
 
 ### Channels Removed
-- CBS Sports Golazo Network
-- CBS Sports HQ
-- Daystar Español (720p)
-- El Conflicto TV (480p)
-- Fido TV (1080p)
-- InTrouble (1080p) [Geo-blocked]
-- MMA-TV.com
-- MotoAmerica TV (1080p)
-- Stingray Holiday Hits (1080p)
-- USA Today (1080p) [Geo-blocked]
-- WeatherNation
+- None
 
 ### Channels Updated (Link Changed)
-- AWE Encore (720p)
-- CBS News Baltimore (720p)
-- Cricket Gold (1080p)
-- Cuisine Culture
-- Drone TV (1080p)
-- Entertainment Tonight (1080p)
-- Entrepreneur TV [Geo-blocked]
-- In Touch+ (1080p)
-- Midnight Pulp (1080p)
-- RetroCrush (1080p)
-- TCT Network (720p)
-- Tarab (1080p)
-- Thalaa TV (1080p)
-- The Archive (1080p)
-- Tolly TV (1080p)
-- Unleashed by DOGTV (1080p)
+- ARY QTV
