@@ -2,10 +2,10 @@
 
 ## 📡 Auto Playlist Update Overview
 
-Last Updated: 2026-03-16 19:43 UTC
+Last Updated: 2026-03-16 20:26 UTC
 
 ### Channels Added
-- Dunya News
+- ARY News
 
 ### Channels Removed
 - None
