@@ -2,15 +2,17 @@
 
 ## 📡 Auto Playlist Update Overview
 
-Last Updated: 2026-03-17 14:08 UTC
+Last Updated: 2026-03-17 14:16 UTC
 
 ### Channels Added
-- None
+- Dunya News
+- Madani Tv
+- Sindhtv
 
 ### Channels Removed
-- None
+- dunyanews.tv
+- sindhtv.tv
+- www.madanitv.net
 
 ### Channels Updated (Link Changed)
-- dunyanews.tv
-- live.arynews.tv
-- www.madanitv.net
+- None
