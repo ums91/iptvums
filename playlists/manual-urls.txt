@@ -2316,8 +2316,7 @@ https://arynews.aryzap.com/2e0bdf20bf95c10326b37335b934bb3c/69baad06/v1/0183ea20
 
 # Dunya News (Fixed)
 #EXTINF:-1 group-title="Pakistan",Dunya News
-https://imob.dunyanews.tv/livehd/_definst_/ngrp:dunyalivehd_2_all/playlist.m3u8
-
+https://imob.dunyanews.tv/livehd/ngrp:dunyalivehd_2_all/playlist.m3u8
 # Madani TV (Fixed)
 #EXTINF:-1 group-title="Pakistan",Madani TV
 https://stream.asianastream.com/madani/madanitv.smil/playlist.m3u8
