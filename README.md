@@ -2,17 +2,20 @@
 
 ## 📡 Auto Playlist Update Overview
 
-Last Updated: 2026-03-17 14:16 UTC
+Last Updated: 2026-03-17 14:28 UTC
 
 ### Channels Added
-- Dunya News
-- Madani Tv
-- Sindhtv
+- Geo News
+- Har Pal Geo
+- Madani TV
+- Sindh TV
 
 ### Channels Removed
-- dunyanews.tv
-- sindhtv.tv
-- www.madanitv.net
+- Madani Tv
+- Sindhtv
+- harpalgeo.tv
+- live.arynews.tv
+- live.geo.tv
 
 ### Channels Updated (Link Changed)
-- None
+- Dunya News
