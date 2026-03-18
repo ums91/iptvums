@@ -2,20 +2,20 @@
 
 ## 📡 Auto Playlist Update Overview
 
-Last Updated: 2026-03-17 14:28 UTC
+Last Updated: 2026-03-18 10:47 UTC
 
 ### Channels Added
-- Geo News
-- Har Pal Geo
-- Madani TV
-- Sindh TV
+- 24 News (576p)
+- DocuBox
+- FashionBox
+- Nova TV (1080p)
+- Prva (1080p)
+- VTV3 HD (1080p) [Geo-blocked]
 
 ### Channels Removed
-- Madani Tv
-- Sindhtv
-- harpalgeo.tv
-- live.arynews.tv
-- live.geo.tv
+- Nick Jr. Latin America (480p)
+- Twenty Four News (396p)
+- VTV3 HD (1080p)
 
 ### Channels Updated (Link Changed)
 - Dunya News
