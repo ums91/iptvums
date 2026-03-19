@@ -2,20 +2,102 @@
 
 ## 📡 Auto Playlist Update Overview
 
-Last Updated: 2026-03-18 10:47 UTC
+Last Updated: 2026-03-19 04:58 UTC
 
 ### Channels Added
-- 24 News (576p)
-- DocuBox
-- FashionBox
-- Nova TV (1080p)
-- Prva (1080p)
-- VTV3 HD (1080p) [Geo-blocked]
+- &flix HD (1080p)
+- Disney International HD (1080p)
+- E! HD (1080p)
+- FilmBox Action
+- FilmBox Family
+- FilmBox Premium
+- Geo Kahani (576p)
+- Geo News (576p)
+- Movies Now HD (1080p)
+- National Geographic HD
+- OSN Movies Action (1080p)
+- Paighan TV (1080p)
+- Sci Fi (1080p)
+- ShowBox (576p)
+- Showtime (1080p)
+- Star Sports 1 HD (1080p)
+- Star Sports 1 Hindi (576p)
+- Star Sports 1 Hindi HD (1080p)
+- Starz (1080p)
+- Surya TV HD (1080p)
+- TVP 3 Lodz
+- VTV7 HD (1080p) [Geo-blocked]
 
 ### Channels Removed
-- Nick Jr. Latin America (480p)
-- Twenty Four News (396p)
-- VTV3 HD (1080p)
+- &flix (576p)
+- &flix HD (576p)
+- &pictures (576p)
+- Anmol Cinema 2 (576p)
+- Atreseries Internacional (1080p)
+- Canal RCN (480p)
+- Colors Cineplex (576p)
+- Colors Infinity (576p)
+- Disney Junior (576p)
+- Gourmet News Network (1080p)
+- MTV (576p)
+- Movies Now (576p)
+- National Geographic (576p)
+- National Geographic HD (1080p)
+- National Geographic Latin America South (1080p)
+- Sony BBC Earth (576p)
+- Sony Channel (1080p)
+- Sony Pix (720p)
+- Sony Sports Ten 1 (576p)
+- Sony Sports Ten 1 HD (1080p)
+- Sony Sports Ten 2 (576p)
+- Sony Sports Ten 3 Hindi HD (1080p)
+- Star Gold (576p)
+- Star Gold Select (576p)
+- Star Movies (576p)
+- Star Movies HD (1080p)
+- Star Movies Select (576p)
+- Star Sports 2 (576p)
+- Starz East (1080p) [Not 24/7]
+- Surya TV (1080p)
+- VTV7 HD (1080p)
+- Zee TV (576p)
+- Zee Talkies (576p)
+- Zee Tamil HD (1080p)
 
 ### Channels Updated (Link Changed)
-- Dunya News
+- &prive HD (1080p)
+- Anmol Cinema (576p)
+- Colors Bangla Cinema (576p)
+- Colors Cineplex HD (1080p)
+- Colors Cineplex Superhits (576p)
+- Colors Rishtey Asia (576p)
+- Hum News (1080p)
+- MTV HD (1080p)
+- Movies Now + (1080p)
+- National Geographic Wild HD (1080p)
+- Nick HD+ (1080p)
+- Nick Jr. (576p)
+- Nickelodeon (576p)
+- Romedy Now (576p)
+- Sony BBC Earth HD (1080p)
+- Sony Entertainment Television HD (1080p)
+- Sony Max 2 (576p)
+- Sony Max HD (1080p)
+- Sony Pal (576p)
+- Sony Sports Ten 5 HD (1080p)
+- Sony Wah (576p)
+- Sony Yay! (576p)
+- Star Bharat (576p)
+- Star Gold 2 (576p)
+- Star Gold Romance (576p)
+- Star Gold Thrills (576p)
+- Star Movies Select HD (1080p)
+- Star Sports 2 HD (1080p)
+- Star Sports 2 Hindi (576p)
+- Star Sports 2 Hindi HD (1080p)
+- Star Utsav (576p)
+- Star Utsav Movies (576p)
+- Travelxp HD (1080p)
+- Zee Biskope (576p)
+- Zee Talkies HD (1080p)
+- Zee Tamil (576p)
