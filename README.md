@@ -2,32 +2,54 @@
 
 ## 📡 Auto Playlist Update Overview
 
-Last Updated: 2026-03-20 08:21 UTC
+Last Updated: 2026-03-21 06:49 UTC
 
 ### Channels Added
-- Asianet Middle East (576p)
-- Biznes 24
-- Disney Channel
-- Kalaignar Murasu (396p)
-- Kalaignar TV (396p)
-- Kino Polska
-- Kino TV
-- LTV (2160p) [Not 24/7]
-- Motowizja
-- Red Bull TV US (1080p)
-- StarPlus HD (720p)
-- Stopklatka TV
-- TV Republika
+- Antena HD
+- BBC Brit
+- BBC Earth
+- BBC First
+- BBC Lifestyle
+- History TV18 HD (1080p) [Geo-blocked]
+- JAZZ
+- Junior Music HD
+- Nuta TV
+- Polonia 1
+- Power TV
+- Sony SAB HD (480p)
+- Star Jalsha HD (720p)
+- TVC
+- TVC Super
+- Tele5
+- Top Kids
+- Top Kids HD
+- VTV2 HD (1080p) [Geo-blocked]
+- VTV8 HD (1080p) [Geo-blocked]
+- VTV9 HD (1080p) [Geo-blocked]
 
 ### Channels Removed
-- Hungama TV (576p)
-- Kalaignar Murasu (576p)
-- Kalaignar TV (576p)
-- Sony SAB (720p)
-- Sony SAB HD (1080p)
-- Star Bharat HD (1080p)
-- StarPlus (576p)
-- StarPlus HD (1080p)
+- Colors Bangla (576p)
+- History TV18 (576p)
+- History TV18 HD (1080p)
+- Red Bull TV Germany (1080p)
+- Star Jalsha (576p)
+- Star Jalsha HD (1080p)
+- Sun TV (576p)
+- Sun TV HD (720p)
+- VTV1 HD (1080p)
+- VTV2 HD (1080p)
+- VTV4 HD (1080p)
+- VTV5 HD (1080p)
+- VTV8 HD (1080p)
+- VTV9 HD (1080p)
+- Zee Bangla (576p)
+- Zee Kannada (576p)
+- Zee Marathi (576p)
+- Zee Marathi HD (1080p)
+- Zee Punjabi (576p)
+- Zee TV HD (1080p)
+- Zing! (576p)
+- 红牛REDBULL TV (720p)
 
 ### Channels Updated (Link Changed)
-- Comedy Central
+- Jaya Max (576p)
