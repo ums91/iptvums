@@ -2,166 +2,124 @@
 
 ## 📡 Auto Playlist Update Overview
 
-Last Updated: 2026-03-23 03:32 UTC
+Last Updated: 2026-03-24 09:02 UTC
 
 ### Channels Added
-- ATN News (1080p)
-- Ani-Blast (720p)
-- Anjan TV (576p)
-- BUZZR (720p)
-- Bol Entertainment (1080p)
-- Channel 24 (1080p)
-- Colors Tamil HD (360p)
-- DD National SD (576p)
-- Desh TV (1080p)
-- Express Entertainment (1080p)
-- Fuel TV (1080p)
-- Independent TV (1080p)
-- Isai Aruvi (396p)
-- Jaya TV (360p)
-- MTV Rupaul's Drag Race
-- MTV Rupaul's Drag Race Untucked
-- Minimax (360p)
-- Mohona TV (1080p)
-- Movie Bangla
-- NKR TV Kannada (576p)
-- News 24 (1080p)
-- NickOnline (576p)
-- Onkar Only Truth TV (576p)
-- RTV (1080p)
-- Raj Musix Kannada (576p)
-- Sach Bedhadak (576p)
-- Sairam TV (576p)
-- Star Vijay HD (360p)
-- Subharti TV (576p)
-- Sun Gemini Movies HD (1080p)
-- Sun Surya HD (1080p)
-- Tamil Janam (576p)
-- The Q India (576p)
-- Zee Cinema HD (480p)
+- A+ [Geo-blocked]
+- Aakaash Aath (576p)
+- Citytv Bogota (1080p)
+- Dej TV
+- Ekhon TV (1080p)
+- GEM 24B
+- GEM Entertainment
+- GEM Sport
+- GEM TV
+- GEM TV Plus
+- Iran National Revolution TV
+- Kalemeh TV
+- Khabarbin TV
+- Khalij TV
+- Komala TV
+- Kurd Channel
+- Mohabat TV
+- PMC
+- Persiana Sports
+- Persiana Sports 2
+- Persiana Sports 3
+- Persiana Sports 4
+- Red Carpet TV
+- Sat7 Pars
+- Setareh TV
+- Shabakeh 7
+- TV Republika Plus
+- TVN (1080p)
+- TVS
+- Viasat True Crime
+- Zed TV
+- Zoom TV
 
 ### Channels Removed
-- &xplor HD (1080p)
-- ANIME x HIDIVE
-- Adithya TV (576p)
-- Anjan TV (720p)
-- Asianet (576p)
-- Asianet HD (720p)
-- Asianet Movies (576p)
-- Asianet Plus (576p)
-- BUZZR (1080p) [Geo-blocked]
-- Bada Khabar (432p)
-- CBS News Bay Area
-- CBS News Miami
-- Chintu TV (576p)
-- Chutti TV (576p)
-- Colors Gujarati (576p)
-- Colors Gujarati Cinema (576p)
-- Colors Kannada (576p)
-- Colors Kannada Cinema (576p)
-- Colors Kannada HD (1080p)
-- Colors Marathi (576p)
-- Colors Marathi HD (1080p)
-- Colors Super (576p)
-- Colors Tamil (720p)
-- Colors Tamil HD (1080p)
-- DD National (576p)
-- DD Sahyadri HD (1080p)
-- DD Tamil HD (1080p)
-- Dharsan TV (720p)
-- ETV Bal Bharat (576p)
-- Gemini Comedy (576p)
-- Gemini Life (576p)
-- Gemini Movies (576p)
-- Gemini Movies HD (1080p)
-- Gemini Music SD (576p)
-- Gemini TV (576p)
-- Hebron TV (432p)
-- India News Gujarati (1080p)
-- India News Haryana (1080p)
-- India News Punjab/Himachal (1080p)
-- India News Uttar Pradesh (1080p)
-- Isai Aruvi (576p)
-- J Movie (576p)
-- Jalsha Movies (576p)
-- Jaya TV (1080p)
-- KTV (576p)
-- Kochu TV (576p)
-- Kushi TV (576p)
-- MNTV Music (1080p)
-- MTV Drag
-- Minimax (576p) [Not 24/7]
-- National Geographic Wild (576p)
-- News India 24x7 (1080p)
-- News X (1080p)
-- PTV (1080p) [Not 24/7]
-- Pravah Picture HD (1080p)
-- Pudhari News (576p)
-- Pulari TV (720p)
-- RTV (480p)
-- Sailor Moon (1080p)
-- Sandesh News (1080p)
-- Sony Marathi (576p)
-- Sony Max 1 (576p)
-- Star Maa (576p)
-- Star Maa Movies (576p)
-- Star Maa Music (576p)
-- Star Pravah (576p)
-- Star Pravah HD (1080p)
-- Star Sports 1 Kannada (576p)
-- Star Sports 1 Tamil (576p)
-- Star Sports 1 Telugu (576p)
-- Star Sports 2 Kannada (576p)
-- Star Sports 2 Telugu (576p)
-- Star Sports 2 Telugu HD (1080p)
-- Star Sports Khel (576p)
-- Star Suvarna (576p)
-- Star Suvarna Plus (576p)
-- Star Vijay (576p)
-- Star Vijay HD (1080p)
-- Sun Life (576p)
-- Sun Marathi (1080p)
-- Sun Marathi SD (576p)
-- Sun Music (576p)
-- Sun Music HD (720p)
-- Sun Neo HD (576p)
-- Sun News (576p)
-- Surya Comedy (576p)
-- Surya Movies (576p)
-- Surya Music (576p)
-- Surya TV (576p)
-- Surya TV HD (1080p)
-- Tamil Janam (720p)
-- The Q India (1080p)
-- Times Now World (1080p)
-- Travelxp Tamil (576p)
-- Udaya Comedy (576p)
-- Udaya Movies (576p)
-- Udaya Music (576p)
-- Udaya TV (576p)
-- VBC News (576p)
-- Vijay Super (576p)
-- Vijay Takkar (576p)
-- Zee Action (576p)
-- Zee Chitramandir (576p)
-- Zee Cinema (576p)
-- Zee Cinema HD (576p)
-- Zee Cinemalu (576p)
-- Zee Keralam SD (576p)
-- Zee Sarthak (576p)
-- Zee Telugu (576p)
-- Zee Thirai (1080p)
-- Zee Thirai SD (576p)
-- Zee Yuva (576p)
-- Zee Zest (576p)
+- Aakaash Aath (720p)
+- CCTV-10 (2160p) [Geo-blocked]
+- Citytv Bogota
+- Jam TV [Geo-blocked]
+- KTV HD (1080p)
+- Komala TV (1080p)
+- Persiana Sports 2 [Geo-blocked]
+- Persiana Sports 3 [Geo-blocked]
+- Persiana Sports 4 [Geo-blocked]
+- Persiana Sports [Geo-blocked]
+- Sat7 Pars (1080p)
+- Shabakeh 7 (576p)
+- Star Sports 2 Tamil (576p)
+- Star Sports 2 Tamil HD (1080p)
+- Sun Bangla (720p)
+- Sun Neo (576p)
+- Sun Surya HD (1080p)
 
 ### Channels Updated (Link Changed)
-- 48 Hours
-- Aaj Entertainment (1080p)
-- Naruto
-- One Piece
-- Pluto TV Anime
-- SAB TV (1080p)
-- Sirippoli TV (576p)
-- Soham TV (576p)
-- Star Sports 3 (576p)
+- Alborz
+- Ara
+- Atrak
+- Bushehr
+- Coptic TV (720p) [Not 24/7]
+- Dena
+- Ekran Movies
+- Energy
+- Eshragh
+- GEM Bollywood
+- GEM Classic
+- GEM Comedy
+- GEM Drama
+- GEM Drama Plus
+- GEM Film
+- GEM Fit
+- GEM Food
+- GEM Junior
+- GEM Kids
+- GEM Life
+- GEM Mifa
+- GEM Mifa Plus
+- GEM Nature
+- GEM Onyx
+- GEM River
+- GEM River Plus
+- GEM Rubix
+- GEM Rubix Plus
+- GEM Series
+- GEM Series Plus
+- Golkhane TV
+- Habib TV
+- Hamedan
+- Hamoon
+- IRIB UHD (2160p)
+- Ilam
+- Iraneman
+- Jahanbin
+- Karoon TV
+- Khalij-e Fars
+- Khavaran
+- Khorasan Razavi
+- Kish
+- Labbayk TV
+- Mahabad
+- Manoto TV
+- Nama TV
+- Noor
+- Palestine
+- Pooya TV Plus
+- Razavi TV
+- Roya TV
+- Sabalan
+- Sabz
+- Sarbedaran
+- Semnan
+- T2 Movies
+- TVA Nava
+- Tekyemadahi
+- Telewebion Sport
+- Telewebion Sport 2
+- Telewebion Sport 3
+- VOA Persian
+- Velayat TV
+- Zagros
