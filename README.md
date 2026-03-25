@@ -2,124 +2,79 @@
 
 ## 📡 Auto Playlist Update Overview
 
-Last Updated: 2026-03-24 09:02 UTC
+Last Updated: 2026-03-25 04:58 UTC
 
 ### Channels Added
-- A+ [Geo-blocked]
-- Aakaash Aath (576p)
-- Citytv Bogota (1080p)
-- Dej TV
-- Ekhon TV (1080p)
-- GEM 24B
-- GEM Entertainment
-- GEM Sport
-- GEM TV
-- GEM TV Plus
-- Iran National Revolution TV
-- Kalemeh TV
-- Khabarbin TV
-- Khalij TV
-- Komala TV
-- Kurd Channel
-- Mohabat TV
-- PMC
-- Persiana Sports
-- Persiana Sports 2
-- Persiana Sports 3
-- Persiana Sports 4
-- Red Carpet TV
-- Sat7 Pars
-- Setareh TV
-- Shabakeh 7
-- TV Republika Plus
-- TVN (1080p)
-- TVS
-- Viasat True Crime
-- Zed TV
-- Zoom TV
+- A Punt
+- Canal Extremadura (576p) [Not 24/7]
+- Comedy Central (1080p)
+- Esport3 (1080p) [Geo-blocked]
+- GTC News (1080p)
+- Goodness TV (576p)
+- History TV18 HD (1080p)
+- JORX-DTV
+- Kan 11 (1080p)
+- La 1 (720p)
+- LaOtra (720p)
+- Mahaa Bhakti (1080p)
+- Mantavya News (576p)
+- Nambikkai TV (576p)
+- National Geographic
+- National Geographic Wild
+- Nippon TV (540p) [Not 24/7]
+- Polsat Viasat Explore
+- Polsat Viasat History
+- Real Madrid TV US Version (720p) [Geo-blocked]
+- Sansad TV 1 HD (1080p)
+- Telemadrid (720p)
+- Trece TV (576p)
+- WGAL-DT3 (1080p) [Geo-blocked]
 
 ### Channels Removed
-- Aakaash Aath (720p)
-- CCTV-10 (2160p) [Geo-blocked]
-- Citytv Bogota
-- Jam TV [Geo-blocked]
-- KTV HD (1080p)
-- Komala TV (1080p)
-- Persiana Sports 2 [Geo-blocked]
-- Persiana Sports 3 [Geo-blocked]
-- Persiana Sports 4 [Geo-blocked]
-- Persiana Sports [Geo-blocked]
-- Sat7 Pars (1080p)
-- Shabakeh 7 (576p)
-- Star Sports 2 Tamil (576p)
-- Star Sports 2 Tamil HD (1080p)
-- Sun Bangla (720p)
-- Sun Neo (576p)
-- Sun Surya HD (1080p)
+- A3Series (1080p)
+- Antena 3 (1080p)
+- Asian TV (1080p)
+- Baby TV Spain (1080p)
+- BeMad (1080p)
+- Bflix Movies (576p)
+- Bijoy TV (720p)
+- Canal Extremadura (1080p)
+- Canal Sur (1080p)
+- Channel S (720p)
+- Colors Tamil HD (360p)
+- Cuatro (1080p)
+- Divinity (1080p)
+- ETB 1 (1080p)
+- Energy (1080p)
+- Esport3 (1080p)
+- FDF (1080p)
+- Gaan Bangla
+- History TV18 HD (1080p) [Geo-blocked]
+- Jaya TV (360p)
+- KAN 11 Israel (1080p)
+- La 1 (1080p)
+- La 8 Mediterráneo (1080p)
+- La Sexta (1080p)
+- La7 Murcia (1080p)
+- LaOtra (1080p)
+- Levante TV (1080p)
+- Mega (1080p)
+- NHK G (Tokyo) (544p)
+- Neox (1080p)
+- Nippon TV (544p)
+- Real Madrid TV (1080p)
+- Sansad TV 1 (1080p)
+- Squirrel (1080p)
+- Squirrel Dos (1080p)
+- TBS (544p)
+- TEN (1080p)
+- TV Asahi (544p)
+- Telecinco (1080p)
+- Telemadrid (1080p)
+- Trece (1080p)
+- Veo7 (1080p)
+- À Punt (1080p)
 
 ### Channels Updated (Link Changed)
-- Alborz
-- Ara
-- Atrak
-- Bushehr
-- Coptic TV (720p) [Not 24/7]
-- Dena
-- Ekran Movies
-- Energy
-- Eshragh
-- GEM Bollywood
-- GEM Classic
-- GEM Comedy
-- GEM Drama
-- GEM Drama Plus
-- GEM Film
-- GEM Fit
-- GEM Food
-- GEM Junior
-- GEM Kids
-- GEM Life
-- GEM Mifa
-- GEM Mifa Plus
-- GEM Nature
-- GEM Onyx
-- GEM River
-- GEM River Plus
-- GEM Rubix
-- GEM Rubix Plus
-- GEM Series
-- GEM Series Plus
-- Golkhane TV
-- Habib TV
-- Hamedan
-- Hamoon
-- IRIB UHD (2160p)
-- Ilam
-- Iraneman
-- Jahanbin
-- Karoon TV
-- Khalij-e Fars
-- Khavaran
-- Khorasan Razavi
-- Kish
-- Labbayk TV
-- Mahabad
-- Manoto TV
-- Nama TV
-- Noor
-- Palestine
-- Pooya TV Plus
-- Razavi TV
-- Roya TV
-- Sabalan
-- Sabz
-- Sarbedaran
-- Semnan
-- T2 Movies
-- TVA Nava
-- Tekyemadahi
-- Telewebion Sport
-- Telewebion Sport 2
-- Telewebion Sport 3
-- VOA Persian
-- Velayat TV
-- Zagros
+- B4U Movies APAC (720p)
+- B4U Music APAC (720p)
