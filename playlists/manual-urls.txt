@@ -2329,8 +2329,9 @@ https://jk3lz82elw79-hls-live.5centscdn.com/harPalGeo/955ad3298db330b5ee880c2c9e
 #EXTINF:-1 group-title="Pakistan",Sindh TV
 https://stream77.duckdns.org/hls/stream1.m3u8
 
-#EXTINF:-1 tvg-name="PTV Sports HD" group-title="Sports",PTV Sports HD
-#EXTVLCOPT:http-referrer=https://ptvsportshd.com/
-#EXTVLCOPT:http-origin=https://ptvsportshd.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://raw.githubusercontent.com/ums91/blackwidow/refs/heads/main/playlist/ptv_sports_master.m3u8
+#EXTM3U
+
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio",NAME="eng",DEFAULT=YES,AUTOSELECT=YES,URI="https://live.incableinternet.com/v/kooker_ptvsportshd/media_2.m3u8"
+
+#EXT-X-STREAM-INF:BANDWIDTH=800000,RESOLUTION=1280x720,AUDIO="audio"
+https://live.incableinternet.com/v/kooker_ptvsportshd/media_1.m3u8
