@@ -2,7 +2,7 @@
 
 ## 📡 Auto Playlist Update Overview
 
-Last Updated: 2026-03-26 13:34 UTC
+Last Updated: 2026-03-26 13:36 UTC
 
 ### Channels Added
 - None
@@ -11,4 +11,7 @@ Last Updated: 2026-03-26 13:34 UTC
 - None
 
 ### Channels Updated (Link Changed)
+- PTV Sports
+- PTV Sports
+- PTV Sports
 - PTV Sports
