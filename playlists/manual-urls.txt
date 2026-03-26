@@ -2328,3 +2328,9 @@ https://jk3lz82elw79-hls-live.5centscdn.com/harPalGeo/955ad3298db330b5ee880c2c9e
 # Sindh TV
 #EXTINF:-1 group-title="Pakistan",Sindh TV
 https://stream77.duckdns.org/hls/stream1.m3u8
+
+#EXTINF:-1 tvg-name="PTV Sports HD",PTV Sports HD
+#EXTVLCOPT:http-referrer=https://ptvsportshd.com/
+#EXTVLCOPT:http-origin=https://ptvsportshd.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://live.incableinternet.com/v/kooker_ptvsportshd/media_1.m3u8
