@@ -2332,8 +2332,9 @@ https://stream77.duckdns.org/hls/stream1.m3u8
 #EXTINF:-1 group-title="Pakistan | Islamic",PTV Sports
 https://live.incableinternet.com/v/kooker_ptvsportshd/media_1.m3u8
 
-#EXTINF:-1 group-title="Pakistan | Islamic",PTV Sports https://live.incableinternet.com/v/kooker_ptvsportshd/media_0.m3u8
-#EXTINF:-1 group-title="Pakistan",live.arynews.tv
-https://arynews.aryzap.com/0a7a455fd793fe76fcb4ac461be6ae31/69ca1cab/v1/0183ea205add0b8ed5941a38bc6f/0183ea20909b0b8ed5aa4d793456/ARYNewsH264_480p.m3u8?uuid=e1e2cf33-c278-412c-b5a8-2ce3adc36577&isSubM3u8=1
-#EXTINF:-1 group-title="Pakistan",live.aryqtv.tv
+#EXTINF:-1 group-title="Pakistan | Islamic",PTV Sports 
+https://live.incableinternet.com/v/kooker_ptvsportshd/media_0.m3u8
+#EXTINF:-1 group-title="Pakistan",live.arynews.tv 
+https://arynews.aryzap.com/0a7a455fd793fe76fcb4ac461be6ae31/69ca1cab/v1/0183ea205add0b8ed5941a38bc6f/0183ea20909b0b8ed5aa4d793456/ARYNewsH264_480p.m3u8
+#EXTINF:-1 group title="Pakistan",live.aryqtv.tv 
 https://aryqtv.aryzap.com/430b82505456a9ba509a08ed2e09dde2/69ca1cbb/v1/0183ea2a0eec0b8ed5941a38bc76/0183ea2a4e470b8ed5aa4d793457/ARYQTVH264_480p.m3u8?isSubM3u8=1
