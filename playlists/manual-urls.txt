@@ -2332,9 +2332,4 @@ https://stream77.duckdns.org/hls/stream1.m3u8
 #EXTINF:-1 group-title="Pakistan | Islamic",PTV Sports
 https://live.incableinternet.com/v/kooker_ptvsportshd/media_1.m3u8
 
-#EXTINF:-1 group-title="Pakistan | Islamic",PTV Sports
-https://live.incableinternet.com/v/kooker_ptvsportshd/media_0.m3u8
-
-#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio",NAME="eng",DEFAULT=YES,AUTOSELECT=YES,URI="https://live.incableinternet.com/v/kooker_ptvsportshd/media_2.m3u8"
-#EXT-X-STREAM-INF:BANDWIDTH=800000,RESOLUTION=1280x720,AUDIO="audio"
-https://live.incableinternet.com/v/kooker_ptvsportshd/media_1.m3u8
+#EXTINF:-1 group-title="Pakistan | Islamic",PTV Sports https://live.incableinternet.com/v/kooker_ptvsportshd/media_0.m3u8
