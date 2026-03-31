@@ -2305,42 +2305,34 @@ http://localhost:5001/live/3470.m3u8
 #EXTINF:-1 tvg-id="3471" tvg-name="Punjabi Shorts" tvg-logo="http://localhost:5001/jtvimage/PunjabiShorts.png" tvg-language="Punjabi" tvg-type="Movies" group-title="Movies", Punjabi Shorts
 http://localhost:5001/live/3471.m3u8
 #EXTINF:-1 group-title="Pakistan | Islamic",PTV Sports
-https://customer-jfpjrgh1mi5y63cd.cloudflarestream.com/c4ba0d95cea3149178946b74b1a8677b/manifest/video.m3u8
-
+https://customer-jfpjrgh1mi5y63cd.cloudflarestream.com/f80d6a797a05f9d826a9783810baa4c3/manifest/video.m3u8
 # Geo News (Working)
 #EXTINF:-1 group-title="Pakistan",Geo News
 https://jk3lz82elw79-hls-live.5centscdn.com/newgeonews/07811dc6c422334ce36a09ff5cd6fe71.sdp/chunks.m3u8
-
 # ARY News (Fixed - needs headers)
 #EXTINF:-1 group-title="Pakistan",ARY News
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://www.aryzap.com/
 https://arynews.aryzap.com/2e0bdf20bf95c10326b37335b934bb3c/69baad06/v1/0183ea205add0b8ed5941a38bc6f/0183ea20909b0b8ed5aa4d793456/ARYNewsH264_480p.m3u8
-
 # Dunya News (Fixed)
 #EXTINF:-1 group-title="Pakistan",Dunya News
 https://imob.dunyanews.tv/livehd/ngrp:dunyalivehd_2_all/playlist.m3u8
 # Madani TV (Fixed)
 #EXTINF:-1 group-title="Pakistan",Madani TV
 https://stream.asianastream.com/madani/madanitv.smil/playlist.m3u8
-
 # Har Pal Geo
 #EXTINF:-1 group-title="Pakistan",Har Pal Geo
 https://jk3lz82elw79-hls-live.5centscdn.com/harPalGeo/955ad3298db330b5ee880c2c9e6f23a0.sdp/playlist.m3u8
-
 # Sindh TV
 #EXTINF:-1 group-title="Pakistan",Sindh TV
 https://stream77.duckdns.org/hls/stream1.m3u8
-
 #EXTINF:-1 group-title="Pakistan | Islamic",PTV Sports
 https://live.incableinternet.com/v/kooker_ptvsportshd/media_1.m3u8
-
 #EXTINF:-1 group-title="Pakistan | Islamic",PTV Sports 
 https://live.incableinternet.com/v/kooker_ptvsportshd/media_0.m3u8
 #EXTINF:-1 group-title="Pakistan",live.arynews.tv 
 https://arynews.aryzap.com/0a7a455fd793fe76fcb4ac461be6ae31/69ca1cab/v1/0183ea205add0b8ed5941a38bc6f/0183ea20909b0b8ed5aa4d793456/ARYNewsH264_480p.m3u8
-#EXTINF:-1 group title="Pakistan",live.aryqtv.tv 
-https://aryqtv.aryzap.com/430b82505456a9ba509a08ed2e09dde2/69ca1cbb/v1/0183ea2a0eec0b8ed5941a38bc76/0183ea2a4e470b8ed5aa4d793457/ARYQTVH264_480p.m3u8?isSubM3u8=1
+
 # === MANUAL CHANNELS (PRESERVED) END ===
 
 # === AUTO-GENERATED CHANNELS (DO NOT EDIT BELOW) ===
