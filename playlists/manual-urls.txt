@@ -2302,7 +2302,7 @@ http://localhost:5001/live/3470.m3u8
 #EXTINF:-1 tvg-id="3471" tvg-name="Punjabi Shorts" tvg-logo="http://localhost:5001/jtvimage/PunjabiShorts.png" tvg-language="Punjabi" tvg-type="Movies" group-title="Movies", Punjabi Shorts
 http://localhost:5001/live/3471.m3u8
 #EXTINF:-1 group-title="Pakistan | Islamic",PTV Sports
-https://customer-jfpjrgh1mi5y63cd.cloudflarestream.com/f80d6a797a05f9d826a9783810baa4c3/manifest/video.m3u8
+https://customer-jfpjrgh1mi5y63cd.cloudflarestream.com/0add7f34c7b21ca08fc2ddfaa73f3a37/manifest/video.m3u8
 # Geo News (Working)
 #EXTINF:-1 group-title="Pakistan",Geo News
 https://jk3lz82elw79-hls-live.5centscdn.com/newgeonews/07811dc6c422334ce36a09ff5cd6fe71.sdp/chunks.m3u8
